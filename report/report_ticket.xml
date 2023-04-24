@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <template id="report_ticket">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.basic_layout">
+                    <div class="page">
+                        <h2>Ticket <span style="color:#CC0033;" t-field="o.name"/>
+                        </h2>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td style="font-weight:bold;">Jugador</td>
+                                    <td style="font-weight:bold;">Consola</td>
+                                </tr>
+                                <tr>
+                                    <td><t t-esc="o.gamer_id.name"/> <t t-esc="o.gamer_id.second_name"/> <t t-esc="o.gamer_id.first_lastname"/> <t t-esc="o.gamer_id.second_lastname"/></td>
+                                    <td><t t-esc="o.console_type_id.name"/></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Tiempo</td>
+                                    <td style="font-weight:bold;">Juego(s)</td>
+                                </tr>
+                                <tr>
+                                    <td><t t-esc="o.float_to_time(o.use_time)"/></td>
+                                    <td>
+                                    <t t-foreach="o.game_ids" t-as="game">
+                                        <t t-esc="game.name"/>
+                                    </t>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+    <record id="action_report_receipt_ticket" model="ir.actions.report">
+        <field name="name">Comprobante</field>
+        <field name="model">gd.playroom</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">playroom.report_ticket</field>
+        <field name="report_file">playroom.report_ticket</field>
+        <field name="binding_model_id" ref="model_gd_playroom"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

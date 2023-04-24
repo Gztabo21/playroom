@@ -1,0 +1,57 @@
+<odoo>
+  <data>
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="playroom.sala_action_window">
+      <field name="name">Ticket</field>
+      <field name="res_model">gd.playroom</field>
+      <field name="view_mode">tree,form</field>
+      <field name="search_view_id" ref="playroom.ticket_view_search"/>
+    </record>
+
+    <record model="ir.actions.act_window" id="playroom.gamer_action_window">
+      <field name="name">Jugadores</field>
+      <field name="res_model">res.partner</field>
+      <field name="view_mode">tree,form</field>
+      <field name="domain">[('is_gamer','=',True)]</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="playroom.console_type_action_window">
+      <field name="name">Consolas</field>
+      <field name="res_model">console.type</field>
+      <field name="view_mode">tree,form</field>
+      <field name="search_view_id" ref="playroom.console_type_view_search"/>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="playroom.game_action_window">
+      <field name="name">Juegos</field>
+      <field name="res_model">gd.game</field>
+      <field name="view_mode">tree,form</field>
+      <field name="search_view_id" ref="playroom.gd_game_view_search"/>
+    </record>
+
+
+
+    <!-- Top menu item -->
+
+    <menuitem name="Sala play" 
+    id="playroom.menu_root"
+    web_icon="playroom,static/description/icon.png"
+    />
+
+    <!-- menu categories -->
+
+    <menuitem name="Sala de juego" id="playroom.sala" parent="playroom.menu_root"/>
+    <menuitem name="Configuración" id="playroom.setting" parent="playroom.menu_root"/>
+
+    <menuitem name="Ticket" id="playroom.sala_play" action="playroom.sala_action_window" parent="playroom.sala"/>
+    <menuitem name="Jugadores" id="playroom.gamers" action="playroom.gamer_action_window" parent="playroom.sala"/>
+
+    <menuitem name="Juegos" id="playroom.game" action="playroom.game_action_window" parent="playroom.setting"/>
+    <menuitem name="Consolas" id="playroom.console_type" action="playroom.console_type_action_window" parent="playroom.setting"/>
+
+
+  </data>
+</odoo>

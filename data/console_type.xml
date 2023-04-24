@@ -1,0 +1,35 @@
+<odoo>
+    <data noupdate="1">
+
+          <record id="console0" model="console.type">
+            <field name="name">Playstation</field>
+            <field name="code">001</field>
+            <field name="console_color">gris/plateado</field>
+          </record>
+
+          <record id="console1" model="console.type">
+            <field name="name">xbox 360</field>
+            <field name="code">002</field>
+            <field name="console_color">gris/plateado</field>
+          </record>
+
+          <record id="console2" model="console.type">
+            <field name="name">Nitendo 64</field>
+            <field name="code">003</field>
+            <field name="console_color">gris/plateado</field>
+          </record>
+
+          <record id="console3" model="console.type">
+            <field name="name">Wii</field>
+            <field name="code">004</field>
+            <field name="console_color">gris/plateado</field>
+          </record>
+
+          <record id="console4" model="console.type">
+            <field name="name">Sega</field>
+            <field name="code">005</field>
+            <field name="console_color">gris/plateado</field>
+          </record>
+
+    </data>
+</odoo>

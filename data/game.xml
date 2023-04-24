@@ -1,0 +1,26 @@
+<odoo>
+    <data noupdate="1">
+
+          <record id="game0" model="gd.game">
+            <field name="name">Diablo IV</field>
+            <field name="code">001</field>
+            <field name="is_multi_gamer">False</field>
+          </record>
+          <record id="game1" model="gd.game">
+            <field name="name">Resident Evil IV</field>
+            <field name="code">002</field>
+            <field name="is_multi_gamer">False</field>
+          </record>
+          <record id="game2" model="gd.game">
+            <field name="name">FIFA 2023</field>
+            <field name="code">003</field>
+            <field name="is_multi_gamer">True</field>
+          </record>
+          <record id="game2" model="gd.game">
+            <field name="name">Call of Duty: Warzone</field>
+            <field name="code">004</field>
+            <field name="is_multi_gamer">True</field>
+          </record>
+
+    </data>
+</odoo>

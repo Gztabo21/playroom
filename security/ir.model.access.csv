@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_playroom,playroom.playroom,model_gd_playroom,,1,1,1,1
+access_game,playroom.game,model_gd_game,,1,1,1,1
+access_console_type,playroom.console_type,model_console_type,,1,1,1,1

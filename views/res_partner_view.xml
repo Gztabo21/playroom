@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="base_view_partner_form_inherit" model="ir.ui.view">
+        <field name="name">base_view_partner_form_inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+        <xpath expr="//field[@name='type']" position="before">
+                <field name="second_name" attrs="{'invisible':[('is_company','=',True)]}"/>
+                <field name="first_lastname" attrs="{'invisible':[('is_company','=',True)]}" />
+                <field name="second_lastname" attrs="{'invisible':[('is_company','=',True)]}" />
+            </xpath>
+            <xpath expr="//field[@name='function']" position="before">
+                <field name="is_gamer" attrs="{'invisible':[('is_company','=',True)]}" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,171 @@
+<odoo>
+  <data>
+    <!-- vistas de consolas -->
+    <record id="console_type_view_search" model="ir.ui.view">
+      <field name="name">Consolas</field>
+      <field name="model">console.type</field>
+      <field name="arch" type="xml">
+        <search string="">
+          <field name="name"/>
+          <field name="code"/>
+          <field name="console_color"/>
+        </search>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="playroom.list">
+      <field name="name">Consolas</field>
+      <field name="model">console.type</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="code"/>
+          <field name="console_color"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="playroom.form_console_type">
+      <field name="name">Consolas</field>
+      <field name="model">console.type</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <div class="oe_title">
+              <h1>
+                <field name="name" default_focus="1" placeholder="Nombre" />
+              </h1>
+            </div>
+            <group>
+              <group>
+                <field name="code"/>
+                <field name="console_color"/>
+              </group>
+              <group>
+                <field name="release_date"/>
+              </group>
+            </group>
+            <group name="note">
+              <field name="description"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- vistas de Juego -->
+   
+
+    <record id="gd_game_view_list" model="ir.ui.view">
+      <field name="name">gd_game_view_list</field>
+      <field name="model">gd.game</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="code"/>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+     <record id="gd_game_view_search" model="ir.ui.view">
+      <field name="name">gd_game_view_search</field>
+      <field name="model">gd.game</field>
+      <field name="arch" type="xml">
+        <search string="">
+          <field name="code"/>
+          <field name="name"/>
+        </search>
+      </field>
+    </record>
+
+    <record id="gd_game_view_form" model="ir.ui.view">
+      <field name="name">gd_game_view_form</field>
+      <field name="model">gd.game</field>
+      <field name="arch" type="xml">
+        <form string="">
+          <sheet>
+            <field name="image_game" widget="image" class="oe_avatar" options="{&quot;preview_image&quot;: &quot;image_128&quot;}"/>
+            <div class="oe_title">
+              <h1>
+                <field name="name" default_focus="1" placeholder="Nombre" />
+              </h1>
+            </div>
+            <group>
+              <group>
+                <field name="code" />
+                <field name="is_multi_gamer" />
+              </group>
+              <group>
+                <field name="age_range" />
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+    <!-- vistas de sala -->
+    <record id="ticket_view_search" model="ir.ui.view">
+      <field name="name">ticket_view_search</field>
+      <field name="model">gd.playroom</field>
+      <field name="arch" type="xml">
+        <search string="">
+          <field name="name"/>
+          <field name="console_type_id"/>
+          <field name="gamer_id"/>
+          <field name="game_ids"/>
+        </search>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="playroom.list_ticket">
+      <field name="name">Ticket</field>
+      <field name="model">gd.playroom</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="console_type_id"/>
+          <field name="gamer_id"/>
+          <field name="game_ids" widget="many2many_tags"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="playroom.ticket_form">
+      <field name="name">Ticket</field>
+      <field name="model">gd.playroom</field>
+      <field name="arch" type="xml">
+        <form>
+          <header>
+            <button string="Confirmar" name="action_confirm" type="object" class="oe_highlight"/>
+          </header>
+          <sheet >
+            <div class="oe_title">
+              <h1>
+                <field name="name" default_focus="1" placeholder="Ticket" readonly="1" />
+              </h1>
+            </div>
+            <group>
+              <group>
+                <field name="console_type_id" options="{'no_edit':True,'no_create':True}"/>
+                <field name="gamer_id" options="{'no_edit':True,'no_create':True}"/>
+              </group>
+              <group>
+                <field name="use_time" widget="float_time"/>
+                <field name="game_ids" widget="many2many_tags" options="{'no_edit':True,'no_create':True}" />
+              </group>
+            </group>
+            <group>
+              <group>
+                <field name="description"/>
+              </group>
+
+            </group>
+          </sheet>
+
+        </form>
+      </field>
+    </record>
+
+
+  </data>
+</odoo>
