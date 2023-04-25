@@ -1,4 +1,4 @@
-# playroom
+# playroom - ODOO - V14
 Es un modulo creado para el menejo y el control de el alquiler de tu consola de videojuegos,
  - Puedes añadir a tu clientes.
  - Almacenaras los videos juegos
