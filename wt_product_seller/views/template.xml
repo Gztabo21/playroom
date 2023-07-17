@@ -1,0 +1,63 @@
+<odoo>
+    <!-- Customer -->
+    <template id="wt_products" inherit_id="website_sale.products" name="Products">
+        <xpath expr="//*[@id='wrap']/div[2]/div[1]/t[1]" position="before">
+            <t t-if="request.env.user.is_seller == True">
+               
+                <t t-set="parent_id" t-if="request.website.sale_get_order() and request.website.sale_get_order().seller_partner_id" t-value="request.website.sale_get_order().seller_partner_id.id"/>
+
+                <select id="customer" name="customer" class="form-control input-group  mt-2 mr-2">
+                    <option value="">Customer</option>
+                    <t t-foreach="request.env['res.partner'].search([])" t-as="c">
+                        <option t-att-value="c.id" t-att-selected="c.id == parent_id if parent_id else customer">
+                            <t t-esc="c.name"/>
+                        </option>
+                    </t>
+                </select>
+
+                <input id="is_seller_customer" readonly="readonly" type="hidden" value="True"/>
+                <t t-set="_classes" t-valuef="w-100 w-md-auto mt-2"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="products_add_to_cart" inherit_id="website_sale.products_add_to_cart">
+        <xpath expr="//t[@t-if='product_variant_id']" position="replace">
+            <t t-if="product_variant_id">
+                <t t-if="request.env.user.is_seller">
+                    <input type="hidden" class="form-control quantity" data-min="1" name="add_qty" t-att-value="add_qty or 1"/>
+                    <button type="button" class="btn btn-secondary  add_to_cart_json_cl" aria-label="Shopping cart" title="Shopping cart">
+                        <span class="fa fa-shopping-cart"/>
+                    </button>
+                    <button type="button" class="btn btn-secondary product_order_history" aria-label="Order history" title="Order history" t-if="request.website.sale_get_order().seller_partner_id">
+                        <span class="fa fa-history"/>
+                    </button>
+                </t>
+                <t t-else="">
+                    <a href="#" role="button" class="btn btn-secondary a-submit" aria-label="Shopping cart" title="Shopping cart">
+                        <span class="fa fa-shopping-cart"/>
+                    </a>
+                </t>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="pricelist_list" inherit_id="website_sale.pricelist_list">
+        <xpath expr="//div[hasclass('dropdown-menu')]" position="replace">
+            <t t-if="request.env.user.is_seller and request.website.sale_get_order() and request.website.sale_get_order().seller_partner_id">
+                <div class="dropdown-menu d-none" role="menu">
+                </div>
+            </t>
+            <t t-else="">
+                <div class="dropdown-menu" role="menu">
+                    <t t-foreach="website_sale_pricelists" t-as="pl">
+                        <a role="menuitem" t-att-href="'/shop/change_pricelist/%s' % pl.id" class="dropdown-item">
+                            <span class="switcher_pricelist" t-att-data-pl_id="pl.id" t-esc="pl.name" />
+                        </a>
+                    </t>
+                </div>
+            </t>
+            
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <template id="o_website_sale_cart_rightfit_inherit" inherit_id="website_save_cart.o_website_sale_cart_rightfit">
+
+            <xpath expr="//div[hasclass('oe_cart')]/div[@class='row']/div[@class='col-lg-12 mb16']//a[1]" position="attributes">
+                <attribute name="class">btn btn-primary mr8</attribute>
+                <attribute name="href">/shop/cart</attribute>
+            </xpath>
+
+            <xpath expr="//div[hasclass('oe_cart')]/div[@class='row']/div[@class='col-lg-12 mb16']//a[2]" position="attributes">
+                <attribute name="class">btn btn-primary pull-right mr8</attribute>
+            </xpath>
+
+        </template>
+    </data>
+</odoo>

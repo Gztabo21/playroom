@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="add_text_amount_to_move_form" model="ir.ui.view">
+        <field name="name">add.text.amount.to.move.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='journal_div']" position="after">
+                <label for="text_amount"/>
+                <div name="text_amount_div" class="d-flex">
+                    <field name="text_amount"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---#Author: Brayhan Andres Jaramillo Castano -->
+<!-- Copyright (C) 2021 Odoo Inc -->
+<odoo>
+
+    <data noupdate="1">
+
+        <record id="s_banner_attendance" model="ir.attachment">
+            <field name="public" eval="True" />
+            <field name="key">presale.s_banner_attendance</field>
+            <field name="name">presale.s_banner_attendance</field>
+            <field name="type">url</field>
+            <field name="url">/presale/static/src/img/attendance.jpg</field>
+        </record>
+    </data>
+
+    <!-- <record id="s_banner_assistence" model="theme.ir.attachment">
+        <field name="key">theme_prime.s_banner_assistence</field>
+        <field name="name">theme_prime.s_banner_assistence</field>
+        <field name="url">/theme_prime/static/src/img/content/s_banner_3_1.png</field>
+    </record> -->
+
+</odoo>

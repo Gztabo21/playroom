@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="sale_multi_product_select_view_form" model="ir.ui.view">
+		<field name="name">multi.product.selectform</field>
+		<field name="model">multi.product.select</field>
+		<field name="arch" type="xml">
+			<form>
+
+				<group col="2" string="Productos">
+					<field name="product_ids" nolabel="1" domain="[('sale_ok', '=', True), '|', ('company_id', '=', False)]" context="{'partner_id':context.get('partner_id'), 'pricelist':context.get('pricelist'), 'company_id':context.get('company_id'), 'tree_view_ref' : 'multi_product_so.product_product_tree_view'}">
+						<tree editable="bottom">
+							<field name="name" readonly="1"/>
+							<field name="price" readonly="1"/>
+							<field name="product_qty_aux" />
+						</tree>
+					</field>
+				</group>
+
+				<footer>
+					<button name="load_order_line" string="Cargar Productos" type="object" class="oe_highlight"/>
+					o
+					<button string="Cancelar" class="oe_link" special="cancel"/>
+				</footer>
+
+			</form>
+		</field>
+	</record>
+
+	<record id="product_product_tree_view" model="ir.ui.view">
+		<field name="name">product.product.tree</field>
+		<field name="model">product.product</field>
+		<field eval="7" name="priority"/>
+		<field name="arch" type="xml">
+			<tree string="Product Variants" multi_edit="1" duplicate="false" sample="1">
+				<field name="default_code" optional="show" readonly="1"/>
+				<field name="barcode" optional="hide" readonly="1"/>
+				<field name="name" readonly="1"/>
+				<field name="product_template_attribute_value_ids" widget="many2many_tags" groups="product.group_product_variant" readonly="1"/>
+				<field name="company_id" groups="base.group_multi_company" optional="hide" readonly="1"/>
+				<field name="lst_price" optional="hide" string="Precio"/>
+				<field name="price" optional="show" string="Precio"/>
+				<field name="standard_price" optional="show"/>
+				<field name="categ_id" optional="hide"/>
+				<field name="type" optional="hide" readonly="1"/>
+				<field name="uom_id" options="{'no_open': True, 'no_create': True}" groups="uom.group_uom" optional="show" readonly="1"/>
+				<field name="product_tmpl_id" invisible="1" readonly="1"/>
+				<field name="active" invisible="1"/>
+			</tree>
+		</field>
+	</record>
+
+</odoo>

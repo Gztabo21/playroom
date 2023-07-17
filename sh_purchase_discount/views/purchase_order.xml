@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <record id="purchase_order_inherit_view_form" model="ir.ui.view">
+        <field name="name">purchase.order.inherit.view.form</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/notebook/page[1]/field[@name='order_line']/tree/field[@name='taxes_id']" position="after">
+                <field name="discount" optional="show" string="Disc.%"  widget="product_discount" groups="sh_purchase_discount.group_discount_security" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
