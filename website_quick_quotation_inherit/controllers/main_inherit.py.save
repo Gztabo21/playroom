@@ -17,16 +17,12 @@ from odoo.addons.website_quick_quotation.controllers.main import WebsiteQuickQuo
 
 
 class WebsiteQuickQuotationInherit(WebsiteQuickQuotation):
-    @http.route("/quotation/quick",website=True,auth="public")
-    def  index(self, **kw):
-        data = request.env["res.partner"].get_data_products(1)
-        clients = request.env["res.partner"].get_partners_all()
-        return http.request.render('website_quick_quotation.quick_quotation', {
-        'datos': data,
-        'clients': clients,
-    })
-
-    @http.route("/website_quick_quotation/get_products_data",type="json",auth="public",website=True,)
+    @http.route(
+        "/website_quick_quotation/get_products_data",
+        type="json",
+        auth="public",
+        website=True,
+    )
     def get_products_data(self, **kw):
         #         <t t-set="combination" t-value="product._get_first_possible_combination()"/>
         # <t t-set="combination_info" t-value="product._get_combination_info(combination, add_qty=add_qty or 1, pricelist=pricelist)"/>
@@ -47,9 +43,51 @@ class WebsiteQuickQuotationInherit(WebsiteQuickQuotation):
         )
         return products
 
-    @http.route("/website_quick_quotation/load_products_data",type="json",auth="public",website=True,)
+    @http.route(
+        "/website_quick_quotation/load_products_dattype="json",
+        auth="public",
+        website=True,
+    )
     def load_products_data(self, partner_id, **kw):
-        data = request.env["res.partner"].get_data_products(partner_id)
+        print("entre al metododo  /load_products_data");
+        partner_id = request.env["res.partner"].sudo().search([("id", "=", partner_id)], limit=1)
+        pricelist_id = partner_id.property_product_pricelist
+
+        if not pricelist_id:
+            pricelist_id = request.env.ref("product.list0", False)
+
+        product_model = request.env["product.product"].sudo()
+        product_ids = product_model.search([])
+
+        # current_pricelist_quotation.get_product_price(product_sudo.search([("id", "=", ${product_product_id})], limit=1))" />
+        data = []
+        print(partner_id);
+        for record in product_ids:
+            price = pricelist_id.get_product_price(record, 1, partner_id)
+
+            data.append(
+                {
+                    "id": record.id,
+                    "name": '%s - <span class="badge">%s</span>'
+                    % (record.display_name, record.outgoing_qty),
+                    "uom_id": (record.uom_id.sudo().id, record.uom_id.sudo().name),
+                    "price": price,
+                    "total": price,
+                }
+            )
+        # products = (
+        #     request.env["product.product"]
+        #     .sudo()
+        #     .search_read(
+        #         [],
+        #         [
+        #             "name",
+        #             "id",
+        #             "uom_id",
+        #         ],
+        #     )
+        # )
+        # print(products)
         return data
 
     @http.route(

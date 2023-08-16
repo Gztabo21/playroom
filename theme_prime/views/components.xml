@@ -43,28 +43,28 @@
         <li t-if="request.website.viewref('portal.user_sign_in').active" t-attf-class="list-inline-item o_not_editable #{_btn_classes}">
             <div class="dropdown" t-ignore="true" t-if="not user_id._is_public()">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Account Info"><i t-attf-class="dri dri-user #{_icon_classes}"/></a>
-                <div t-if="action_label" class="tp-action-btn-label">Account</div>
+                <div t-if="action_label" class="tp-action-btn-label">Perfil</div>
                 <div class="dropdown-menu dropdown-menu-right" role="menu">
                     <div class="dropdown-header"><t t-esc="user_id.name"/></div>
-                    <a href="/my" role="menuitem" class="dropdown-item">My Account</a>
+                    <a href="/my" role="menuitem" class="dropdown-item">Mi perfil</a>
                     <a href="/my/orders" role="menuitem" class="dropdown-item">Orders</a>
-                    <a href="/shop/wishlist" role="menuitem" class="dropdown-item">Wishlist (<span class="tp-wishlist-counter"><t t-esc="wishcount"/></span>)</a>
+                    <!-- <a href="/shop/wishlist" role="menuitem" class="dropdown-item">Wishlist (<span class="tp-wishlist-counter"><t t-esc="wishcount"/></span>)</a> -->
                     <div class="dropdown-divider"></div>
                     <a href="/web/session/logout?redirect=/" role="menuitem" class="dropdown-item">Logout</a>
                 </div>
             </div>
             <div class="dropdown" t-else="">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Account Info"><i t-attf-class="dri dri-user #{_icon_classes}"/></a>
-                <div t-if="action_label" class="tp-action-btn-label">Account</div>
+                <div t-if="action_label" class="tp-action-btn-label">Perfil</div>
                 <div class="dropdown-menu dropdown-menu-right" role="menu">
                     <div class="dropdown-header">Guest</div>
                     <a href="/web/login" role="menuitem" class="dropdown-item">Login</a>
                     <div class="dropdown-divider"></div>
-                    <a href="/shop/cart" role="menuitem" class="dropdown-item">My Cart</a>
-                    <a href="/shop/wishlist" role="menuitem" class="dropdown-item">Wishlist (<span class="tp-wishlist-counter"><t t-esc="wishcount"/></span>)</a>
+                    <a href="/shop/cart" role="menuitem" class="dropdown-item">Mi Carro</a>
+                    <!-- <a href="/shop/wishlist" role="menuitem" class="dropdown-item">Wishlist (<span class="tp-wishlist-counter"><t t-esc="wishcount"/></span>)</a> -->
                 </div>
             </div>
-            <div t-if="show_title" class="mt-1 small text-body">Account</div>
+            <div t-if="show_title" class="mt-1 small text-body">Perfil</div>
         </li>
     </template>
 
@@ -148,7 +148,7 @@
             <a href="#" class="tp-search-sidebar-action" t-att-data-search="search" data-placement="bottom" aria-label="Search">
                 <i class="dri dri-search o_not_editable"/>
             </a>
-            <div t-if="show_title" class="mt-1 small text-body o_not_editable">Search</div>
+            <div t-if="show_title" class="mt-1 small text-body o_not_editable">Buscar</div>
         </li>
 
         <t t-set="website_sale_order" t-value="website.sale_get_order()" />
@@ -157,17 +157,17 @@
                 <i class="dri dri-cart o_not_editable"/>
                 <sup class="my_cart_quantity badge badge-primary mb-0 font-weight-bold" t-esc="website_sale_order and website_sale_order.cart_quantity or '0'" t-att-data-order-id="website_sale_order and website_sale_order.id or ''"/>
             </a>
-            <div t-if="show_title" class="mt-1 small text-body o_not_editable">My Cart</div>
+            <div t-if="show_title" class="mt-1 small text-body o_not_editable">Mi Carro</div>
         </li>
 
-        <t t-set="wishcount" t-value="len(request.env['product.wishlist'].current())"/>
-        <li class="list-inline-item">
+        <!-- <t t-set="wishcount" t-value="len(request.env['product.wishlist'].current())"/> -->
+        <!-- <li class="list-inline-item">
             <a class="o_wsale_my_wish" href="/shop/wishlist">
                 <i class="dri dri-wishlist o_not_editable"/>
                 <sup t-esc="wishcount" t-attf-class="my_wish_quantity o_animate_blink badge badge-primary"/>
             </a>
             <div t-if="show_title" class="mt-1 small text-body o_not_editable">Wishlist</div>
-        </li>
+        </li> -->
 
         <t t-call="theme_prime.tp_login_dropdown_component"></t>
     </template>
