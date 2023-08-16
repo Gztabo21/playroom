@@ -1,0 +1,9 @@
+.qty-card-input{
+    input[type="number"]{
+        text-align: center;
+        width: 40px;
+    }
+    input[type="number"]::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+    }
+}

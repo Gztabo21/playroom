@@ -1,0 +1,13 @@
+<odoo>
+  <data>
+   <template  id="assets_frontend" name="helpdesk assets" inherit_id="web.assets_frontend">
+      <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/website_qty_cart/static/src/scss/add_to_cart_qty.scss"/>
+      </xpath>
+      <xpath expr="//script[last()]" position="after">
+        <script type="text/javascript" src="/website_qty_cart/static/src/js/add_to_cart_qty.js"></script>
+      </xpath>
+    </template>
+
+  </data>
+</odoo>
