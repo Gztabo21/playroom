@@ -11,11 +11,12 @@
     """,
 
     'author': "Gustavo Cacharuco",
-    'website': "mailto:gustavocacharuco@gmail.com",
+    'website': "mailto:gustavocacharuco@gmail.com?subject=Support%20playroom",
 
     'category': 'Uncategorized',
     'version': '0.1',
     'depends': ['base'],
+    'licenses':'LGPL-3',
     'data': [
         'security/ir.model.access.csv',
         'data/console_type.xml',
