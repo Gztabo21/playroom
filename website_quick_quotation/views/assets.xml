@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <template id="assets_frontend" name="assets" inherit_id="web.assets_frontend">
-        <xpath expr="." position="inside">
-            <link href="/website_quick_quotation/static/src/css/style.css" rel="stylesheet" type="text/css"/>
-            <script type="text/javascript" src="/website_quick_quotation/static/src/js/website_quick_quotation.js"/>
-        </xpath>
-    </template>
-</odoo>
