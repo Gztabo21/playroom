@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="sale_order_form_view_inherit" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+
+            <xpath expr="//page[last()]" position="after">
+                <page string="Preventa" attrs="{'invisible':[('presale', '=', False)]}">
+                    <group col="4">
+                        <field name="presale" />
+                        <field name="laboratory_id" />
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+
+    <record id="action_presale" model="ir.actions.act_window">
+        <field name="name">Preventa</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sale.order</field>
+        <field name="view_id" ref="sale.view_quotation_tree_with_onboarding" />
+        <field name="view_mode">tree,kanban,form,calendar,pivot,graph,activity</field>
+        <field name="search_view_id" ref="sale.sale_order_view_search_inherit_quotation" />
+        <field name="context">{'search_default_my_quotation': 1, 'presale': True}</field>
+        <field name="domain">[('presale', '=', True)]</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+            ¡Crea una nueva preventa, el primer paso de una nueva venta!
+          </p>
+            <p>
+                Una vez que la cotización es confirmada por el cliente, se convierte en una orden de venta.
+                <br />
+                Podrá crear una factura y cobrar el pago.
+            </p>
+        </field>
+    </record>
+
+</odoo>

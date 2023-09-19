@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="quick_quotation_inherit" inherit_id="website_quick_quotation.quick_quotation">
+
+        <xpath expr="//div[@id='wrap']" position="attributes">
+            <attribute name="t-if">request.env.user.is_seller</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='wrap']/section[2]/div/div/div//section[1]" position="replace">
+
+            <section class="pt8 pb8" id="partner_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div t-attf-class="form-group">
+
+                                <label class="col-md-8 col-sm-8" for="partner_website" style="font-size: 18px;">Tercero</label>
+                                <select type="text" class="form-control product" name="partner_website" id="partner_website">
+                                    <option></option>
+                                    <t t-foreach="request.env['res.partner'].sudo().search([])" t-as="partner">
+                                        <option t-att-value="partner.id" data-id="partner.id" name="partner_id" class="col-md-8 col-sm-8" selected="selected">
+                                            <t t-esc="partner.name" />
+                                        </option>
+                                    </t>
+
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </xpath>
+
+
+        <xpath expr="//div[@id='wrap']/section[2]/div/div/div//section[2]/div/div/div/table" position="attributes">
+            <attribute name="class">table table-sm table_quick_quotation</attribute>
+            <attribute name="id">table_quick_quotation</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='wrap']/section[2]/div/div/div//section[2]/div/div/div/table/thead" position="attributes">
+            <attribute name="class">bg-100</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='wrap']/section[2]/div/div/div//section[2]/div/div/div/table/thead/tr//th[4]" position="after">
+            <th>Precio</th>
+            <th>Total</th>
+        </xpath>
+
+        <xpath expr="//div[@id='wrap']/section[2]/div/div/div/section[2]/div/div/div/div[1]/div/div[3]/button" position="attributes">
+            <attribute name="class">btn btn-primary add-new-line</attribute>
+        </xpath>
+
+        <xpath expr="//div[@id='wrap']/section[2]" position="after">
+            <div class="container mt-4 mb-5">
+                <div class="row">
+                    <div class="col-lg-9 col-xl-8 mr-lg-auto"></div>
+                    <div class="col-lg-3 col-xl-3 mr-lg-auto">
+                        <table class="table table-sm">
+                            <tr class="border-black">
+                                <td>
+                                    <strong>Total</strong>
+                                </td>
+                                <td class="text-right">
+                                    <span name="information_total" id="information_total" class="information_total" />
+                                    <!-- <span data-id="total_amount" t-field="sale_order.amount_total" t-options='{"widget": "monetary", "display_currency": sale_order.pricelist_id.currency_id}'/> -->
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+
+
+        <!-- <button t-attf-class="o_portal_chatter_composer_btn btn btn-primary" type="submit">Send</button> -->
+
+
+        <!-- <xpath expr="//div[@id='wrap']/section[2]/div/div/div/section[2]/div/div/div//div[2]" position="after">
+            <table class="table table-sm">
+                <tr class="border-black">
+                    <td><strong>Subtotal</strong></td>
+                    <td class="text-right">
+                        <span
+                            data-id="total_untaxed"
+                            t-field="sale_order.amount_untaxed"
+                            t-options='{"widget": "monetary","display_currency": sale_order.pricelist_id.currency_id}'
+                        />
+                    </td>
+                </tr>
+                <t t-foreach="sale_order.amount_by_group" t-as="amount_by_group">
+                    <tr>
+                        <t t-if="amount_by_group[3] == 1 and sale_order.amount_untaxed == amount_by_group[2]">
+                            <td>
+                                <span t-esc="amount_by_group[0]"/>
+                                <span>&amp;nbsp;<span>on</span>&amp;nbsp;<t t-esc="amount_by_group[2]" t-options='{"widget": "monetary", "display_currency": sale_order.pricelist_id.currency_id}'/></span>
+                            </td>
+                            <td class="text-right">
+                                <span t-esc="amount_by_group[1]"
+                                    t-options='{"widget": "monetary", "display_currency": sale_order.pricelist_id.currency_id}'/>
+                            </td>
+                        </t>
+                        <t t-else ="">
+                            <td>
+                                <span t-esc="amount_by_group[0]"/>
+                            </td>
+                            <td class="text-right">
+                                <span t-esc="amount_by_group[1]"
+                                    t-options='{"widget": "monetary", "display_currency": sale_order.pricelist_id.currency_id}'/>
+                            </td>
+                        </t>
+                    </tr>
+                </t>
+                <tr class="border-black">
+                    <td><strong>Total</strong></td>
+                    <td class="text-right">
+                        <span data-id="total_amount" t-field="sale_order.amount_total" t-options='{"widget": "monetary", "display_currency": sale_order.pricelist_id.currency_id}'/>
+                    </td>
+                </tr>
+            </table>
+        </xpath> -->
+
+
+    </template>
+
+</odoo>

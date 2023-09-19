@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="purchase_multi_product_select_view_form" model="ir.ui.view">
+		<field name="name">multi.product.select.form</field>
+		<field name="model">multi.product.select</field>
+		<field name="arch" type="xml">
+			<form>
+
+				<group col="2" string="Productos">
+					<field name="product_ids" nolabel="1" domain="[('purchase_ok', '=', True)]">
+						<tree editable="bottom">
+							<field name="name" readonly="1"/>
+							<field name="product_qty_aux" />
+						</tree>
+					</field>
+				</group>
+
+				<footer>
+					<button name="load_order_line" string="Cargar Productos" type="object" class="oe_highlight"/>
+					o
+					<button string="Cancelar" class="oe_link" special="cancel"/>
+				</footer>
+
+			</form>
+		</field>
+	</record>
+
+</odoo>

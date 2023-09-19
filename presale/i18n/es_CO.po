@@ -1,0 +1,133 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_quick_quotation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-28 21:10+0000\n"
+"PO-Revision-Date: 2022-10-28 21:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "<i class=\"fa fa-plus\"/> Add New"
+msgstr "<i class=\"fa fa-plus\"/> Agregar"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "<i class=\"fa fa-sign-in\"/> Submit"
+msgstr "<i class=\"fa fa-sign-in\"/> Crear"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation_thanks_ir_ui_view
+#: model_terms:website.page,arch_db:website_quick_quotation.quick_quotation_thanks
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                            <span>Your quotation has been sent <b>successfully</b>\n"
+"                                            </span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                            <span>Tu cotización ha sido creada con <b>Éxito</b>\n"
+"                                            </span>"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation_error_ir_ui_view
+#: model_terms:website.page,arch_db:website_quick_quotation.quick_quotation_error
+msgid ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                            <span>Your quotation was not sent <b>successfully</b>\n"
+"                                            </span>"
+msgstr ""
+"<span class=\"fa fa-check-circle\"/>\n"
+"                                            <span>Tu cotización no fue creada con <b>Éxito</b>\n"
+"                                            </span>"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Add <b>Products</b>"
+msgstr "Agregar <b>Productos</b>"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Product"
+msgstr "Producto"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: website_quick_quotation
+#: model:website.menu,name:website_quick_quotation.menu_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Quick Quotation"
+msgstr "Cotización Rápida"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Search prodcuts"
+msgstr "Buscar Productos"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation_error_ir_ui_view
+#: model_terms:website.page,arch_db:website_quick_quotation.quick_quotation_error
+msgid "Something went wrong, Please contact administrator."
+msgstr "Algo salió mal, comuníquese con el administrador."
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Sr.No"
+msgstr "No"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation_error_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation_thanks_ir_ui_view
+#: model_terms:website.page,arch_db:website_quick_quotation.quick_quotation_error
+#: model_terms:website.page,arch_db:website_quick_quotation.quick_quotation_thanks
+msgid "Thank You!"
+msgstr "Gracias!"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Unit"
+msgstr "Unidad"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation_thanks_ir_ui_view
+#: model_terms:website.page,arch_db:website_quick_quotation.quick_quotation_thanks
+msgid "We will get back to you shortly."
+msgstr "Nos pondremos en contacto con usted en breve."
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Your Email"
+msgstr "Email"
+
+#. module: website_quick_quotation
+#: model_terms:ir.ui.view,arch_db:website_quick_quotation.quick_quotation
+#: model_terms:website.page,arch_db:website_quick_quotation.page_quick_quotation
+msgid "Your Name"
+msgstr "Nombre"

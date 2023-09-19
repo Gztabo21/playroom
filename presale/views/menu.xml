@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+
+        <!-- Orden de Venta/Preventa -->
+        <menuitem id="menu_presale" parent="sale.sale_order_menu" name="Preventa" sequence="3" action="action_presale" />
+
+        <!-- Orden de Venta/Registro de Asistencia Preventa -->
+        <menuitem id="menu_attendance_presale" parent="sale.sale_order_menu" name="Asistencia Preventa" sequence="4" action="attendance_presale_form_action" />
+
+    </data>
+
+</odoo>

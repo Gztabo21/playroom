@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+
+        <!-- Orden de Venta/Preventa -->
+        <menuitem id="menu_pre_sale" parent="sale.sale_order_menu" name="Preventa" sequence="3" action="action_pre_sale" />
+
+    </data>
+
+</odoo>

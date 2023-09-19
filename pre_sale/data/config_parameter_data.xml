@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---#Author: Brayhan Andres Jaramillo Castano -->
+<!-- Copyright (C) 2021 Odoo Inc -->
+<odoo>
+
+    <data noupdate="1">
+
+        <record id="parameter_pre_sale_date_from" model="ir.config_parameter">
+            <field name="key">pre_sale_date_from</field>
+            <field name="value">2022-11-01</field>
+        </record>
+
+        <record id="parameter_pre_sale_date_to" model="ir.config_parameter">
+            <field name="key">pre_sale_date_to</field>
+            <field name="value">2022-11-10</field>
+        </record>
+
+        <record id="parameter_pre_sale_day" model="ir.config_parameter">
+            <field name="key">pre_sale_day</field>
+            <field name="value">2022-11-11</field>
+        </record>
+    </data>
+
+</odoo>

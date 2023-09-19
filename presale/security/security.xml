@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+
+        <record model="ir.module.category" id="module_presale">
+            <field name="name">Preventa</field>
+            <field name="sequence">102</field>
+        </record>
+
+        <record id="group_confirm_sale" model="res.groups">
+            <field name="name">Confirmar Venta</field>
+            <field name="category_id" ref="module_presale" />
+        </record>
+
+    </data>
+
+</odoo>

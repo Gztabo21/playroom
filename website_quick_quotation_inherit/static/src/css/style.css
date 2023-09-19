@@ -1,0 +1,39 @@
+.o_quick_quotation .error {
+    border-color: #f50000;
+}
+.o_quick_quotation .table-wrapper {
+    width: 100%;
+    background: #fff;
+    padding: 0px;	
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.o_quick_quotation .table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.o_quick_quotation .table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.o_quick_quotation .table-title .add-new-line {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+.o_quick_quotation .table-title .add-new-line i {
+    margin-right: 4px;
+}
+.table_quick_quotation span .price{
+    height: 32px;
+    line-height: 32px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    line-height: none !important;
+}

@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_promotion_scheme,access_promotion_scheme,model_promotion_scheme,,1,1,1,1
+access_sale_order_reward_products,access_sale_order_reward_products,model_sale_order_reward_products,base.group_user,1,1,1,1
+access_promotion_scheme_line,access_promotion_scheme_line,model_promotion_scheme_line,base.group_user,1,1,1,1

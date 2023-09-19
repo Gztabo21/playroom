@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <data>
+
+        <record id="product_template_form_inherit" model="ir.ui.view">
+            <field name="name">product.template.form.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"></field>
+            <field name="arch" type="xml">
+
+                <xpath expr="//button[@name='action_view_sales']" position="before">
+                    <button type="object" name="get_promotional_product" class="oe_stat_button" icon="fa-gift" attrs="{'invisible': [('promotional_product_qty', '=', 0)]}">
+                        <field string="P. Promocional" name="promotional_product_qty" widget="statinfo"/>
+                    </button>
+                </xpath>
+
+            </field>
+        </record>
+
+        <record id="product_template_kanban_inherit" model="ir.ui.view">
+            <field name="name">product.template.kanban.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_kanban_view"></field>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='id']" position="after">
+                    <field name="promotional_product_qty"/>
+                </xpath>
+                <xpath expr="//div[@name='product_lst_price']" position="after">
+                    <t t-if="record.promotional_product_qty.value > 0">
+                        <div class="col-12 text-right">
+                            <span class="badge badge-pill badge-danger">
+                          Es promocional 
+                                <span class="badge badge-light badge-pill" t-esc="record.promotional_product_qty.value"/>
+                            </span>
+                        </div>
+                    </t>
+                </xpath>
+
+            </field>
+        </record>
+
+        <record id="product_template_tree_inherit" model="ir.ui.view">
+            <field name="name">product.template.tree.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_tree_view"></field>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='active']" position="after">
+                    <field name="promotional_product_qty"/>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>
