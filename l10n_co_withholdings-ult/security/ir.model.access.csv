@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_base_tax,account_base_tax,model_account_base_tax,,1,1,1,1
+access_account_move_tax,account_move_tax,model_account_move_tax,,1,1,1,1
+access_sale_tax_sale,sale_tax_sale,model_sale_order_tax,,1,1,1,1
+access_account_account_sale_tax_sale,account.account.sale.tax,account.model_account_account,,1,1,1,1
