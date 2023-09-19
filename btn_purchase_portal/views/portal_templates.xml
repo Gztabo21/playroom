@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <!-- <record id="purchase.portal_my_home_purchase" model="ir.ui.view">
+      <field name="active">False</field>
+  </record> -->
+
+  <template id="portal_my_home_purchase_validate" name="Show Purchase Orders" customize_show="True" inherit_id="portal.portal_my_home" priority="25">
+    <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+      <t t-if="count">
+        <t t-if="int(count) &gt; 0">
+          <t t-call="portal.portal_docs_entry">
+            <t t-set="title">Purchase Orders</t>
+            <t t-set="url" t-value="'/my/purchase'"/>
+            <t t-set="placeholder_count" t-value="'purchase_count'"/>
+          </t>
+        </t>
+      </t>
+      <t t-elif="placeholder_count">
+        <h3 class="mb-0" t-att-data-placeholder_count="placeholder_count"></h3>
+      </t>
+
+    </xpath>
+  </template>
+
+
+
+  <delete model="ir.ui.view" search="[('key','=','theme_prime.portal_docs_entry')]" />
+  <template id="portal_docs_entry" name="My Portal asry" inherit_id="portal.portal_docs_entry">
+    <xpath expr="//a[hasclass('list-group-item')]" position="replace">
+      <t t-set="icons" t-value="{'/my/quotes': 'fa fa-check-square-o ', '/my/orders': 'fa fa-shopping-cart', '/my/purchase': 'fa fa-credit-card btn-validate-zero', '/my/invoices': 'fa fa-file-text-o', '/my/projects': 'fa fa-cubes', '/my/tasks': 'fa fa-list', '/my/timesheets': 'fa fa-clock-o', '/my/leads': 'fa fa-handshake-o', '/my/opportunities': 'fa fa-handshake-o'}"/>
+     <t t-if="count">
+        <t t-if="int(count) &gt; 0">
+        </t>
+      </t>
+      <t t-else=""></t>
+     <div class="col-12 col-lg-6 col-xl-4">
+        <a t-att-href="url" t-att-title="title">
+          <div class="media p-3 bg-white my-2 dr-portal-doc-entry">
+            <i t-attf-class="#{icons.get(url, 'fa fa-check')} mr-3 bg-primary icon"/>
+            <div class="media-body">
+             
+              <t t-if="count">
+
+                <h3 class="mb-0" t-esc="count"/>
+              </t>
+              <t t-elif="placeholder_count">
+                <h3 class="mb-0" t-att-data-placeholder_count="placeholder_count">
+                  <i class="fa fa-spin fa-spinner"></i>
+                </h3>
+              </t>
+              <h6 class="mb-0 text-muted" t-esc="title"></h6>
+            </div>
+          </div>
+        </a>
+      </div>
+    </xpath>
+  </template>
+
+</odoo>

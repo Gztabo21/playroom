@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="electronic_invoice_body_inherit" inherit_id="l10n_co_edi.electronic_invoice_body">
+        <xpath expr="//NOT[@t-foreach='notas']" position="after">
+            <NOT>
+                <NOT_1 t-esc="'CTS1.-'+ str(invoice_partner.city_id.name)+', '+str(invoice_partner.state_id.name)+', '+str(invoice_partner.street)+' |'"/>
+
+            </NOT>
+        </xpath>
+    </template>
+    <template id="electronic_invoice_vendor_document_body_inherit" inherit_id="l10n_co_edi.electronic_invoice_vendor_document_body">
+      <xpath expr="//NOT[@t-foreach='notas']" position="inside">
+        <NOT>
+          <NOT_1 t-esc="'CTS1.-'+ str(invoice_partner.city_id.name)+', '+str(invoice_partner.state_id.name)+', '+str(invoice_partner.street)+' |'" />
+        </NOT>
+      </xpath>
+    </template>
+
+</odoo>
