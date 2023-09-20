@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_unit_measures_fe,product.unit_measures_fe,model_product_unit_measures_fe,,1,0,0,0
+access_dian_fiscal_responsability,dian.fiscal.responsability,model_dian_fiscal_responsability,,1,0,0,0
+access_payment_methods_dian,payment.methods.dian,model_payment_methods_dian,,1,0,0,0
+access_ir_sequence_dian_resolution,ir.sequence.dian_resolution,model_ir_sequence_dian_resolution,,1,1,1,1

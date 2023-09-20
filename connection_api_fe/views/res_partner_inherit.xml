@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+	<!-- Extending Partner Form View -->
+	<record id="view_partner_form_fe" model="ir.ui.view">
+		<field name="inherit_id" ref="base.view_partner_form" />
+		<field name="model">res.partner</field>
+		<field name="arch" type="xml">
+
+			<!-- <xpath expr="//field[@name='xbirthday']" position="before">
+				<field name="fiscal_responsability_ids" widget="many2many_tags"/>
+			</xpath> -->
+
+			<xpath expr="//field[@name='type']" position="before">
+				<field name="personType"/>
+				<field name="fiscal_responsability_ids" widget="many2many_tags"/>
+			</xpath>
+
+			<xpath expr="//field[@name='street']" position="attributes">
+				<attribute name="required">True</attribute>
+			</xpath>
+
+			<xpath expr="//field[@name='email']" position="attributes">
+				<attribute name="required">True</attribute>
+			</xpath>
+			<xpath expr="//field[@name='country_id']" position="attributes">
+				<attribute name="required">True</attribute>
+			</xpath>
+
+			<xpath expr="//field[@name='state_id']" position="attributes">
+				<attribute name="required">True</attribute>
+			</xpath>
+
+			<xpath expr="//field[@name='city']" position="attributes">
+				<attribute name="invisible">True</attribute>
+			</xpath>
+
+			<xpath expr="//field[@name='city']" position="after">
+				<field name="city_id" required="1" domain="[('state_id', '=', state_id)]" class="o_address_city" attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}"/>
+			</xpath>
+
+		</field>
+	</record>
+
+	<record id="value_initial" model="ir.config_parameter">
+		<field name="key">value_initial</field>
+		<field name="value">10000</field>
+	</record>
+
+	<record id="value_final" model="ir.config_parameter">
+		<field name="key">value_final</field>
+		<field name="value">11000</field>
+	</record>
+
+</odoo>

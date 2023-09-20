@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Extending Partner Form View -->
+    <record id="account_journal_view_form_inherit" model="ir.ui.view">
+        <field name="inherit_id" ref="sequence_models.view_account_journal_form_inherit" />
+        <field name="model">account.journal</field>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='secure_sequence_id']" position="attributes">
+                <attribute name="invisible">False</attribute>
+            </xpath>
+
+        </field>
+    </record>
+
+
+</odoo>

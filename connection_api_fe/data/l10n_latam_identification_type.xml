@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="l10n_co.civil_registration" model="l10n_latam.identification.type">
+		<field name="code">11</field>
+	</record>
+
+	<record id="l10n_co.id_card" model="l10n_latam.identification.type">
+		<field name="code">12</field>
+	</record>
+
+	<record id="l10n_co.national_citizen_id" model="l10n_latam.identification.type">
+		<field name="code">13</field>
+	</record>
+
+	<record id="l10n_co.id_document" model="l10n_latam.identification.type">
+		<field name="code">13</field>
+	</record>
+
+	<record id="l10n_co.foreign_colombian_card" model="l10n_latam.identification.type">
+		<field name="code">21</field>
+	</record>
+
+	<record id="l10n_latam_base.it_fid" model="l10n_latam.identification.type">
+		<field name="code">22</field>
+		<field name="country_id" ref="base.co"/>
+	</record>
+
+	<record id="l10n_co.foreign_resident_card" model="l10n_latam.identification.type">
+		<field name="code">22</field>
+	</record>
+
+	<record id="l10n_co.rut" model="l10n_latam.identification.type">
+		<field name="code">31</field>
+	</record>
+
+	<record id="l10n_latam_base.it_pass" model="l10n_latam.identification.type">
+		<field name="code">41</field>
+		<field name="country_id" ref="base.co"/>
+	</record>
+
+	<record id="document_ident_foreign" model="l10n_latam.identification.type">
+		<field name="name">Documento de identificación extranjero</field>
+		<field name="code">42</field>
+		<field name="country_id" ref="base.co"/>
+	</record>
+
+	<record id="l10n_co.external_id" model="l10n_latam.identification.type">
+		<field name="code">50</field>
+		<field name="country_id" ref="base.co"/>
+	</record>
+
+	<record id="l10n_co.niup_id" model="l10n_latam.identification.type">
+		<field name="code">91</field>
+	</record>
+
+	<!-- 	<record id="l10n_co.foreign_id_card" model="l10n_latam.identification.type">
+		<field name="code">22</field>
+	</record> -->
+
+	<!-- 	<record id="l10n_co.passport" model="l10n_latam.identification.type">
+		<field name="code">41</field>
+	</record> -->
+
+</odoo>
