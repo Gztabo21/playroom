@@ -1,0 +1,34 @@
+<odoo>
+  <data>
+    <template id="filter_info_template_custom" inherit_id="account_reports.filter_info_template">
+      <xpath expr="//div/div[2]/div[5]" position="after">
+        <div class="col-12">
+            <t t-if="options.get('seller_ids') != None">
+                VENDEDORES:
+                <t t-set="seller_value" t-value="'All'"/>
+                <t t-foreach="options['selected_seller_ids']" t-as="seller_name">
+                    <t t-set="seller_value" t-value="''"/>
+                    <t t-esc="seller_name"/>
+                </t>
+                <t t-esc="seller_value"/>
+            </t>
+        </div>         
+      </xpath>
+    </template>
+    <!--template id="search_template_seller">
+        <button t-if="options.get('seller')" type="button" class="o_dropdown_toggler_btn btn btn-secondary dropdown-toggle account_seller_filter" data-toggle="dropdown">
+            <span class="fa fa-folder-open"/> Sellers
+        </button>
+        <ul class="dropdown-menu o_filter_menu" role="menu">
+            <li class="o_account_report_search js_account_partner_m2m"/>
+        </ul>
+    </template>
+     <template id="filter_info_template_seller" inherit_id="account_reports.search_template">
+      <xpath expr="//div[7]" position="after">
+      <div class="btn-group o_dropdown o_account_reports_filter_seller" t-if="options.get('seller')">
+            <t t-call="kal_account_report.search_template_seller"/>
+        </div>
+        </xpath>
+    </template-->
+  </data>
+</odoo>

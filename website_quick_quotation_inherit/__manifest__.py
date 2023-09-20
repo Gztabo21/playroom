@@ -20,6 +20,9 @@
         """,
     "website": "",
     "depends": [
+        "base",        
+        "sale_management",
+        "website",
         "website_quick_quotation",
     ],
     "data": [

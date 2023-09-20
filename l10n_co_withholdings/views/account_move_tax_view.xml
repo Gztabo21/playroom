@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---#Author: Brayhan Andres Jaramillo Castano -->
+<odoo>
+
+    <record id="account_move_tax_form_view" model="ir.ui.view">
+        <field name="name">account.move.tax.form</field>
+        <field name="model">account.move.tax</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group col="4" string="Rango de Fechas">
+                        <field name="name"/>
+                        <field name="tax_id"/>
+                        <field name="account_id"/>
+                        <field name="company_id"/>
+                        <field name="base"/>
+                        <field name="amount"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="account_move_tax_tree_view" model="ir.ui.view">
+        <field name="name">account.move.tax.tree</field>
+        <field name="model">account.move.tax</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name"/>
+                <field name="tax_id" invisible="1"/>
+                <field name="account_id"/>
+                <field name="base"/>
+                <field name="amount"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>

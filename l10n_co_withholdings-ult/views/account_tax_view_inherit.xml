@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---#Author: Brayhan Andres Jaramillo Castano -->
+<odoo>
+    <data>
+
+        <record id="account_tax_form_view_inherit" model="ir.ui.view">
+            <field name="name">account.tax.inherit</field>
+            <field name="model">account.tax</field>
+            <field name="inherit_id" ref="account.view_tax_form"/>
+            <field name="priority">30</field>
+            <field name="arch" type="xml">
+
+                <field name="active" position="after">
+                    <field name="is_withholdings" widget="boolean_toggle"/>
+                </field>
+
+                <xpath expr="//notebook//page" position="before">
+                    <page string="Base Retención" attrs="{'invisible':[('is_withholdings', '=', False)]}">
+                        <group>
+                            <field name="base_taxes_ids" nolabel="1"/>
+                        </group>
+                    </page>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

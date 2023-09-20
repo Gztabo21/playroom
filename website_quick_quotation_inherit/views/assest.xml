@@ -5,7 +5,7 @@
             <xpath expr="//link[last()]" position="after">
                 <link type="text/css" href="/website_quick_quotation_inherit/static/src/css/style.css" rel="stylesheet" />
             </xpath>
-            <xpath expr="//script[last()]" position="after">
+            <xpath expr="." position="inside">
                 <script type="text/javascript" src="/website_quick_quotation_inherit/static/src/js/website_quick_quotation.js"></script>
             </xpath>
         </template>

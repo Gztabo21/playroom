@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_pos_partner_barcode" inherit_id="point_of_sale.assets">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/kal_pos_partner_barcode/static/src/js/models.js"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>

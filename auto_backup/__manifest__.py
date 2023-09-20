@@ -20,7 +20,7 @@
     'website': "http://www.odoo.yenthevg.com",
     'category': 'Administration',
     'version': '14.0.0.1',
-    'installable': False,
+    'installable': True,
     'license': 'LGPL-3',
 
     # any module necessary for this one to work correctly
