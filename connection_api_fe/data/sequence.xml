@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<odoo>
+	
+	<data noupdate="1">
+		<record id="connection_api_fe_file_seq" model="ir.sequence">
+			<field name="name">N° del Archivo xml</field>
+			<field name="code">connection.api.fe.number</field>
+			<field name="prefix"></field>
+			<field name="padding">8</field>
+			<field name="active">TRUE</field>
+			<field eval="1" name="number_next"/>
+			<field eval="1" name="number_increment"/>
+			<field name="implementation">standard</field>
+		</record>
+	</data>
+
+</odoo>

@@ -1,0 +1,5470 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+	<data noupdate="1">
+		<record id="unit_measures_04" model="product.unit_measures_fe">
+			<field name="code">04</field>
+			<field name="name">Spray Pequeño</field>
+		</record>
+
+		<record id="unit_measures_05" model="product.unit_measures_fe">
+			<field name="code">05</field>
+			<field name="name">Levantar</field>
+		</record>
+
+		<record id="unit_measures_08" model="product.unit_measures_fe">
+			<field name="code">08</field>
+			<field name="name">Lote Calor</field>
+		</record>
+
+		<record id="unit_measures_10" model="product.unit_measures_fe">
+			<field name="code">10</field>
+			<field name="name">Grupo</field>
+		</record>
+
+		<record id="unit_measures_11" model="product.unit_measures_fe">
+			<field name="code">11</field>
+			<field name="name">Equipar</field>
+		</record>
+
+		<record id="unit_measures_13" model="product.unit_measures_fe">
+			<field name="code">13</field>
+			<field name="name">Ración</field>
+		</record>
+
+		<record id="unit_measures_14" model="product.unit_measures_fe">
+			<field name="code">14</field>
+			<field name="name">Disparo</field>
+		</record>
+
+		<record id="unit_measures_15" model="product.unit_measures_fe">
+			<field name="code">15</field>
+			<field name="name">Palo</field>
+		</record>
+
+		<record id="unit_measures_16" model="product.unit_measures_fe">
+			<field name="code">16</field>
+			<field name="name">Tambor De Ciento Quince Kg</field>
+		</record>
+
+		<record id="unit_measures_17" model="product.unit_measures_fe">
+			<field name="code">17</field>
+			<field name="name">Tambor De Cien Libras</field>
+		</record>
+
+		<record id="unit_measures_18" model="product.unit_measures_fe">
+			<field name="code">18</field>
+			<field name="name">Tambor De Cincuenta Y Cinco Galones (Us)</field>
+		</record>
+
+		<record id="unit_measures_19" model="product.unit_measures_fe">
+			<field name="code">19</field>
+			<field name="name">Camión Cisterna</field>
+		</record>
+
+		<record id="unit_measures_20" model="product.unit_measures_fe">
+			<field name="code">20</field>
+			<field name="name">Contenedor De Veinte Pies</field>
+		</record>
+
+		<record id="unit_measures_21" model="product.unit_measures_fe">
+			<field name="code">21</field>
+			<field name="name">Contenedor De Cuarenta Pies</field>
+		</record>
+
+		<record id="unit_measures_22" model="product.unit_measures_fe">
+			<field name="code">22</field>
+			<field name="name">Decilitro Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_23" model="product.unit_measures_fe">
+			<field name="code">23</field>
+			<field name="name">Gramo Por Centímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_24" model="product.unit_measures_fe">
+			<field name="code">24</field>
+			<field name="name">Libra Teórica</field>
+		</record>
+
+		<record id="unit_measures_25" model="product.unit_measures_fe">
+			<field name="code">25</field>
+			<field name="name">Gramo Por Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_26" model="product.unit_measures_fe">
+			<field name="code">26</field>
+			<field name="name">Tonelada Real</field>
+		</record>
+
+		<record id="unit_measures_27" model="product.unit_measures_fe">
+			<field name="code">27</field>
+			<field name="name">Tonelada Teórica</field>
+		</record>
+
+		<record id="unit_measures_28" model="product.unit_measures_fe">
+			<field name="code">28</field>
+			<field name="name">Kilogramo Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_29" model="product.unit_measures_fe">
+			<field name="code">29</field>
+			<field name="name">Libra Por Mil Pies Cuadrados</field>
+		</record>
+
+		<record id="unit_measures_30" model="product.unit_measures_fe">
+			<field name="code">30</field>
+			<field name="name">Día De Potencia Del Caballo Por Tonelada Métrica Seca Al Aire.</field>
+		</record>
+
+		<record id="unit_measures_31" model="product.unit_measures_fe">
+			<field name="code">31</field>
+			<field name="name">Coger Peso</field>
+		</record>
+
+		<record id="unit_measures_32" model="product.unit_measures_fe">
+			<field name="code">32</field>
+			<field name="name">Kilogramo Por Aire Seco Tonelada Métrica</field>
+		</record>
+
+		<record id="unit_measures_33" model="product.unit_measures_fe">
+			<field name="code">33</field>
+			<field name="name">Kilopascales Metros Cuadrados Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_34" model="product.unit_measures_fe">
+			<field name="code">34</field>
+			<field name="name">Kilopascales Por Milímetro</field>
+		</record>
+
+		<record id="unit_measures_35" model="product.unit_measures_fe">
+			<field name="code">35</field>
+			<field name="name">Mililitros Por Centímetro Cuadrado Segundo</field>
+		</record>
+
+		<record id="unit_measures_36" model="product.unit_measures_fe">
+			<field name="code">36</field>
+			<field name="name">Pies Cúbicos Por Minuto Por Pie Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_37" model="product.unit_measures_fe">
+			<field name="code">37</field>
+			<field name="name">Onza Por Pie Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_38" model="product.unit_measures_fe">
+			<field name="code">38</field>
+			<field name="name">Onzas Por Pie Cuadrado Por 0,01 Pulgadas</field>
+		</record>
+
+		<record id="unit_measures_40" model="product.unit_measures_fe">
+			<field name="code">40</field>
+			<field name="name">Mililitro Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_41" model="product.unit_measures_fe">
+			<field name="code">41</field>
+			<field name="name">Mililitro Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_43" model="product.unit_measures_fe">
+			<field name="code">43</field>
+			<field name="name">Bolsa Súper A Granel</field>
+		</record>
+
+		<record id="unit_measures_44" model="product.unit_measures_fe">
+			<field name="code">44</field>
+			<field name="name">Bolsa A Granel De Quinientos Kg</field>
+		</record>
+
+		<record id="unit_measures_45" model="product.unit_measures_fe">
+			<field name="code">45</field>
+			<field name="name">Bolsa A Granel De Trescientos Kg</field>
+		</record>
+
+		<record id="unit_measures_46" model="product.unit_measures_fe">
+			<field name="code">46</field>
+			<field name="name">Bolsa A Granel De Cincuenta Libras</field>
+		</record>
+
+		<record id="unit_measures_47" model="product.unit_measures_fe">
+			<field name="code">47</field>
+			<field name="name">Bolsa De Cincuenta Libras</field>
+		</record>
+
+		<record id="unit_measures_48" model="product.unit_measures_fe">
+			<field name="code">48</field>
+			<field name="name">Carga De Automóviles A Granel</field>
+		</record>
+
+		<record id="unit_measures_53" model="product.unit_measures_fe">
+			<field name="code">53</field>
+			<field name="name">Kilogramos Teóricos</field>
+		</record>
+
+		<record id="unit_measures_54" model="product.unit_measures_fe">
+			<field name="code">54</field>
+			<field name="name">Tonelada Teórica</field>
+		</record>
+
+		<record id="unit_measures_56" model="product.unit_measures_fe">
+			<field name="code">56</field>
+			<field name="name">Sitas</field>
+		</record>
+
+		<record id="unit_measures_57" model="product.unit_measures_fe">
+			<field name="code">57</field>
+			<field name="name">Malla</field>
+		</record>
+
+		<record id="unit_measures_58" model="product.unit_measures_fe">
+			<field name="code">58</field>
+			<field name="name">Kilogramo Neto</field>
+		</record>
+
+		<record id="unit_measures_59" model="product.unit_measures_fe">
+			<field name="code">59</field>
+			<field name="name">Parte Por Millón</field>
+		</record>
+
+		<record id="unit_measures_60" model="product.unit_measures_fe">
+			<field name="code">60</field>
+			<field name="name">Porcentaje De Peso</field>
+		</record>
+
+		<record id="unit_measures_61" model="product.unit_measures_fe">
+			<field name="code">61</field>
+			<field name="name">Parte Por Billón (Us)</field>
+		</record>
+
+		<record id="unit_measures_62" model="product.unit_measures_fe">
+			<field name="code">62</field>
+			<field name="name">Porcentaje Por 1000 Horas</field>
+		</record>
+
+		<record id="unit_measures_63" model="product.unit_measures_fe">
+			<field name="code">63</field>
+			<field name="name">Tasa De Fracaso En El Tiempo</field>
+		</record>
+
+		<record id="unit_measures_64" model="product.unit_measures_fe">
+			<field name="code">64</field>
+			<field name="name">Libra Por Pulgada Cuadrada, Calibre</field>
+		</record>
+
+		<record id="unit_measures_66" model="product.unit_measures_fe">
+			<field name="code">66</field>
+			<field name="name">Oersted</field>
+		</record>
+
+		<record id="unit_measures_69" model="product.unit_measures_fe">
+			<field name="code">69</field>
+			<field name="name">Prueba De Escala Específica</field>
+		</record>
+
+		<record id="unit_measures_71" model="product.unit_measures_fe">
+			<field name="code">71</field>
+			<field name="name">Voltio Amperio Por Libra</field>
+		</record>
+
+		<record id="unit_measures_72" model="product.unit_measures_fe">
+			<field name="code">72</field>
+			<field name="name">Vatio Por Libra</field>
+		</record>
+
+		<record id="unit_measures_73" model="product.unit_measures_fe">
+			<field name="code">73</field>
+			<field name="name">Amperio Tum Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_74" model="product.unit_measures_fe">
+			<field name="code">74</field>
+			<field name="name">Milipascal</field>
+		</record>
+
+		<record id="unit_measures_76" model="product.unit_measures_fe">
+			<field name="code">76</field>
+			<field name="name">Gauss</field>
+		</record>
+
+		<record id="unit_measures_77" model="product.unit_measures_fe">
+			<field name="code">77</field>
+			<field name="name">Mili Pulgadas</field>
+		</record>
+
+		<record id="unit_measures_78" model="product.unit_measures_fe">
+			<field name="code">78</field>
+			<field name="name">Kilogauss</field>
+		</record>
+
+		<record id="unit_measures_80" model="product.unit_measures_fe">
+			<field name="code">80</field>
+			<field name="name">Libras Por Pulgada Cuadrada Absoluta</field>
+		</record>
+
+		<record id="unit_measures_81" model="product.unit_measures_fe">
+			<field name="code">81</field>
+			<field name="name">Enrique</field>
+		</record>
+
+		<record id="unit_measures_84" model="product.unit_measures_fe">
+			<field name="code">84</field>
+			<field name="name">Kilopound Por Pulgada Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_85" model="product.unit_measures_fe">
+			<field name="code">85</field>
+			<field name="name">Fuerza Libra Pie</field>
+		</record>
+
+		<record id="unit_measures_87" model="product.unit_measures_fe">
+			<field name="code">87</field>
+			<field name="name">Libra Por Pie Cúbico</field>
+		</record>
+
+		<record id="unit_measures_89" model="product.unit_measures_fe">
+			<field name="code">89</field>
+			<field name="name">Equilibrio</field>
+		</record>
+
+		<record id="unit_measures_90" model="product.unit_measures_fe">
+			<field name="code">90</field>
+			<field name="name">Saybold Segundo Universal</field>
+		</record>
+
+		<record id="unit_measures_91" model="product.unit_measures_fe">
+			<field name="code">91</field>
+			<field name="name">Alimenta</field>
+		</record>
+
+		<record id="unit_measures_92" model="product.unit_measures_fe">
+			<field name="code">92</field>
+			<field name="name">Calorías Por Centímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_93" model="product.unit_measures_fe">
+			<field name="code">93</field>
+			<field name="name">Calorías Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_94" model="product.unit_measures_fe">
+			<field name="code">94</field>
+			<field name="name">Unidad</field>
+		</record>
+
+		<record id="unit_measures_95" model="product.unit_measures_fe">
+			<field name="code">95</field>
+			<field name="name">Veinte Mil Galones (Us) De Carros</field>
+		</record>
+
+		<record id="unit_measures_96" model="product.unit_measures_fe">
+			<field name="code">96</field>
+			<field name="name">Diez Mil Galones (Us) De Carros</field>
+		</record>
+
+		<record id="unit_measures_97" model="product.unit_measures_fe">
+			<field name="code">97</field>
+			<field name="name">Tambor De Diez Kg</field>
+		</record>
+
+		<record id="unit_measures_98" model="product.unit_measures_fe">
+			<field name="code">98</field>
+			<field name="name">Tambor De Quince Kg</field>
+		</record>
+
+		<record id="unit_measures_1ª" model="product.unit_measures_fe">
+			<field name="code">1ª</field>
+			<field name="name">Milla De Coche</field>
+		</record>
+
+		<record id="unit_measures_1B" model="product.unit_measures_fe">
+			<field name="code">1B</field>
+			<field name="name">Recuento De Coches</field>
+		</record>
+
+		<record id="unit_measures_1C" model="product.unit_measures_fe">
+			<field name="code">1C</field>
+			<field name="name">Recuento De Locomotoras</field>
+		</record>
+
+		<record id="unit_measures_1D" model="product.unit_measures_fe">
+			<field name="code">1D</field>
+			<field name="name">Recuento De Cabos</field>
+		</record>
+
+		<record id="unit_measures_1E" model="product.unit_measures_fe">
+			<field name="code">1E</field>
+			<field name="name">Carro Vacio</field>
+		</record>
+
+		<record id="unit_measures_1F" model="product.unit_measures_fe">
+			<field name="code">1F</field>
+			<field name="name">Millas De Tren</field>
+		</record>
+
+		<record id="unit_measures_1G" model="product.unit_measures_fe">
+			<field name="code">1G</field>
+			<field name="name">Uso De Combustible Galón (Us)</field>
+		</record>
+
+		<record id="unit_measures_1H" model="product.unit_measures_fe">
+			<field name="code">1H</field>
+			<field name="name">Milla Del Caboose</field>
+		</record>
+
+		<record id="unit_measures_1I" model="product.unit_measures_fe">
+			<field name="code">1I</field>
+			<field name="name">Tipo De Interés Fijo</field>
+		</record>
+
+		<record id="unit_measures_1J" model="product.unit_measures_fe">
+			<field name="code">1J</field>
+			<field name="name">Tonelada Milla</field>
+		</record>
+
+		<record id="unit_measures_1K" model="product.unit_measures_fe">
+			<field name="code">1K</field>
+			<field name="name">Milla Locomotora</field>
+		</record>
+
+		<record id="unit_measures_1L" model="product.unit_measures_fe">
+			<field name="code">1L</field>
+			<field name="name">Recuento Total De Coches</field>
+		</record>
+
+		<record id="unit_measures_1M" model="product.unit_measures_fe">
+			<field name="code">1M</field>
+			<field name="name">Milla De Coche Total</field>
+		</record>
+
+		<record id="unit_measures_1X" model="product.unit_measures_fe">
+			<field name="code">1X</field>
+			<field name="name">Cuarto De Milla</field>
+		</record>
+
+		<record id="unit_measures_2ª" model="product.unit_measures_fe">
+			<field name="code">2ª</field>
+			<field name="name">Radianes Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_2B" model="product.unit_measures_fe">
+			<field name="code">2B</field>
+			<field name="name">Radianes Por Segundo Al Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_2C" model="product.unit_measures_fe">
+			<field name="code">2C</field>
+			<field name="name">Röntgen</field>
+		</record>
+
+		<record id="unit_measures_2I" model="product.unit_measures_fe">
+			<field name="code">2I</field>
+			<field name="name">Unidad Térmica Británica Por Hora.</field>
+		</record>
+
+		<record id="unit_measures_2J" model="product.unit_measures_fe">
+			<field name="code">2J</field>
+			<field name="name">Centímetro Cúbico Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_2K" model="product.unit_measures_fe">
+			<field name="code">2K</field>
+			<field name="name">Pie Cúbico Por Hora</field>
+		</record>
+
+		<record id="unit_measures_2L" model="product.unit_measures_fe">
+			<field name="code">2L</field>
+			<field name="name">Pie Cúbico Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_2M" model="product.unit_measures_fe">
+			<field name="code">2M</field>
+			<field name="name">Centímetro Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_2N" model="product.unit_measures_fe">
+			<field name="code">2N</field>
+			<field name="name">Decibel</field>
+		</record>
+
+		<record id="unit_measures_2P" model="product.unit_measures_fe">
+			<field name="code">2P</field>
+			<field name="name">Kilobyte</field>
+		</record>
+
+		<record id="unit_measures_2Q" model="product.unit_measures_fe">
+			<field name="code">2Q</field>
+			<field name="name">Kilobecquerel</field>
+		</record>
+
+		<record id="unit_measures_2R" model="product.unit_measures_fe">
+			<field name="code">2R</field>
+			<field name="name">Kilocurie</field>
+		</record>
+
+		<record id="unit_measures_2U" model="product.unit_measures_fe">
+			<field name="code">2U</field>
+			<field name="name">Megagramo</field>
+		</record>
+
+		<record id="unit_measures_2V" model="product.unit_measures_fe">
+			<field name="code">2V</field>
+			<field name="name">Megagramo Por Hora</field>
+		</record>
+
+		<record id="unit_measures_2W" model="product.unit_measures_fe">
+			<field name="code">2W</field>
+			<field name="name">Compartimiento</field>
+		</record>
+
+		<record id="unit_measures_2X" model="product.unit_measures_fe">
+			<field name="code">2X</field>
+			<field name="name">Metro Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_2Y" model="product.unit_measures_fe">
+			<field name="code">2Y</field>
+			<field name="name">Milliröntgen</field>
+		</record>
+
+		<record id="unit_measures_2Z" model="product.unit_measures_fe">
+			<field name="code">2Z</field>
+			<field name="name">Milivoltios</field>
+		</record>
+
+		<record id="unit_measures_3B" model="product.unit_measures_fe">
+			<field name="code">3B</field>
+			<field name="name">Megajulio</field>
+		</record>
+
+		<record id="unit_measures_3C" model="product.unit_measures_fe">
+			<field name="code">3C</field>
+			<field name="name">Manmonth</field>
+		</record>
+
+		<record id="unit_measures_3E" model="product.unit_measures_fe">
+			<field name="code">3E</field>
+			<field name="name">Libra Por Libra De Producto</field>
+		</record>
+
+		<record id="unit_measures_3G" model="product.unit_measures_fe">
+			<field name="code">3G</field>
+			<field name="name">Libra Por Pieza De Producto</field>
+		</record>
+
+		<record id="unit_measures_3H" model="product.unit_measures_fe">
+			<field name="code">3H</field>
+			<field name="name">Kilogramo Por Kilogramo De Producto</field>
+		</record>
+
+		<record id="unit_measures_3I" model="product.unit_measures_fe">
+			<field name="code">3I</field>
+			<field name="name">Kilogramo Por Pieza De Producto</field>
+		</record>
+
+		<record id="unit_measures_4ª" model="product.unit_measures_fe">
+			<field name="code">4ª</field>
+			<field name="name">Bobina</field>
+		</record>
+
+		<record id="unit_measures_4B" model="product.unit_measures_fe">
+			<field name="code">4B</field>
+			<field name="name">Gorra</field>
+		</record>
+
+		<record id="unit_measures_4C" model="product.unit_measures_fe">
+			<field name="code">4C</field>
+			<field name="name">Centistokes</field>
+		</record>
+
+		<record id="unit_measures_4E" model="product.unit_measures_fe">
+			<field name="code">4E</field>
+			<field name="name">Paquete De Veinte</field>
+		</record>
+
+		<record id="unit_measures_4G" model="product.unit_measures_fe">
+			<field name="code">4G</field>
+			<field name="name">Microlitro</field>
+		</record>
+
+		<record id="unit_measures_4H" model="product.unit_measures_fe">
+			<field name="code">4H</field>
+			<field name="name">Micrometro</field>
+		</record>
+
+		<record id="unit_measures_4K" model="product.unit_measures_fe">
+			<field name="code">4K</field>
+			<field name="name">Miliamperio</field>
+		</record>
+
+		<record id="unit_measures_4L" model="product.unit_measures_fe">
+			<field name="code">4L</field>
+			<field name="name">Megabyte</field>
+		</record>
+
+		<record id="unit_measures_4M" model="product.unit_measures_fe">
+			<field name="code">4M</field>
+			<field name="name">Miligramo Por Hora</field>
+		</record>
+
+		<record id="unit_measures_4N" model="product.unit_measures_fe">
+			<field name="code">4N</field>
+			<field name="name">Megabecquerel</field>
+		</record>
+
+		<record id="unit_measures_4º" model="product.unit_measures_fe">
+			<field name="code">4º</field>
+			<field name="name">Microfarad</field>
+		</record>
+
+		<record id="unit_measures_4P" model="product.unit_measures_fe">
+			<field name="code">4P</field>
+			<field name="name">Newton Por Metro</field>
+		</record>
+
+		<record id="unit_measures_4Q" model="product.unit_measures_fe">
+			<field name="code">4Q</field>
+			<field name="name">Onza Pulgada</field>
+		</record>
+
+		<record id="unit_measures_4R" model="product.unit_measures_fe">
+			<field name="code">4R</field>
+			<field name="name">Pie Onza</field>
+		</record>
+
+		<record id="unit_measures_4T" model="product.unit_measures_fe">
+			<field name="code">4T</field>
+			<field name="name">Picofarad</field>
+		</record>
+
+		<record id="unit_measures_4U" model="product.unit_measures_fe">
+			<field name="code">4U</field>
+			<field name="name">Libra Por Hora</field>
+		</record>
+
+		<record id="unit_measures_4W" model="product.unit_measures_fe">
+			<field name="code">4W</field>
+			<field name="name">Tonelada (Us) Por Hora</field>
+		</record>
+
+		<record id="unit_measures_4X" model="product.unit_measures_fe">
+			<field name="code">4X</field>
+			<field name="name">Kilolitro Por Hora</field>
+		</record>
+
+		<record id="unit_measures_5ª" model="product.unit_measures_fe">
+			<field name="code">5ª</field>
+			<field name="name">Barril Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_5B" model="product.unit_measures_fe">
+			<field name="code">5B</field>
+			<field name="name">Lote</field>
+		</record>
+
+		<record id="unit_measures_5C" model="product.unit_measures_fe">
+			<field name="code">5C</field>
+			<field name="name">Galón (Us) Por Mil</field>
+		</record>
+
+		<record id="unit_measures_5E" model="product.unit_measures_fe">
+			<field name="code">5E</field>
+			<field name="name">Mmscf / Día</field>
+		</record>
+
+		<record id="unit_measures_5F" model="product.unit_measures_fe">
+			<field name="code">5F</field>
+			<field name="name">Libras Por Mil</field>
+		</record>
+
+		<record id="unit_measures_5G" model="product.unit_measures_fe">
+			<field name="code">5G</field>
+			<field name="name">Bomba</field>
+		</record>
+
+		<record id="unit_measures_5H" model="product.unit_measures_fe">
+			<field name="code">5H</field>
+			<field name="name">Escenario</field>
+		</record>
+
+		<record id="unit_measures_5I" model="product.unit_measures_fe">
+			<field name="code">5I</field>
+			<field name="name">Pie Cúbico Estándar</field>
+		</record>
+
+		<record id="unit_measures_5J" model="product.unit_measures_fe">
+			<field name="code">5J</field>
+			<field name="name">Potencia Hidráulica De Caballos</field>
+		</record>
+
+		<record id="unit_measures_5K" model="product.unit_measures_fe">
+			<field name="code">5K</field>
+			<field name="name">Contar Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_5P" model="product.unit_measures_fe">
+			<field name="code">5P</field>
+			<field name="name">Nivel Sismico</field>
+		</record>
+
+		<record id="unit_measures_5Q" model="product.unit_measures_fe">
+			<field name="code">5Q</field>
+			<field name="name">Nfor Sismica</field>
+		</record>
+
+		<record id="unit_measures_A1" model="product.unit_measures_fe">
+			<field name="code">A1</field>
+			<field name="name">15 Calorías C</field>
+		</record>
+
+		<record id="unit_measures_A10" model="product.unit_measures_fe">
+			<field name="code">A10</field>
+			<field name="name">Amperio Metro Cuadrado Por Joule Segundo</field>
+		</record>
+
+		<record id="unit_measures_A11" model="product.unit_measures_fe">
+			<field name="code">A11</field>
+			<field name="name">Ã ¥ Ngström</field>
+		</record>
+
+		<record id="unit_measures_A12" model="product.unit_measures_fe">
+			<field name="code">A12</field>
+			<field name="name">Unidad Astronómica</field>
+		</record>
+
+		<record id="unit_measures_A13" model="product.unit_measures_fe">
+			<field name="code">A13</field>
+			<field name="name">Attojoule</field>
+		</record>
+
+		<record id="unit_measures_A14" model="product.unit_measures_fe">
+			<field name="code">A14</field>
+			<field name="name">Granero</field>
+		</record>
+
+		<record id="unit_measures_A15" model="product.unit_measures_fe">
+			<field name="code">A15</field>
+			<field name="name">Granero Por Electrón Voltio</field>
+		</record>
+
+		<record id="unit_measures_A16" model="product.unit_measures_fe">
+			<field name="code">A16</field>
+			<field name="name">Granero Por Voltio De Electrones Esteradiano,</field>
+		</record>
+
+		<record id="unit_measures_A17" model="product.unit_measures_fe">
+			<field name="code">A17</field>
+			<field name="name">Granero Por Sterdian</field>
+		</record>
+
+		<record id="unit_measures_A18" model="product.unit_measures_fe">
+			<field name="code">A18</field>
+			<field name="name">Becquerel Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_A19" model="product.unit_measures_fe">
+			<field name="code">A19</field>
+			<field name="name">Becquerel Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A2" model="product.unit_measures_fe">
+			<field name="code">A2</field>
+			<field name="name">Amperio Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_A20" model="product.unit_measures_fe">
+			<field name="code">A20</field>
+			<field name="name">Unidad Térmica Británica Por Segundo Pie Cuadrado Grado Rankin</field>
+		</record>
+
+		<record id="unit_measures_A21" model="product.unit_measures_fe">
+			<field name="code">A21</field>
+			<field name="name">Unidad Térmica Británica Por Libra Grado Rankin</field>
+		</record>
+
+		<record id="unit_measures_A22" model="product.unit_measures_fe">
+			<field name="code">A22</field>
+			<field name="name">Unidad Térmica Británica Por Segundo Pie Grado Rankin</field>
+		</record>
+
+		<record id="unit_measures_A23" model="product.unit_measures_fe">
+			<field name="code">A23</field>
+			<field name="name">Unidad Térmica Británica Por Hora Pie Cuadrado Grado Rankin</field>
+		</record>
+
+		<record id="unit_measures_A24" model="product.unit_measures_fe">
+			<field name="code">A24</field>
+			<field name="name">Candela Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A25" model="product.unit_measures_fe">
+			<field name="code">A25</field>
+			<field name="name">Cheval Vapeur</field>
+		</record>
+
+		<record id="unit_measures_A26" model="product.unit_measures_fe">
+			<field name="code">A26</field>
+			<field name="name">Medidor De Culombio</field>
+		</record>
+
+		<record id="unit_measures_A27" model="product.unit_measures_fe">
+			<field name="code">A27</field>
+			<field name="name">Medidor De Culombio Al Cuadrado Por Voltio</field>
+		</record>
+
+		<record id="unit_measures_A28" model="product.unit_measures_fe">
+			<field name="code">A28</field>
+			<field name="name">Coulomb Por Centímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A29" model="product.unit_measures_fe">
+			<field name="code">A29</field>
+			<field name="name">Coulomb Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A3" model="product.unit_measures_fe">
+			<field name="code">A3</field>
+			<field name="name">Amperio Por Milímetro</field>
+		</record>
+
+		<record id="unit_measures_A30" model="product.unit_measures_fe">
+			<field name="code">A30</field>
+			<field name="name">Coulomb Por Milímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A31" model="product.unit_measures_fe">
+			<field name="code">A31</field>
+			<field name="name">Coulomb Por Kilogramo Segundo</field>
+		</record>
+
+		<record id="unit_measures_A32" model="product.unit_measures_fe">
+			<field name="code">A32</field>
+			<field name="name">Coulomb Por Mol</field>
+		</record>
+
+		<record id="unit_measures_A33" model="product.unit_measures_fe">
+			<field name="code">A33</field>
+			<field name="name">Coulomb Por Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A34" model="product.unit_measures_fe">
+			<field name="code">A34</field>
+			<field name="name">Coulomb Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A35" model="product.unit_measures_fe">
+			<field name="code">A35</field>
+			<field name="name">Coulomb Por Milímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A36" model="product.unit_measures_fe">
+			<field name="code">A36</field>
+			<field name="name">Centímetro Cúbico Por Mol</field>
+		</record>
+
+		<record id="unit_measures_A37" model="product.unit_measures_fe">
+			<field name="code">A37</field>
+			<field name="name">Nformaci Cúbico Por Mol</field>
+		</record>
+
+		<record id="unit_measures_A38" model="product.unit_measures_fe">
+			<field name="code">A38</field>
+			<field name="name">Metro Cúbico Por Coulomb</field>
+		</record>
+
+		<record id="unit_measures_A39" model="product.unit_measures_fe">
+			<field name="code">A39</field>
+			<field name="name">Metro Cúbico Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_A4" model="product.unit_measures_fe">
+			<field name="code">A4</field>
+			<field name="name">Amperio Por Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A40" model="product.unit_measures_fe">
+			<field name="code">A40</field>
+			<field name="name">Metro Cúbico Por Mol</field>
+		</record>
+
+		<record id="unit_measures_A41" model="product.unit_measures_fe">
+			<field name="code">A41</field>
+			<field name="name">Amperio Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A42" model="product.unit_measures_fe">
+			<field name="code">A42</field>
+			<field name="name">Curie Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_A43" model="product.unit_measures_fe">
+			<field name="code">A43</field>
+			<field name="name">Tonelaje De Peso Muerto</field>
+		</record>
+
+		<record id="unit_measures_A44" model="product.unit_measures_fe">
+			<field name="code">A44</field>
+			<field name="name">Decalitro</field>
+		</record>
+
+		<record id="unit_measures_A45" model="product.unit_measures_fe">
+			<field name="code">A45</field>
+			<field name="name">Decámetro</field>
+		</record>
+
+		<record id="unit_measures_A47" model="product.unit_measures_fe">
+			<field name="code">A47</field>
+			<field name="name">Decitex</field>
+		</record>
+
+		<record id="unit_measures_A48" model="product.unit_measures_fe">
+			<field name="code">A48</field>
+			<field name="name">Grado Rankin</field>
+		</record>
+
+		<record id="unit_measures_A49" model="product.unit_measures_fe">
+			<field name="code">A49</field>
+			<field name="name">Negador</field>
+		</record>
+
+		<record id="unit_measures_A5" model="product.unit_measures_fe">
+			<field name="code">A5</field>
+			<field name="name">Amperio Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A50" model="product.unit_measures_fe">
+			<field name="code">A50</field>
+			<field name="name">Dyn Segundo Por Centímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A51" model="product.unit_measures_fe">
+			<field name="code">A51</field>
+			<field name="name">Dina Segundo Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_A52" model="product.unit_measures_fe">
+			<field name="code">A52</field>
+			<field name="name">Dina Segundo Por Centímetro Al Quinto</field>
+		</record>
+
+		<record id="unit_measures_A53" model="product.unit_measures_fe">
+			<field name="code">A53</field>
+			<field name="name">Electronvolt</field>
+		</record>
+
+		<record id="unit_measures_A54" model="product.unit_measures_fe">
+			<field name="code">A54</field>
+			<field name="name">Electronvoltio Por Metro</field>
+		</record>
+
+		<record id="unit_measures_A55" model="product.unit_measures_fe">
+			<field name="code">A55</field>
+			<field name="name">Metro Electronvolt Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A56" model="product.unit_measures_fe">
+			<field name="code">A56</field>
+			<field name="name">Electronvoltio De Metro Cuadrado Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_A57" model="product.unit_measures_fe">
+			<field name="code">A57</field>
+			<field name="name">Ergio</field>
+		</record>
+
+		<record id="unit_measures_A58" model="product.unit_measures_fe">
+			<field name="code">A58</field>
+			<field name="name">Erg Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_A6" model="product.unit_measures_fe">
+			<field name="code">A6</field>
+			<field name="name">Amperio Por Metro Cuadrado Kelvin Al Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A60" model="product.unit_measures_fe">
+			<field name="code">A60</field>
+			<field name="name">Erg Por Centímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A61" model="product.unit_measures_fe">
+			<field name="code">A61</field>
+			<field name="name">Erg Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_A62" model="product.unit_measures_fe">
+			<field name="code">A62</field>
+			<field name="name">Erg Por Gramo De Segundo</field>
+		</record>
+
+		<record id="unit_measures_A63" model="product.unit_measures_fe">
+			<field name="code">A63</field>
+			<field name="name">Erg Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_A64" model="product.unit_measures_fe">
+			<field name="code">A64</field>
+			<field name="name">Erg Por Segundo Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A65" model="product.unit_measures_fe">
+			<field name="code">A65</field>
+			<field name="name">Erg Por Centímetro Cuadrado Segundo</field>
+		</record>
+
+		<record id="unit_measures_A66" model="product.unit_measures_fe">
+			<field name="code">A66</field>
+			<field name="name">Erg Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A67" model="product.unit_measures_fe">
+			<field name="code">A67</field>
+			<field name="name">Ergímetro Cuadrado Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_A68" model="product.unit_measures_fe">
+			<field name="code">A68</field>
+			<field name="name">Exajulio</field>
+		</record>
+
+		<record id="unit_measures_A69" model="product.unit_measures_fe">
+			<field name="code">A69</field>
+			<field name="name">Faradio Por Metro</field>
+		</record>
+
+		<record id="unit_measures_A7" model="product.unit_measures_fe">
+			<field name="code">A7</field>
+			<field name="name">Amperio Por Milímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A70" model="product.unit_measures_fe">
+			<field name="code">A70</field>
+			<field name="name">Femtojoule</field>
+		</record>
+
+		<record id="unit_measures_A71" model="product.unit_measures_fe">
+			<field name="code">A71</field>
+			<field name="name">Femtometro</field>
+		</record>
+
+		<record id="unit_measures_A73" model="product.unit_measures_fe">
+			<field name="code">A73</field>
+			<field name="name">Pie Por Segundo Al Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_A74" model="product.unit_measures_fe">
+			<field name="code">A74</field>
+			<field name="name">Pie-Fuerza De La Libra Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_A75" model="product.unit_measures_fe">
+			<field name="code">A75</field>
+			<field name="name">Tonelada De Carga</field>
+		</record>
+
+		<record id="unit_measures_A76" model="product.unit_measures_fe">
+			<field name="code">A76</field>
+			<field name="name">Galón</field>
+		</record>
+
+		<record id="unit_measures_A77" model="product.unit_measures_fe">
+			<field name="code">A77</field>
+			<field name="name">Unidad De Desplazamiento Cgs Gaussiana</field>
+		</record>
+
+		<record id="unit_measures_A78" model="product.unit_measures_fe">
+			<field name="code">A78</field>
+			<field name="name">Unidad Gaussiana Cgs De Corriente Eléctrica.</field>
+		</record>
+
+		<record id="unit_measures_A79" model="product.unit_measures_fe">
+			<field name="code">A79</field>
+			<field name="name">Unidad Gaussian Cgs De Carga Eléctrica.</field>
+		</record>
+
+		<record id="unit_measures_A8" model="product.unit_measures_fe">
+			<field name="code">A8</field>
+			<field name="name">Amperio Segundo</field>
+		</record>
+
+		<record id="unit_measures_A80" model="product.unit_measures_fe">
+			<field name="code">A80</field>
+			<field name="name">Unidad Gaussian Cgs De Intensidad De Campo Eléctrico.</field>
+		</record>
+
+		<record id="unit_measures_A81" model="product.unit_measures_fe">
+			<field name="code">A81</field>
+			<field name="name">Unidad Gaussian Cgs De Polarización Eléctrica.</field>
+		</record>
+
+		<record id="unit_measures_A82" model="product.unit_measures_fe">
+			<field name="code">A82</field>
+			<field name="name">Unidad Gaussian Cgs De Potencial Eléctrico.</field>
+		</record>
+
+		<record id="unit_measures_A83" model="product.unit_measures_fe">
+			<field name="code">A83</field>
+			<field name="name">Unidad Gaussiana Cgs De Magnetización.</field>
+		</record>
+
+		<record id="unit_measures_A84" model="product.unit_measures_fe">
+			<field name="code">A84</field>
+			<field name="name">Gigacoulomb Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A85" model="product.unit_measures_fe">
+			<field name="code">A85</field>
+			<field name="name">Gigaelectronvolt</field>
+		</record>
+
+		<record id="unit_measures_A86" model="product.unit_measures_fe">
+			<field name="code">A86</field>
+			<field name="name">Gigahercios</field>
+		</record>
+
+		<record id="unit_measures_A87" model="product.unit_measures_fe">
+			<field name="code">A87</field>
+			<field name="name">Gigaohm</field>
+		</record>
+
+		<record id="unit_measures_A88" model="product.unit_measures_fe">
+			<field name="code">A88</field>
+			<field name="name">Medidor De Gigaohm</field>
+		</record>
+
+		<record id="unit_measures_A89" model="product.unit_measures_fe">
+			<field name="code">A89</field>
+			<field name="name">Gigapascal</field>
+		</record>
+
+		<record id="unit_measures_A9" model="product.unit_measures_fe">
+			<field name="code">A9</field>
+			<field name="name">Tarifa</field>
+		</record>
+
+		<record id="unit_measures_A90" model="product.unit_measures_fe">
+			<field name="code">A90</field>
+			<field name="name">Gigavatios</field>
+		</record>
+
+		<record id="unit_measures_A91" model="product.unit_measures_fe">
+			<field name="code">A91</field>
+			<field name="name">Gon</field>
+		</record>
+
+		<record id="unit_measures_A93" model="product.unit_measures_fe">
+			<field name="code">A93</field>
+			<field name="name">Gramo Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_A94" model="product.unit_measures_fe">
+			<field name="code">A94</field>
+			<field name="name">Gramo Por Mol</field>
+		</record>
+
+		<record id="unit_measures_A95" model="product.unit_measures_fe">
+			<field name="code">A95</field>
+			<field name="name">Gris</field>
+		</record>
+
+		<record id="unit_measures_A96" model="product.unit_measures_fe">
+			<field name="code">A96</field>
+			<field name="name">Gris Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_A97" model="product.unit_measures_fe">
+			<field name="code">A97</field>
+			<field name="name">Hectopascal</field>
+		</record>
+
+		<record id="unit_measures_A98" model="product.unit_measures_fe">
+			<field name="code">A98</field>
+			<field name="name">Henry Por Metro</field>
+		</record>
+
+		<record id="unit_measures_AA" model="product.unit_measures_fe">
+			<field name="code">AA</field>
+			<field name="name">Bola</field>
+		</record>
+
+		<record id="unit_measures_AB" model="product.unit_measures_fe">
+			<field name="code">AB</field>
+			<field name="name">Paquete A Granel</field>
+		</record>
+
+		<record id="unit_measures_ACR" model="product.unit_measures_fe">
+			<field name="code">ACR</field>
+			<field name="name">Acre</field>
+		</record>
+
+		<record id="unit_measures_AD" model="product.unit_measures_fe">
+			<field name="code">AD</field>
+			<field name="name">Byte</field>
+		</record>
+
+		<record id="unit_measures_AE" model="product.unit_measures_fe">
+			<field name="code">AE</field>
+			<field name="name">Amperio Por Metro</field>
+		</record>
+
+		<record id="unit_measures_AH" model="product.unit_measures_fe">
+			<field name="code">AH</field>
+			<field name="name">Minuto Adicional</field>
+		</record>
+
+		<record id="unit_measures_AI" model="product.unit_measures_fe">
+			<field name="code">AI</field>
+			<field name="name">Minuto Promedio Por Llamada</field>
+		</record>
+
+		<record id="unit_measures_AJ" model="product.unit_measures_fe">
+			<field name="code">AJ</field>
+			<field name="name">Policía</field>
+		</record>
+
+		<record id="unit_measures_AK" model="product.unit_measures_fe">
+			<field name="code">AK</field>
+			<field name="name">Braza</field>
+		</record>
+
+		<record id="unit_measures_AL" model="product.unit_measures_fe">
+			<field name="code">AL</field>
+			<field name="name">Nfor De Acceso</field>
+		</record>
+
+		<record id="unit_measures_AM" model="product.unit_measures_fe">
+			<field name="code">AM</field>
+			<field name="name">Ampolla</field>
+		</record>
+
+		<record id="unit_measures_AMH" model="product.unit_measures_fe">
+			<field name="code">AMH</field>
+			<field name="name">Hora Amperio</field>
+		</record>
+
+		<record id="unit_measures_AMP" model="product.unit_measures_fe">
+			<field name="code">AMP</field>
+			<field name="name">Amperio</field>
+		</record>
+
+		<record id="unit_measures_ANA" model="product.unit_measures_fe">
+			<field name="code">ANA</field>
+			<field name="name">Año</field>
+		</record>
+
+		<record id="unit_measures_AP" model="product.unit_measures_fe">
+			<field name="code">AP</field>
+			<field name="name">Solo Libra De Aluminio</field>
+		</record>
+
+		<record id="unit_measures_APZ" model="product.unit_measures_fe">
+			<field name="code">APZ</field>
+			<field name="name">Onza Troy O Onza De Boticarios</field>
+		</record>
+
+		<record id="unit_measures_AQ" model="product.unit_measures_fe">
+			<field name="code">AQ</field>
+			<field name="name">Unidad De Factor Antihemofílico (Ahf)</field>
+		</record>
+
+		<record id="unit_measures_AR" model="product.unit_measures_fe">
+			<field name="code">AR</field>
+			<field name="name">Supositorio</field>
+		</record>
+
+		<record id="unit_measures_SON" model="product.unit_measures_fe">
+			<field name="code">SON</field>
+			<field name="name">Son</field>
+		</record>
+
+		<record id="unit_measures_COMO" model="product.unit_measures_fe">
+			<field name="code">COMO</field>
+			<field name="name">Surtido</field>
+		</record>
+
+		<record id="unit_measures_ASM" model="product.unit_measures_fe">
+			<field name="code">ASM</field>
+			<field name="name">Fuerza Alcohólica En Masa</field>
+		</record>
+
+		<record id="unit_measures_ASU" model="product.unit_measures_fe">
+			<field name="code">ASU</field>
+			<field name="name">Fuerza Alcohólica Por Volumen</field>
+		</record>
+
+		<record id="unit_measures_ATM" model="product.unit_measures_fe">
+			<field name="code">ATM</field>
+			<field name="name">Ambiente Estándar</field>
+		</record>
+
+		<record id="unit_measures_ATT" model="product.unit_measures_fe">
+			<field name="code">ATT</field>
+			<field name="name">Ambiente Técnico</field>
+		</record>
+
+		<record id="unit_measures_AV" model="product.unit_measures_fe">
+			<field name="code">AV</field>
+			<field name="name">Cápsula</field>
+		</record>
+
+		<record id="unit_measures_AW" model="product.unit_measures_fe">
+			<field name="code">AW</field>
+			<field name="name">Vial Lleno De Polvo</field>
+		</record>
+
+		<record id="unit_measures_SÍ" model="product.unit_measures_fe">
+			<field name="code">SÍ</field>
+			<field name="name">Montaje</field>
+		</record>
+
+		<record id="unit_measures_AZ" model="product.unit_measures_fe">
+			<field name="code">AZ</field>
+			<field name="name">Unidad Térmica Británica Por Libra</field>
+		</record>
+
+		<record id="unit_measures_B0" model="product.unit_measures_fe">
+			<field name="code">B0</field>
+			<field name="name">Btu Por Pie Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B1" model="product.unit_measures_fe">
+			<field name="code">B1</field>
+			<field name="name">Barril (Us) Por Día</field>
+		</record>
+
+		<record id="unit_measures_B11" model="product.unit_measures_fe">
+			<field name="code">B11</field>
+			<field name="name">Julios Por Kilogramo Kelvin</field>
+		</record>
+
+		<record id="unit_measures_B12" model="product.unit_measures_fe">
+			<field name="code">B12</field>
+			<field name="name">Julios Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B13" model="product.unit_measures_fe">
+			<field name="code">B13</field>
+			<field name="name">Julios Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B14" model="product.unit_measures_fe">
+			<field name="code">B14</field>
+			<field name="name">Julios Por Metro A La Cuarta Potencia</field>
+		</record>
+
+		<record id="unit_measures_B15" model="product.unit_measures_fe">
+			<field name="code">B15</field>
+			<field name="name">Julios Por Mol</field>
+		</record>
+
+		<record id="unit_measures_B16" model="product.unit_measures_fe">
+			<field name="code">B16</field>
+			<field name="name">Julios Por Mol Kelvin</field>
+		</record>
+
+		<record id="unit_measures_B18" model="product.unit_measures_fe">
+			<field name="code">B18</field>
+			<field name="name">Joule Segundo</field>
+		</record>
+
+		<record id="unit_measures_B2" model="product.unit_measures_fe">
+			<field name="code">B2</field>
+			<field name="name">Litera</field>
+		</record>
+
+		<record id="unit_measures_B20" model="product.unit_measures_fe">
+			<field name="code">B20</field>
+			<field name="name">Joule Metro Cuadrado Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_B21" model="product.unit_measures_fe">
+			<field name="code">B21</field>
+			<field name="name">Kelvin Por Vatio</field>
+		</record>
+
+		<record id="unit_measures_B22" model="product.unit_measures_fe">
+			<field name="code">B22</field>
+			<field name="name">Kiloampere</field>
+		</record>
+
+		<record id="unit_measures_B23" model="product.unit_measures_fe">
+			<field name="code">B23</field>
+			<field name="name">Kiloampere Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B24" model="product.unit_measures_fe">
+			<field name="code">B24</field>
+			<field name="name">Kiloampere Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B25" model="product.unit_measures_fe">
+			<field name="code">B25</field>
+			<field name="name">Kilobecquerel Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_B26" model="product.unit_measures_fe">
+			<field name="code">B26</field>
+			<field name="name">Kilocoulomb</field>
+		</record>
+
+		<record id="unit_measures_B27" model="product.unit_measures_fe">
+			<field name="code">B27</field>
+			<field name="name">Kilocoulomb Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B28" model="product.unit_measures_fe">
+			<field name="code">B28</field>
+			<field name="name">Kilocoulomb Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B29" model="product.unit_measures_fe">
+			<field name="code">B29</field>
+			<field name="name">Kiloelectronvolt</field>
+		</record>
+
+		<record id="unit_measures_B3" model="product.unit_measures_fe">
+			<field name="code">B3</field>
+			<field name="name">Libra De Bateo</field>
+		</record>
+
+		<record id="unit_measures_B31" model="product.unit_measures_fe">
+			<field name="code">B31</field>
+			<field name="name">Kilogramo Metro Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_B32" model="product.unit_measures_fe">
+			<field name="code">B32</field>
+			<field name="name">Kilogramo Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B33" model="product.unit_measures_fe">
+			<field name="code">B33</field>
+			<field name="name">Kilogramo Metro Cuadrado Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_B34" model="product.unit_measures_fe">
+			<field name="code">B34</field>
+			<field name="name">Kilogramo Por Decímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B35" model="product.unit_measures_fe">
+			<field name="code">B35</field>
+			<field name="name">Kilogramo Por Litro</field>
+		</record>
+
+		<record id="unit_measures_B36" model="product.unit_measures_fe">
+			<field name="code">B36</field>
+			<field name="name">Caloría Termoquímica Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_B37" model="product.unit_measures_fe">
+			<field name="code">B37</field>
+			<field name="name">Kilogramo De Fuerza</field>
+		</record>
+
+		<record id="unit_measures_B38" model="product.unit_measures_fe">
+			<field name="code">B38</field>
+			<field name="name">Metro De Fuerza De Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_B39" model="product.unit_measures_fe">
+			<field name="code">B39</field>
+			<field name="name">Metro De Fuerza De Kilogramo Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_B4" model="product.unit_measures_fe">
+			<field name="code">B4</field>
+			<field name="name">Barril, Imperial</field>
+		</record>
+
+		<record id="unit_measures_B40" model="product.unit_measures_fe">
+			<field name="code">B40</field>
+			<field name="name">Kilogramo De Fuerza Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B41" model="product.unit_measures_fe">
+			<field name="code">B41</field>
+			<field name="name">Kilojoule Per Kelvin</field>
+		</record>
+
+		<record id="unit_measures_B42" model="product.unit_measures_fe">
+			<field name="code">B42</field>
+			<field name="name">Kilojoule Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_B43" model="product.unit_measures_fe">
+			<field name="code">B43</field>
+			<field name="name">Kilojoule Por Kilogramo Kelvin</field>
+		</record>
+
+		<record id="unit_measures_B44" model="product.unit_measures_fe">
+			<field name="code">B44</field>
+			<field name="name">Kilojoule Por Mol</field>
+		</record>
+
+		<record id="unit_measures_B45" model="product.unit_measures_fe">
+			<field name="code">B45</field>
+			<field name="name">Kilomol</field>
+		</record>
+
+		<record id="unit_measures_B46" model="product.unit_measures_fe">
+			<field name="code">B46</field>
+			<field name="name">Kilomol Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B47" model="product.unit_measures_fe">
+			<field name="code">B47</field>
+			<field name="name">Kilonewton</field>
+		</record>
+
+		<record id="unit_measures_B48" model="product.unit_measures_fe">
+			<field name="code">B48</field>
+			<field name="name">Medidor De Kilonewton</field>
+		</record>
+
+		<record id="unit_measures_B49" model="product.unit_measures_fe">
+			<field name="code">B49</field>
+			<field name="name">Kiloohm</field>
+		</record>
+
+		<record id="unit_measures_B5" model="product.unit_measures_fe">
+			<field name="code">B5</field>
+			<field name="name">Palanquilla</field>
+		</record>
+
+		<record id="unit_measures_B50" model="product.unit_measures_fe">
+			<field name="code">B50</field>
+			<field name="name">Medidor De Kiloohm</field>
+		</record>
+
+		<record id="unit_measures_B51" model="product.unit_measures_fe">
+			<field name="code">B51</field>
+			<field name="name">Kilopond</field>
+		</record>
+
+		<record id="unit_measures_B52" model="product.unit_measures_fe">
+			<field name="code">B52</field>
+			<field name="name">Kilosegundo</field>
+		</record>
+
+		<record id="unit_measures_B53" model="product.unit_measures_fe">
+			<field name="code">B53</field>
+			<field name="name">Kilosiemens</field>
+		</record>
+
+		<record id="unit_measures_B54" model="product.unit_measures_fe">
+			<field name="code">B54</field>
+			<field name="name">Kilosiemens Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B55" model="product.unit_measures_fe">
+			<field name="code">B55</field>
+			<field name="name">Kilovoltios Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B56" model="product.unit_measures_fe">
+			<field name="code">B56</field>
+			<field name="name">Kiloveber Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B57" model="product.unit_measures_fe">
+			<field name="code">B57</field>
+			<field name="name">Año Luz</field>
+		</record>
+
+		<record id="unit_measures_B58" model="product.unit_measures_fe">
+			<field name="code">B58</field>
+			<field name="name">Litro Por Mol</field>
+		</record>
+
+		<record id="unit_measures_B59" model="product.unit_measures_fe">
+			<field name="code">B59</field>
+			<field name="name">Hora Lumen</field>
+		</record>
+
+		<record id="unit_measures_B6" model="product.unit_measures_fe">
+			<field name="code">B6</field>
+			<field name="name">Bollo</field>
+		</record>
+
+		<record id="unit_measures_B60" model="product.unit_measures_fe">
+			<field name="code">B60</field>
+			<field name="name">Lumen Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B61" model="product.unit_measures_fe">
+			<field name="code">B61</field>
+			<field name="name">Lumen Por Vatio</field>
+		</record>
+
+		<record id="unit_measures_B62" model="product.unit_measures_fe">
+			<field name="code">B62</field>
+			<field name="name">Lumen Segundo</field>
+		</record>
+
+		<record id="unit_measures_B63" model="product.unit_measures_fe">
+			<field name="code">B63</field>
+			<field name="name">Hora De Lux</field>
+		</record>
+
+		<record id="unit_measures_B64" model="product.unit_measures_fe">
+			<field name="code">B64</field>
+			<field name="name">Lux Segundo</field>
+		</record>
+
+		<record id="unit_measures_B65" model="product.unit_measures_fe">
+			<field name="code">B65</field>
+			<field name="name">Maxwell</field>
+		</record>
+
+		<record id="unit_measures_B66" model="product.unit_measures_fe">
+			<field name="code">B66</field>
+			<field name="name">Megaamperios Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B67" model="product.unit_measures_fe">
+			<field name="code">B67</field>
+			<field name="name">Megabecquerel Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_B69" model="product.unit_measures_fe">
+			<field name="code">B69</field>
+			<field name="name">Megacoulomb Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B7" model="product.unit_measures_fe">
+			<field name="code">B7</field>
+			<field name="name">Ciclo</field>
+		</record>
+
+		<record id="unit_measures_B70" model="product.unit_measures_fe">
+			<field name="code">B70</field>
+			<field name="name">Megacoulomb Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B71" model="product.unit_measures_fe">
+			<field name="code">B71</field>
+			<field name="name">Megaelectronvolt</field>
+		</record>
+
+		<record id="unit_measures_B72" model="product.unit_measures_fe">
+			<field name="code">B72</field>
+			<field name="name">Megagramo Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B73" model="product.unit_measures_fe">
+			<field name="code">B73</field>
+			<field name="name">Meganewton</field>
+		</record>
+
+		<record id="unit_measures_B74" model="product.unit_measures_fe">
+			<field name="code">B74</field>
+			<field name="name">Medidor De Meganewton</field>
+		</record>
+
+		<record id="unit_measures_B75" model="product.unit_measures_fe">
+			<field name="code">B75</field>
+			<field name="name">Megaohm</field>
+		</record>
+
+		<record id="unit_measures_B76" model="product.unit_measures_fe">
+			<field name="code">B76</field>
+			<field name="name">Metro Megaohm</field>
+		</record>
+
+		<record id="unit_measures_B77" model="product.unit_measures_fe">
+			<field name="code">B77</field>
+			<field name="name">Megasiemens Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B78" model="product.unit_measures_fe">
+			<field name="code">B78</field>
+			<field name="name">Megavoltio</field>
+		</record>
+
+		<record id="unit_measures_B79" model="product.unit_measures_fe">
+			<field name="code">B79</field>
+			<field name="name">Megavolt Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B8" model="product.unit_measures_fe">
+			<field name="code">B8</field>
+			<field name="name">Julios Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B81" model="product.unit_measures_fe">
+			<field name="code">B81</field>
+			<field name="name">Metro Recíproco Cuadrado Recíproco Segundo</field>
+		</record>
+
+		<record id="unit_measures_B83" model="product.unit_measures_fe">
+			<field name="code">B83</field>
+			<field name="name">Metro A La Cuarta Potencia</field>
+		</record>
+
+		<record id="unit_measures_B84" model="product.unit_measures_fe">
+			<field name="code">B84</field>
+			<field name="name">Microamperios</field>
+		</record>
+
+		<record id="unit_measures_B85" model="product.unit_measures_fe">
+			<field name="code">B85</field>
+			<field name="name">Microbar</field>
+		</record>
+
+		<record id="unit_measures_B86" model="product.unit_measures_fe">
+			<field name="code">B86</field>
+			<field name="name">Microcoulomb</field>
+		</record>
+
+		<record id="unit_measures_B87" model="product.unit_measures_fe">
+			<field name="code">B87</field>
+			<field name="name">Microcoulomb Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_B88" model="product.unit_measures_fe">
+			<field name="code">B88</field>
+			<field name="name">Microcoulomb Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_B89" model="product.unit_measures_fe">
+			<field name="code">B89</field>
+			<field name="name">Microfarada Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B9" model="product.unit_measures_fe">
+			<field name="code">B9</field>
+			<field name="name">Batt</field>
+		</record>
+
+		<record id="unit_measures_B90" model="product.unit_measures_fe">
+			<field name="code">B90</field>
+			<field name="name">Microhenry</field>
+		</record>
+
+		<record id="unit_measures_B91" model="product.unit_measures_fe">
+			<field name="code">B91</field>
+			<field name="name">Microhenry Por Metro</field>
+		</record>
+
+		<record id="unit_measures_B92" model="product.unit_measures_fe">
+			<field name="code">B92</field>
+			<field name="name">Micronewton</field>
+		</record>
+
+		<record id="unit_measures_B93" model="product.unit_measures_fe">
+			<field name="code">B93</field>
+			<field name="name">Medidor De Micronewton</field>
+		</record>
+
+		<record id="unit_measures_B94" model="product.unit_measures_fe">
+			<field name="code">B94</field>
+			<field name="name">Microohm</field>
+		</record>
+
+		<record id="unit_measures_B95" model="product.unit_measures_fe">
+			<field name="code">B95</field>
+			<field name="name">Medidor De Microohmios</field>
+		</record>
+
+		<record id="unit_measures_B96" model="product.unit_measures_fe">
+			<field name="code">B96</field>
+			<field name="name">Micropascal</field>
+		</record>
+
+		<record id="unit_measures_B97" model="product.unit_measures_fe">
+			<field name="code">B97</field>
+			<field name="name">Microradiano</field>
+		</record>
+
+		<record id="unit_measures_B98" model="product.unit_measures_fe">
+			<field name="code">B98</field>
+			<field name="name">Microsegundo</field>
+		</record>
+
+		<record id="unit_measures_B99" model="product.unit_measures_fe">
+			<field name="code">B99</field>
+			<field name="name">Microsiemens</field>
+		</record>
+
+		<record id="unit_measures_BAR" model="product.unit_measures_fe">
+			<field name="code">BAR</field>
+			<field name="name">Bar</field>
+		</record>
+
+		<record id="unit_measures_BB" model="product.unit_measures_fe">
+			<field name="code">BB</field>
+			<field name="name">Caja Base</field>
+		</record>
+
+		<record id="unit_measures_BD" model="product.unit_measures_fe">
+			<field name="code">BD</field>
+			<field name="name">Tablero</field>
+		</record>
+
+		<record id="unit_measures_SER" model="product.unit_measures_fe">
+			<field name="code">SER</field>
+			<field name="name">Haz</field>
+		</record>
+
+		<record id="unit_measures_BFT" model="product.unit_measures_fe">
+			<field name="code">BFT</field>
+			<field name="name">Pie De Tabla</field>
+		</record>
+
+		<record id="unit_measures_BG" model="product.unit_measures_fe">
+			<field name="code">BG</field>
+			<field name="name">Bolso</field>
+		</record>
+
+		<record id="unit_measures_BH" model="product.unit_measures_fe">
+			<field name="code">BH</field>
+			<field name="name">Cepillo</field>
+		</record>
+
+		<record id="unit_measures_BHP" model="product.unit_measures_fe">
+			<field name="code">BHP</field>
+			<field name="name">Potencia Al Freno</field>
+		</record>
+
+		<record id="unit_measures_BIL" model="product.unit_measures_fe">
+			<field name="code">BIL</field>
+			<field name="name">Trillón De Dólares</field>
+		</record>
+
+		<record id="unit_measures_BJ" model="product.unit_measures_fe">
+			<field name="code">BJ</field>
+			<field name="name">Cangilón</field>
+		</record>
+
+		<record id="unit_measures_BK" model="product.unit_measures_fe">
+			<field name="code">BK</field>
+			<field name="name">Cesta</field>
+		</record>
+
+		<record id="unit_measures_BL" model="product.unit_measures_fe">
+			<field name="code">BL</field>
+			<field name="name">Bala</field>
+		</record>
+
+		<record id="unit_measures_BLD" model="product.unit_measures_fe">
+			<field name="code">BLD</field>
+			<field name="name">Barril Seco</field>
+		</record>
+
+		<record id="unit_measures_BLL" model="product.unit_measures_fe">
+			<field name="code">BLL</field>
+			<field name="name">Barril (Ee. Uu.) (Petróleo, Etc.)</field>
+		</record>
+
+		<record id="unit_measures_BO" model="product.unit_measures_fe">
+			<field name="code">BO</field>
+			<field name="name">Botella</field>
+		</record>
+
+		<record id="unit_measures_BP" model="product.unit_measures_fe">
+			<field name="code">BP</field>
+			<field name="name">Cien Pies De Tabla</field>
+		</record>
+
+		<record id="unit_measures_BQL" model="product.unit_measures_fe">
+			<field name="code">BQL</field>
+			<field name="name">Becquerel</field>
+		</record>
+
+		<record id="unit_measures_BR" model="product.unit_measures_fe">
+			<field name="code">BR</field>
+			<field name="name">Bar</field>
+		</record>
+
+		<record id="unit_measures_BT" model="product.unit_measures_fe">
+			<field name="code">BT</field>
+			<field name="name">Tornillo</field>
+		</record>
+
+		<record id="unit_measures_BTU" model="product.unit_measures_fe">
+			<field name="code">BTU</field>
+			<field name="name">Unidad Térmica Británica</field>
+		</record>
+
+		<record id="unit_measures_BUA" model="product.unit_measures_fe">
+			<field name="code">BUA</field>
+			<field name="name">Bushel (Ee. Uu.)</field>
+		</record>
+
+		<record id="unit_measures_BUI" model="product.unit_measures_fe">
+			<field name="code">BUI</field>
+			<field name="name">Bushel (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_BW" model="product.unit_measures_fe">
+			<field name="code">BW</field>
+			<field name="name">Peso Base</field>
+		</record>
+
+		<record id="unit_measures_BX" model="product.unit_measures_fe">
+			<field name="code">BX</field>
+			<field name="name">Caja</field>
+		</record>
+
+		<record id="unit_measures_BZ" model="product.unit_measures_fe">
+			<field name="code">BZ</field>
+			<field name="name">Millones De Btus</field>
+		</record>
+
+		<record id="unit_measures_C0" model="product.unit_measures_fe">
+			<field name="code">C0</field>
+			<field name="name">Llamada</field>
+		</record>
+
+		<record id="unit_measures_C1" model="product.unit_measures_fe">
+			<field name="code">C1</field>
+			<field name="name">Producto Compuesto Libra (Peso Total)</field>
+		</record>
+
+		<record id="unit_measures_C10" model="product.unit_measures_fe">
+			<field name="code">C10</field>
+			<field name="name">Millifarad</field>
+		</record>
+
+		<record id="unit_measures_C11" model="product.unit_measures_fe">
+			<field name="code">C11</field>
+			<field name="name">Miligal</field>
+		</record>
+
+		<record id="unit_measures_C12" model="product.unit_measures_fe">
+			<field name="code">C12</field>
+			<field name="name">Miligramo Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C13" model="product.unit_measures_fe">
+			<field name="code">C13</field>
+			<field name="name">Miligray</field>
+		</record>
+
+		<record id="unit_measures_C14" model="product.unit_measures_fe">
+			<field name="code">C14</field>
+			<field name="name">Milihenry</field>
+		</record>
+
+		<record id="unit_measures_C15" model="product.unit_measures_fe">
+			<field name="code">C15</field>
+			<field name="name">Milijoule</field>
+		</record>
+
+		<record id="unit_measures_C16" model="product.unit_measures_fe">
+			<field name="code">C16</field>
+			<field name="name">Milímetro Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_C17" model="product.unit_measures_fe">
+			<field name="code">C17</field>
+			<field name="name">Milímetro Cuadrado Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_C18" model="product.unit_measures_fe">
+			<field name="code">C18</field>
+			<field name="name">Milimol</field>
+		</record>
+
+		<record id="unit_measures_C19" model="product.unit_measures_fe">
+			<field name="code">C19</field>
+			<field name="name">Mol Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_C2" model="product.unit_measures_fe">
+			<field name="code">C2</field>
+			<field name="name">Carset</field>
+		</record>
+
+		<record id="unit_measures_C20" model="product.unit_measures_fe">
+			<field name="code">C20</field>
+			<field name="name">Millinewton</field>
+		</record>
+
+		<record id="unit_measures_C22" model="product.unit_measures_fe">
+			<field name="code">C22</field>
+			<field name="name">Millinewton Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C23" model="product.unit_measures_fe">
+			<field name="code">C23</field>
+			<field name="name">Medidor De Miliohm</field>
+		</record>
+
+		<record id="unit_measures_C24" model="product.unit_measures_fe">
+			<field name="code">C24</field>
+			<field name="name">Segundo Milipascal</field>
+		</record>
+
+		<record id="unit_measures_C25" model="product.unit_measures_fe">
+			<field name="code">C25</field>
+			<field name="name">Miliradian</field>
+		</record>
+
+		<record id="unit_measures_C26" model="product.unit_measures_fe">
+			<field name="code">C26</field>
+			<field name="name">Milisegundo</field>
+		</record>
+
+		<record id="unit_measures_C27" model="product.unit_measures_fe">
+			<field name="code">C27</field>
+			<field name="name">Milisiemens</field>
+		</record>
+
+		<record id="unit_measures_C28" model="product.unit_measures_fe">
+			<field name="code">C28</field>
+			<field name="name">Milisievert</field>
+		</record>
+
+		<record id="unit_measures_C29" model="product.unit_measures_fe">
+			<field name="code">C29</field>
+			<field name="name">Millitesla</field>
+		</record>
+
+		<record id="unit_measures_C3" model="product.unit_measures_fe">
+			<field name="code">C3</field>
+			<field name="name">Microvoltios Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C30" model="product.unit_measures_fe">
+			<field name="code">C30</field>
+			<field name="name">Milivoltios Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C31" model="product.unit_measures_fe">
+			<field name="code">C31</field>
+			<field name="name">Milivatios</field>
+		</record>
+
+		<record id="unit_measures_C32" model="product.unit_measures_fe">
+			<field name="code">C32</field>
+			<field name="name">Milivatios Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_C33" model="product.unit_measures_fe">
+			<field name="code">C33</field>
+			<field name="name">Milliweber</field>
+		</record>
+
+		<record id="unit_measures_C34" model="product.unit_measures_fe">
+			<field name="code">C34</field>
+			<field name="name">Topo</field>
+		</record>
+
+		<record id="unit_measures_C35" model="product.unit_measures_fe">
+			<field name="code">C35</field>
+			<field name="name">Mol Por Decímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_C36" model="product.unit_measures_fe">
+			<field name="code">C36</field>
+			<field name="name">Mol Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_C38" model="product.unit_measures_fe">
+			<field name="code">C38</field>
+			<field name="name">Mol Por Litro</field>
+		</record>
+
+		<record id="unit_measures_C39" model="product.unit_measures_fe">
+			<field name="code">C39</field>
+			<field name="name">Nanoampere</field>
+		</record>
+
+		<record id="unit_measures_C4" model="product.unit_measures_fe">
+			<field name="code">C4</field>
+			<field name="name">Partido De Carga</field>
+		</record>
+
+		<record id="unit_measures_C40" model="product.unit_measures_fe">
+			<field name="code">C40</field>
+			<field name="name">Nanocoulomb</field>
+		</record>
+
+		<record id="unit_measures_C41" model="product.unit_measures_fe">
+			<field name="code">C41</field>
+			<field name="name">Nanofarad</field>
+		</record>
+
+		<record id="unit_measures_C42" model="product.unit_measures_fe">
+			<field name="code">C42</field>
+			<field name="name">Nanofarad Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C43" model="product.unit_measures_fe">
+			<field name="code">C43</field>
+			<field name="name">Nanohenry</field>
+		</record>
+
+		<record id="unit_measures_C44" model="product.unit_measures_fe">
+			<field name="code">C44</field>
+			<field name="name">Nanohenry Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C45" model="product.unit_measures_fe">
+			<field name="code">C45</field>
+			<field name="name">Nanometro</field>
+		</record>
+
+		<record id="unit_measures_C46" model="product.unit_measures_fe">
+			<field name="code">C46</field>
+			<field name="name">Medidor De Nanoohm</field>
+		</record>
+
+		<record id="unit_measures_C47" model="product.unit_measures_fe">
+			<field name="code">C47</field>
+			<field name="name">Nanosegundo</field>
+		</record>
+
+		<record id="unit_measures_C48" model="product.unit_measures_fe">
+			<field name="code">C48</field>
+			<field name="name">Nanotesla</field>
+		</record>
+
+		<record id="unit_measures_C49" model="product.unit_measures_fe">
+			<field name="code">C49</field>
+			<field name="name">Nanovatio</field>
+		</record>
+
+		<record id="unit_measures_C5" model="product.unit_measures_fe">
+			<field name="code">C5</field>
+			<field name="name">Costo</field>
+		</record>
+
+		<record id="unit_measures_C50" model="product.unit_measures_fe">
+			<field name="code">C50</field>
+			<field name="name">Neper</field>
+		</record>
+
+		<record id="unit_measures_C51" model="product.unit_measures_fe">
+			<field name="code">C51</field>
+			<field name="name">Neper Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_C52" model="product.unit_measures_fe">
+			<field name="code">C52</field>
+			<field name="name">Picometro</field>
+		</record>
+
+		<record id="unit_measures_C53" model="product.unit_measures_fe">
+			<field name="code">C53</field>
+			<field name="name">Metro De Newton Segundo</field>
+		</record>
+
+		<record id="unit_measures_C54" model="product.unit_measures_fe">
+			<field name="code">C54</field>
+			<field name="name">Newton Metro Cuadrado Kilogramo Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_C55" model="product.unit_measures_fe">
+			<field name="code">C55</field>
+			<field name="name">Newton Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_C56" model="product.unit_measures_fe">
+			<field name="code">C56</field>
+			<field name="name">Newton Por Milímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_C57" model="product.unit_measures_fe">
+			<field name="code">C57</field>
+			<field name="name">Newton Segundo</field>
+		</record>
+
+		<record id="unit_measures_C58" model="product.unit_measures_fe">
+			<field name="code">C58</field>
+			<field name="name">Newton Segundo Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C59" model="product.unit_measures_fe">
+			<field name="code">C59</field>
+			<field name="name">Octava</field>
+		</record>
+
+		<record id="unit_measures_C6" model="product.unit_measures_fe">
+			<field name="code">C6</field>
+			<field name="name">Célula</field>
+		</record>
+
+		<record id="unit_measures_C60" model="product.unit_measures_fe">
+			<field name="code">C60</field>
+			<field name="name">Ohm Centímetro</field>
+		</record>
+
+		<record id="unit_measures_C61" model="product.unit_measures_fe">
+			<field name="code">C61</field>
+			<field name="name">Ohm Metro</field>
+		</record>
+
+		<record id="unit_measures_C62" model="product.unit_measures_fe">
+			<field name="code">C62</field>
+			<field name="name">Uno</field>
+		</record>
+
+		<record id="unit_measures_C63" model="product.unit_measures_fe">
+			<field name="code">C63</field>
+			<field name="name">Parsec</field>
+		</record>
+
+		<record id="unit_measures_C64" model="product.unit_measures_fe">
+			<field name="code">C64</field>
+			<field name="name">Pascal Por Kelvin</field>
+		</record>
+
+		<record id="unit_measures_C65" model="product.unit_measures_fe">
+			<field name="code">C65</field>
+			<field name="name">Segundo Pascal</field>
+		</record>
+
+		<record id="unit_measures_C66" model="product.unit_measures_fe">
+			<field name="code">C66</field>
+			<field name="name">Segundo Pascal Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_C67" model="product.unit_measures_fe">
+			<field name="code">C67</field>
+			<field name="name">Segundo Pascal Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C68" model="product.unit_measures_fe">
+			<field name="code">C68</field>
+			<field name="name">Petajoule</field>
+		</record>
+
+		<record id="unit_measures_C69" model="product.unit_measures_fe">
+			<field name="code">C69</field>
+			<field name="name">Telefono</field>
+		</record>
+
+		<record id="unit_measures_C7" model="product.unit_measures_fe">
+			<field name="code">C7</field>
+			<field name="name">Centipoise</field>
+		</record>
+
+		<record id="unit_measures_C70" model="product.unit_measures_fe">
+			<field name="code">C70</field>
+			<field name="name">Picoampere</field>
+		</record>
+
+		<record id="unit_measures_C71" model="product.unit_measures_fe">
+			<field name="code">C71</field>
+			<field name="name">Picocoulomb</field>
+		</record>
+
+		<record id="unit_measures_C72" model="product.unit_measures_fe">
+			<field name="code">C72</field>
+			<field name="name">Picofarad Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C73" model="product.unit_measures_fe">
+			<field name="code">C73</field>
+			<field name="name">Picohenry</field>
+		</record>
+
+		<record id="unit_measures_C75" model="product.unit_measures_fe">
+			<field name="code">C75</field>
+			<field name="name">Picowatt</field>
+		</record>
+
+		<record id="unit_measures_C76" model="product.unit_measures_fe">
+			<field name="code">C76</field>
+			<field name="name">Picowatt Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_C77" model="product.unit_measures_fe">
+			<field name="code">C77</field>
+			<field name="name">Medidor De Libras</field>
+		</record>
+
+		<record id="unit_measures_C78" model="product.unit_measures_fe">
+			<field name="code">C78</field>
+			<field name="name">Fuerza De Libra</field>
+		</record>
+
+		<record id="unit_measures_C8" model="product.unit_measures_fe">
+			<field name="code">C8</field>
+			<field name="name">Millicoulomb Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_C80" model="product.unit_measures_fe">
+			<field name="code">C80</field>
+			<field name="name">Rad</field>
+		</record>
+
+		<record id="unit_measures_C81" model="product.unit_measures_fe">
+			<field name="code">C81</field>
+			<field name="name">Radián</field>
+		</record>
+
+		<record id="unit_measures_C82" model="product.unit_measures_fe">
+			<field name="code">C82</field>
+			<field name="name">Medidor De Radianes Al Cuadrado Por Mol</field>
+		</record>
+
+		<record id="unit_measures_C83" model="product.unit_measures_fe">
+			<field name="code">C83</field>
+			<field name="name">Medidor De Radianes Al Cuadrado Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_C84" model="product.unit_measures_fe">
+			<field name="code">C84</field>
+			<field name="name">Radian Por Metro</field>
+		</record>
+
+		<record id="unit_measures_C85" model="product.unit_measures_fe">
+			<field name="code">C85</field>
+			<field name="name">Â € Ngstr Recíproco “M</field>
+		</record>
+
+		<record id="unit_measures_C86" model="product.unit_measures_fe">
+			<field name="code">C86</field>
+			<field name="name">Metro Cúbico Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C87" model="product.unit_measures_fe">
+			<field name="code">C87</field>
+			<field name="name">Metro Cúbico Recíproco Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_C88" model="product.unit_measures_fe">
+			<field name="code">C88</field>
+			<field name="name">Voltios De Electrones Recíprocos Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_C89" model="product.unit_measures_fe">
+			<field name="code">C89</field>
+			<field name="name">Henry Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C9" model="product.unit_measures_fe">
+			<field name="code">C9</field>
+			<field name="name">Grupo De Bobina</field>
+		</record>
+
+		<record id="unit_measures_C90" model="product.unit_measures_fe">
+			<field name="code">C90</field>
+			<field name="name">Joule Recíproco Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_C91" model="product.unit_measures_fe">
+			<field name="code">C91</field>
+			<field name="name">Kelvin Recíproco O Kelvin Al Poder Menos Uno</field>
+		</record>
+
+		<record id="unit_measures_C92" model="product.unit_measures_fe">
+			<field name="code">C92</field>
+			<field name="name">Medidor Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C93" model="product.unit_measures_fe">
+			<field name="code">C93</field>
+			<field name="name">Metro Cuadrado Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C94" model="product.unit_measures_fe">
+			<field name="code">C94</field>
+			<field name="name">Minuto Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C95" model="product.unit_measures_fe">
+			<field name="code">C95</field>
+			<field name="name">Mole Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C96" model="product.unit_measures_fe">
+			<field name="code">C96</field>
+			<field name="name">Pascal Recíproco O Pascal A La Potencia Menos Uno.</field>
+		</record>
+
+		<record id="unit_measures_C97" model="product.unit_measures_fe">
+			<field name="code">C97</field>
+			<field name="name">Segundo Recíproco</field>
+		</record>
+
+		<record id="unit_measures_C98" model="product.unit_measures_fe">
+			<field name="code">C98</field>
+			<field name="name">Segundo Recíproco Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_C99" model="product.unit_measures_fe">
+			<field name="code">C99</field>
+			<field name="name">Segundo Recíproco Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_CA" model="product.unit_measures_fe">
+			<field name="code">CA</field>
+			<field name="name">Caja</field>
+		</record>
+
+		<record id="unit_measures_CCT" model="product.unit_measures_fe">
+			<field name="code">CCT</field>
+			<field name="name">Capacidad De Carga En Toneladas Métricas.</field>
+		</record>
+
+		<record id="unit_measures_CDL" model="product.unit_measures_fe">
+			<field name="code">CDL</field>
+			<field name="name">Candela</field>
+		</record>
+
+		<record id="unit_measures_CEL" model="product.unit_measures_fe">
+			<field name="code">CEL</field>
+			<field name="name">Grado Celsius</field>
+		</record>
+
+		<record id="unit_measures_CEN" model="product.unit_measures_fe">
+			<field name="code">CEN</field>
+			<field name="name">Cien</field>
+		</record>
+
+		<record id="unit_measures_CG" model="product.unit_measures_fe">
+			<field name="code">CG</field>
+			<field name="name">Tarjeta</field>
+		</record>
+
+		<record id="unit_measures_CGM" model="product.unit_measures_fe">
+			<field name="code">CGM</field>
+			<field name="name">Centigramo</field>
+		</record>
+
+		<record id="unit_measures_CH" model="product.unit_measures_fe">
+			<field name="code">CH</field>
+			<field name="name">Envase</field>
+		</record>
+
+		<record id="unit_measures_CJ" model="product.unit_measures_fe">
+			<field name="code">CJ</field>
+			<field name="name">Cono</field>
+		</record>
+
+		<record id="unit_measures_CK" model="product.unit_measures_fe">
+			<field name="code">CK</field>
+			<field name="name">Conector</field>
+		</record>
+
+		<record id="unit_measures_CKG" model="product.unit_measures_fe">
+			<field name="code">CKG</field>
+			<field name="name">Coulomb Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_CL" model="product.unit_measures_fe">
+			<field name="code">CL</field>
+			<field name="name">Bobina</field>
+		</record>
+
+		<record id="unit_measures_CLF" model="product.unit_measures_fe">
+			<field name="code">CLF</field>
+			<field name="name">Cientos De Licencia</field>
+		</record>
+
+		<record id="unit_measures_CLT" model="product.unit_measures_fe">
+			<field name="code">CLT</field>
+			<field name="name">Centilitro</field>
+		</record>
+
+		<record id="unit_measures_CMK" model="product.unit_measures_fe">
+			<field name="code">CMK</field>
+			<field name="name">Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_CMQ" model="product.unit_measures_fe">
+			<field name="code">CMQ</field>
+			<field name="name">Centímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_CMT" model="product.unit_measures_fe">
+			<field name="code">CMT</field>
+			<field name="name">Centímetro</field>
+		</record>
+
+		<record id="unit_measures_CNP" model="product.unit_measures_fe">
+			<field name="code">CNP</field>
+			<field name="name">Paquete De Cien</field>
+		</record>
+
+		<record id="unit_measures_CNT" model="product.unit_measures_fe">
+			<field name="code">CNT</field>
+			<field name="name">Cental (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_CO" model="product.unit_measures_fe">
+			<field name="code">CO</field>
+			<field name="name">Garrafón</field>
+		</record>
+
+		<record id="unit_measures_COU" model="product.unit_measures_fe">
+			<field name="code">COU</field>
+			<field name="name">Culombio</field>
+		</record>
+
+		<record id="unit_measures_CQ" model="product.unit_measures_fe">
+			<field name="code">CQ</field>
+			<field name="name">Cartucho</field>
+		</record>
+
+		<record id="unit_measures_CR" model="product.unit_measures_fe">
+			<field name="code">CR</field>
+			<field name="name">Caja</field>
+		</record>
+
+		<record id="unit_measures_CS" model="product.unit_measures_fe">
+			<field name="code">CS</field>
+			<field name="name">Caso</field>
+		</record>
+
+		<record id="unit_measures_CT" model="product.unit_measures_fe">
+			<field name="code">CT</field>
+			<field name="name">Caja De Cartón</field>
+		</record>
+
+		<record id="unit_measures_CTM" model="product.unit_measures_fe">
+			<field name="code">CTM</field>
+			<field name="name">Quilate Métrico</field>
+		</record>
+
+		<record id="unit_measures_CU" model="product.unit_measures_fe">
+			<field name="code">CU</field>
+			<field name="name">Vaso</field>
+		</record>
+
+		<record id="unit_measures_CUR" model="product.unit_measures_fe">
+			<field name="code">CUR</field>
+			<field name="name">Curie</field>
+		</record>
+
+		<record id="unit_measures_CV" model="product.unit_measures_fe">
+			<field name="code">CV</field>
+			<field name="name">Cubrir</field>
+		</record>
+
+		<record id="unit_measures_CWA" model="product.unit_measures_fe">
+			<field name="code">CWA</field>
+			<field name="name">Cien Libras (Quintales) / Cien Pesos (Us)</field>
+		</record>
+
+		<record id="unit_measures_CWI" model="product.unit_measures_fe">
+			<field name="code">CWI</field>
+			<field name="name">Cien Pesos (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_CY" model="product.unit_measures_fe">
+			<field name="code">CY</field>
+			<field name="name">Cilindro</field>
+		</record>
+
+		<record id="unit_measures_CZ" model="product.unit_measures_fe">
+			<field name="code">CZ</field>
+			<field name="name">Combo</field>
+		</record>
+
+		<record id="unit_measures_D1" model="product.unit_measures_fe">
+			<field name="code">D1</field>
+			<field name="name">Segundo Recíproco Por Esteradiano</field>
+		</record>
+
+		<record id="unit_measures_D10" model="product.unit_measures_fe">
+			<field name="code">D10</field>
+			<field name="name">Siemens Por Metro</field>
+		</record>
+
+		<record id="unit_measures_D12" model="product.unit_measures_fe">
+			<field name="code">D12</field>
+			<field name="name">Siemens Metro Cuadrado Por Mol</field>
+		</record>
+
+		<record id="unit_measures_D13" model="product.unit_measures_fe">
+			<field name="code">D13</field>
+			<field name="name">Sievert</field>
+		</record>
+
+		<record id="unit_measures_D14" model="product.unit_measures_fe">
+			<field name="code">D14</field>
+			<field name="name">Mil Yardas Lineales</field>
+		</record>
+
+		<record id="unit_measures_D15" model="product.unit_measures_fe">
+			<field name="code">D15</field>
+			<field name="name">Sone</field>
+		</record>
+
+		<record id="unit_measures_D16" model="product.unit_measures_fe">
+			<field name="code">D16</field>
+			<field name="name">Centímetro Cuadrado Por Ergio</field>
+		</record>
+
+		<record id="unit_measures_D17" model="product.unit_measures_fe">
+			<field name="code">D17</field>
+			<field name="name">Centímetro Cuadrado Por Erg Esterlina</field>
+		</record>
+
+		<record id="unit_measures_D18" model="product.unit_measures_fe">
+			<field name="code">D18</field>
+			<field name="name">Metro Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D19" model="product.unit_measures_fe">
+			<field name="code">D19</field>
+			<field name="name">Kelvin Metro Cuadrado Por Vatio</field>
+		</record>
+
+		<record id="unit_measures_D2" model="product.unit_measures_fe">
+			<field name="code">D2</field>
+			<field name="name">Segundo Recíproco Por Metros Cuadrados Esteradianos</field>
+		</record>
+
+		<record id="unit_measures_D20" model="product.unit_measures_fe">
+			<field name="code">D20</field>
+			<field name="name">Metro Cuadrado Por Julio</field>
+		</record>
+
+		<record id="unit_measures_D21" model="product.unit_measures_fe">
+			<field name="code">D21</field>
+			<field name="name">Metro Cuadrado Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_D22" model="product.unit_measures_fe">
+			<field name="code">D22</field>
+			<field name="name">Metro Cuadrado Por Mol</field>
+		</record>
+
+		<record id="unit_measures_D23" model="product.unit_measures_fe">
+			<field name="code">D23</field>
+			<field name="name">Pluma Gramo (Proteína)</field>
+		</record>
+
+		<record id="unit_measures_D24" model="product.unit_measures_fe">
+			<field name="code">D24</field>
+			<field name="name">Metro Cuadrado Por Esterilizador</field>
+		</record>
+
+		<record id="unit_measures_D25" model="product.unit_measures_fe">
+			<field name="code">D25</field>
+			<field name="name">Metro Cuadrado Por Julios Esteradianos</field>
+		</record>
+
+		<record id="unit_measures_D26" model="product.unit_measures_fe">
+			<field name="code">D26</field>
+			<field name="name">Metro Cuadrado Por Voltio Segundo</field>
+		</record>
+
+		<record id="unit_measures_D27" model="product.unit_measures_fe">
+			<field name="code">D27</field>
+			<field name="name">Esteradiano</field>
+		</record>
+
+		<record id="unit_measures_D28" model="product.unit_measures_fe">
+			<field name="code">D28</field>
+			<field name="name">Sifón</field>
+		</record>
+
+		<record id="unit_measures_D29" model="product.unit_measures_fe">
+			<field name="code">D29</field>
+			<field name="name">Terahercios</field>
+		</record>
+
+		<record id="unit_measures_D30" model="product.unit_measures_fe">
+			<field name="code">D30</field>
+			<field name="name">Terajulio</field>
+		</record>
+
+		<record id="unit_measures_D31" model="product.unit_measures_fe">
+			<field name="code">D31</field>
+			<field name="name">Teravatio</field>
+		</record>
+
+		<record id="unit_measures_D32" model="product.unit_measures_fe">
+			<field name="code">D32</field>
+			<field name="name">Hora De Teravatio</field>
+		</record>
+
+		<record id="unit_measures_D33" model="product.unit_measures_fe">
+			<field name="code">D33</field>
+			<field name="name">Tesla</field>
+		</record>
+
+		<record id="unit_measures_D34" model="product.unit_measures_fe">
+			<field name="code">D34</field>
+			<field name="name">Texas</field>
+		</record>
+
+		<record id="unit_measures_D35" model="product.unit_measures_fe">
+			<field name="code">D35</field>
+			<field name="name">Caloría Termoquímica</field>
+		</record>
+
+		<record id="unit_measures_D37" model="product.unit_measures_fe">
+			<field name="code">D37</field>
+			<field name="name">Caloría Termoquímica Por Gramo Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D38" model="product.unit_measures_fe">
+			<field name="code">D38</field>
+			<field name="name">Calorías Termoquímicas Por Segundo Centímetro Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D39" model="product.unit_measures_fe">
+			<field name="code">D39</field>
+			<field name="name">Calorías Termoquímicas Por Segundo Centímetro Cuadrado Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D40" model="product.unit_measures_fe">
+			<field name="code">D40</field>
+			<field name="name">Mil Litros</field>
+		</record>
+
+		<record id="unit_measures_D41" model="product.unit_measures_fe">
+			<field name="code">D41</field>
+			<field name="name">Tonelada Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_D42" model="product.unit_measures_fe">
+			<field name="code">D42</field>
+			<field name="name">Año Tropical</field>
+		</record>
+
+		<record id="unit_measures_D43" model="product.unit_measures_fe">
+			<field name="code">D43</field>
+			<field name="name">Unidad De Masa Atómica Unificada</field>
+		</record>
+
+		<record id="unit_measures_D44" model="product.unit_measures_fe">
+			<field name="code">D44</field>
+			<field name="name">Var</field>
+		</record>
+
+		<record id="unit_measures_D45" model="product.unit_measures_fe">
+			<field name="code">D45</field>
+			<field name="name">Voltios Al Cuadrado Por Kelvin Al Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D46" model="product.unit_measures_fe">
+			<field name="code">D46</field>
+			<field name="name">Voltio – Amperio</field>
+		</record>
+
+		<record id="unit_measures_D47" model="product.unit_measures_fe">
+			<field name="code">D47</field>
+			<field name="name">Voltio Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_D48" model="product.unit_measures_fe">
+			<field name="code">D48</field>
+			<field name="name">Voltio Por Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D49" model="product.unit_measures_fe">
+			<field name="code">D49</field>
+			<field name="name">Milivoltios Por Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D5" model="product.unit_measures_fe">
+			<field name="code">D5</field>
+			<field name="name">Kilogramo Por Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D50" model="product.unit_measures_fe">
+			<field name="code">D50</field>
+			<field name="name">Voltios Por Metro</field>
+		</record>
+
+		<record id="unit_measures_D51" model="product.unit_measures_fe">
+			<field name="code">D51</field>
+			<field name="name">Voltios Por Milímetro</field>
+		</record>
+
+		<record id="unit_measures_D52" model="product.unit_measures_fe">
+			<field name="code">D52</field>
+			<field name="name">Vatios Por Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D53" model="product.unit_measures_fe">
+			<field name="code">D53</field>
+			<field name="name">Vatios Por Metro Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D54" model="product.unit_measures_fe">
+			<field name="code">D54</field>
+			<field name="name">Vatios Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D55" model="product.unit_measures_fe">
+			<field name="code">D55</field>
+			<field name="name">Vatios Por Metro Cuadrado Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D56" model="product.unit_measures_fe">
+			<field name="code">D56</field>
+			<field name="name">Vatios Por Metro Cuadrado De Kelvin A La Cuarta Potencia</field>
+		</record>
+
+		<record id="unit_measures_D57" model="product.unit_measures_fe">
+			<field name="code">D57</field>
+			<field name="name">Vatios Por Steradian</field>
+		</record>
+
+		<record id="unit_measures_D58" model="product.unit_measures_fe">
+			<field name="code">D58</field>
+			<field name="name">Vatios Por Metro Cuadrado Esterlino</field>
+		</record>
+
+		<record id="unit_measures_D59" model="product.unit_measures_fe">
+			<field name="code">D59</field>
+			<field name="name">Weber Por Metro</field>
+		</record>
+
+		<record id="unit_measures_D6" model="product.unit_measures_fe">
+			<field name="code">D6</field>
+			<field name="name">Röntgen Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_D60" model="product.unit_measures_fe">
+			<field name="code">D60</field>
+			<field name="name">Weber Por Milímetro</field>
+		</record>
+
+		<record id="unit_measures_D61" model="product.unit_measures_fe">
+			<field name="code">D61</field>
+			<field name="name">Minuto</field>
+		</record>
+
+		<record id="unit_measures_D62" model="product.unit_measures_fe">
+			<field name="code">D62</field>
+			<field name="name">Segundo</field>
+		</record>
+
+		<record id="unit_measures_D63" model="product.unit_measures_fe">
+			<field name="code">D63</field>
+			<field name="name">Libro</field>
+		</record>
+
+		<record id="unit_measures_D64" model="product.unit_measures_fe">
+			<field name="code">D64</field>
+			<field name="name">Bloquear</field>
+		</record>
+
+		<record id="unit_measures_D65" model="product.unit_measures_fe">
+			<field name="code">D65</field>
+			<field name="name">Redondo</field>
+		</record>
+
+		<record id="unit_measures_D66" model="product.unit_measures_fe">
+			<field name="code">D66</field>
+			<field name="name">Casete</field>
+		</record>
+
+		<record id="unit_measures_D67" model="product.unit_measures_fe">
+			<field name="code">D67</field>
+			<field name="name">Dólar Por Hora</field>
+		</record>
+
+		<record id="unit_measures_D69" model="product.unit_measures_fe">
+			<field name="code">D69</field>
+			<field name="name">Pulgada A La Cuarta Potencia</field>
+		</record>
+
+		<record id="unit_measures_D7" model="product.unit_measures_fe">
+			<field name="code">D7</field>
+			<field name="name">Sandwich</field>
+		</record>
+
+		<record id="unit_measures_D70" model="product.unit_measures_fe">
+			<field name="code">D70</field>
+			<field name="name">Tabla Internacional (It) Caloría</field>
+		</record>
+
+		<record id="unit_measures_D71" model="product.unit_measures_fe">
+			<field name="code">D71</field>
+			<field name="name">Tabla Internacional (It) Calorías Por Segundo Centímetro Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D72" model="product.unit_measures_fe">
+			<field name="code">D72</field>
+			<field name="name">Tabla Internacional (It) Calorías Por Segundo Centímetro Cuadrado Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D73" model="product.unit_measures_fe">
+			<field name="code">D73</field>
+			<field name="name">Joule Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D74" model="product.unit_measures_fe">
+			<field name="code">D74</field>
+			<field name="name">Kilogramo Por Mol</field>
+		</record>
+
+		<record id="unit_measures_D75" model="product.unit_measures_fe">
+			<field name="code">D75</field>
+			<field name="name">Tabla Internacional (It) Calorías Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_D76" model="product.unit_measures_fe">
+			<field name="code">D76</field>
+			<field name="name">Tabla Internacional (It) Calorías Por Gramo Kelvin</field>
+		</record>
+
+		<record id="unit_measures_D77" model="product.unit_measures_fe">
+			<field name="code">D77</field>
+			<field name="name">Megacoulomb</field>
+		</record>
+
+		<record id="unit_measures_D79" model="product.unit_measures_fe">
+			<field name="code">D79</field>
+			<field name="name">Haz</field>
+		</record>
+
+		<record id="unit_measures_D8" model="product.unit_measures_fe">
+			<field name="code">D8</field>
+			<field name="name">Puntaje De Drenaje</field>
+		</record>
+
+		<record id="unit_measures_D80" model="product.unit_measures_fe">
+			<field name="code">D80</field>
+			<field name="name">Microwatt</field>
+		</record>
+
+		<record id="unit_measures_D81" model="product.unit_measures_fe">
+			<field name="code">D81</field>
+			<field name="name">Microtesla</field>
+		</record>
+
+		<record id="unit_measures_D82" model="product.unit_measures_fe">
+			<field name="code">D82</field>
+			<field name="name">Microvoltio</field>
+		</record>
+
+		<record id="unit_measures_D83" model="product.unit_measures_fe">
+			<field name="code">D83</field>
+			<field name="name">Medidor De Millinewton</field>
+		</record>
+
+		<record id="unit_measures_D85" model="product.unit_measures_fe">
+			<field name="code">D85</field>
+			<field name="name">Microwatt Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D86" model="product.unit_measures_fe">
+			<field name="code">D86</field>
+			<field name="name">Millicoulomb</field>
+		</record>
+
+		<record id="unit_measures_D87" model="product.unit_measures_fe">
+			<field name="code">D87</field>
+			<field name="name">Milimol Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_D88" model="product.unit_measures_fe">
+			<field name="code">D88</field>
+			<field name="name">Millicoulomb Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_D89" model="product.unit_measures_fe">
+			<field name="code">D89</field>
+			<field name="name">Millicoulomb Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D9" model="product.unit_measures_fe">
+			<field name="code">D9</field>
+			<field name="name">Dina Por Centímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_D90" model="product.unit_measures_fe">
+			<field name="code">D90</field>
+			<field name="name">Metro Cúbico (Neto)</field>
+		</record>
+
+		<record id="unit_measures_D91" model="product.unit_measures_fe">
+			<field name="code">D91</field>
+			<field name="name">Movimiento Rápido Del Ojo</field>
+		</record>
+
+		<record id="unit_measures_D92" model="product.unit_measures_fe">
+			<field name="code">D92</field>
+			<field name="name">Banda</field>
+		</record>
+
+		<record id="unit_measures_D93" model="product.unit_measures_fe">
+			<field name="code">D93</field>
+			<field name="name">Segundo Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_D94" model="product.unit_measures_fe">
+			<field name="code">D94</field>
+			<field name="name">Segundo Por Metro Cúbico Radianes</field>
+		</record>
+
+		<record id="unit_measures_D95" model="product.unit_measures_fe">
+			<field name="code">D95</field>
+			<field name="name">Julios Por Gramo</field>
+		</record>
+
+		<record id="unit_measures_D96" model="product.unit_measures_fe">
+			<field name="code">D96</field>
+			<field name="name">Libra Bruta</field>
+		</record>
+
+		<record id="unit_measures_D97" model="product.unit_measures_fe">
+			<field name="code">D97</field>
+			<field name="name">Carga De Palet / Unidad</field>
+		</record>
+
+		<record id="unit_measures_D98" model="product.unit_measures_fe">
+			<field name="code">D98</field>
+			<field name="name">Libra De Masa</field>
+		</record>
+
+		<record id="unit_measures_D99" model="product.unit_measures_fe">
+			<field name="code">D99</field>
+			<field name="name">Manga</field>
+		</record>
+
+		<record id="unit_measures_DAA" model="product.unit_measures_fe">
+			<field name="code">DAA</field>
+			<field name="name">Despreciar</field>
+		</record>
+
+		<record id="unit_measures_DAD" model="product.unit_measures_fe">
+			<field name="code">DAD</field>
+			<field name="name">Diez Dias</field>
+		</record>
+
+		<record id="unit_measures_DAY" model="product.unit_measures_fe">
+			<field name="code">DAY</field>
+			<field name="name">Día</field>
+		</record>
+
+		<record id="unit_measures_DB" model="product.unit_measures_fe">
+			<field name="code">DB</field>
+			<field name="name">Libra Seca</field>
+		</record>
+
+		<record id="unit_measures_DC" model="product.unit_measures_fe">
+			<field name="code">DC</field>
+			<field name="name">Disco</field>
+		</record>
+
+		<record id="unit_measures_DD" model="product.unit_measures_fe">
+			<field name="code">DD</field>
+			<field name="name">La Licenciatura</field>
+		</record>
+
+		<record id="unit_measures_DE" model="product.unit_measures_fe">
+			<field name="code">DE</field>
+			<field name="name">Acuerdo</field>
+		</record>
+
+		<record id="unit_measures_DEC" model="product.unit_measures_fe">
+			<field name="code">DEC</field>
+			<field name="name">Década</field>
+		</record>
+
+		<record id="unit_measures_DG" model="product.unit_measures_fe">
+			<field name="code">DG</field>
+			<field name="name">Decigramo</field>
+		</record>
+
+		<record id="unit_measures_DI" model="product.unit_measures_fe">
+			<field name="code">DI</field>
+			<field name="name">Dispensador</field>
+		</record>
+
+		<record id="unit_measures_DJ" model="product.unit_measures_fe">
+			<field name="code">DJ</field>
+			<field name="name">Decagramo</field>
+		</record>
+
+		<record id="unit_measures_DLT" model="product.unit_measures_fe">
+			<field name="code">DLT</field>
+			<field name="name">Decilitro</field>
+		</record>
+
+		<record id="unit_measures_DMK" model="product.unit_measures_fe">
+			<field name="code">DMK</field>
+			<field name="name">Nformaci Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_DMQ" model="product.unit_measures_fe">
+			<field name="code">DMQ</field>
+			<field name="name">Decímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_DMT" model="product.unit_measures_fe">
+			<field name="code">DMT</field>
+			<field name="name">Decímetro</field>
+		</record>
+
+		<record id="unit_measures_DN" model="product.unit_measures_fe">
+			<field name="code">DN</field>
+			<field name="name">Medidor De Decinewton</field>
+		</record>
+
+		<record id="unit_measures_DPC" model="product.unit_measures_fe">
+			<field name="code">DPC</field>
+			<field name="name">Docena Pieza</field>
+		</record>
+
+		<record id="unit_measures_DPR" model="product.unit_measures_fe">
+			<field name="code">DPR</field>
+			<field name="name">Docena Par</field>
+		</record>
+
+		<record id="unit_measures_DPT" model="product.unit_measures_fe">
+			<field name="code">DPT</field>
+			<field name="name">Tonelaje De Desplazamiento</field>
+		</record>
+
+		<record id="unit_measures_DQ" model="product.unit_measures_fe">
+			<field name="code">DQ</field>
+			<field name="name">Registro De Datos</field>
+		</record>
+
+		<record id="unit_measures_DR" model="product.unit_measures_fe">
+			<field name="code">DR</field>
+			<field name="name">Tambor</field>
+		</record>
+
+		<record id="unit_measures_DRA" model="product.unit_measures_fe">
+			<field name="code">DRA</field>
+			<field name="name">Dram (Us)</field>
+		</record>
+
+		<record id="unit_measures_DRI" model="product.unit_measures_fe">
+			<field name="code">DRI</field>
+			<field name="name">Dram (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_DRL" model="product.unit_measures_fe">
+			<field name="code">DRL</field>
+			<field name="name">Docena Rollo</field>
+		</record>
+
+		<record id="unit_measures_DRM" model="product.unit_measures_fe">
+			<field name="code">DRM</field>
+			<field name="name">Dracma (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_DS" model="product.unit_measures_fe">
+			<field name="code">DS</field>
+			<field name="name">Monitor</field>
+		</record>
+
+		<record id="unit_measures_DT" model="product.unit_measures_fe">
+			<field name="code">DT</field>
+			<field name="name">Tonelada Seca</field>
+		</record>
+
+		<record id="unit_measures_DTN" model="product.unit_measures_fe">
+			<field name="code">DTN</field>
+			<field name="name">Decitonne</field>
+		</record>
+
+		<record id="unit_measures_DU" model="product.unit_measures_fe">
+			<field name="code">DU</field>
+			<field name="name">Dina</field>
+		</record>
+
+		<record id="unit_measures_DWT" model="product.unit_measures_fe">
+			<field name="code">DWT</field>
+			<field name="name">Pennyweight</field>
+		</record>
+
+		<record id="unit_measures_DX" model="product.unit_measures_fe">
+			<field name="code">DX</field>
+			<field name="name">Dina Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_DY" model="product.unit_measures_fe">
+			<field name="code">DY</field>
+			<field name="name">Libro De Directorio</field>
+		</record>
+
+		<record id="unit_measures_DZN" model="product.unit_measures_fe">
+			<field name="code">DZN</field>
+			<field name="name">Docena</field>
+		</record>
+
+		<record id="unit_measures_DZP" model="product.unit_measures_fe">
+			<field name="code">DZP</field>
+			<field name="name">Paquete De Doce</field>
+		</record>
+
+		<record id="unit_measures_E2" model="product.unit_measures_fe">
+			<field name="code">E2</field>
+			<field name="name">Cinturón</field>
+		</record>
+
+		<record id="unit_measures_E3" model="product.unit_measures_fe">
+			<field name="code">E3</field>
+			<field name="name">Remolque</field>
+		</record>
+
+		<record id="unit_measures_E4" model="product.unit_measures_fe">
+			<field name="code">E4</field>
+			<field name="name">Kilogramo Bruto</field>
+		</record>
+
+		<record id="unit_measures_E5" model="product.unit_measures_fe">
+			<field name="code">E5</field>
+			<field name="name">Tonelada Métrica Larga</field>
+		</record>
+
+		<record id="unit_measures_EA" model="product.unit_measures_fe">
+			<field name="code">EA</field>
+			<field name="name">Cada</field>
+		</record>
+
+		<record id="unit_measures_EB" model="product.unit_measures_fe">
+			<field name="code">EB</field>
+			<field name="name">Casilla De Correo Electrónico</field>
+		</record>
+
+		<record id="unit_measures_CE" model="product.unit_measures_fe">
+			<field name="code">CE</field>
+			<field name="name">Cada Uno Por Mes</field>
+		</record>
+
+		<record id="unit_measures_EP" model="product.unit_measures_fe">
+			<field name="code">EP</field>
+			<field name="name">Paquete De Once</field>
+		</record>
+
+		<record id="unit_measures_EQ" model="product.unit_measures_fe">
+			<field name="code">EQ</field>
+			<field name="name">Galón Equivalente</field>
+		</record>
+
+		<record id="unit_measures_EV" model="product.unit_measures_fe">
+			<field name="code">EV</field>
+			<field name="name">Sobre</field>
+		</record>
+
+		<record id="unit_measures_F1" model="product.unit_measures_fe">
+			<field name="code">F1</field>
+			<field name="name">Mil Pies Cúbicos Por Día</field>
+		</record>
+
+		<record id="unit_measures_F9" model="product.unit_measures_fe">
+			<field name="code">F9</field>
+			<field name="name">Fibra Por Centímetro Cúbico De Aire</field>
+		</record>
+
+		<record id="unit_measures_FAH" model="product.unit_measures_fe">
+			<field name="code">FAH</field>
+			<field name="name">Grado Fahrenheit</field>
+		</record>
+
+		<record id="unit_measures_FAR" model="product.unit_measures_fe">
+			<field name="code">FAR</field>
+			<field name="name">Faradio</field>
+		</record>
+
+		<record id="unit_measures_FB" model="product.unit_measures_fe">
+			<field name="code">FB</field>
+			<field name="name">Campo</field>
+		</record>
+
+		<record id="unit_measures_FC" model="product.unit_measures_fe">
+			<field name="code">FC</field>
+			<field name="name">Mil Pies Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_FD" model="product.unit_measures_fe">
+			<field name="code">FD</field>
+			<field name="name">Millón De Partículas Por Pie Cúbico</field>
+		</record>
+
+		<record id="unit_measures_FE" model="product.unit_measures_fe">
+			<field name="code">FE</field>
+			<field name="name">Pie De Pista</field>
+		</record>
+
+		<record id="unit_measures_FF" model="product.unit_measures_fe">
+			<field name="code">FF</field>
+			<field name="name">Cien Metros Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_FG" model="product.unit_measures_fe">
+			<field name="code">FG</field>
+			<field name="name">Parche Transdérmico</field>
+		</record>
+
+		<record id="unit_measures_FH" model="product.unit_measures_fe">
+			<field name="code">FH</field>
+			<field name="name">Micromol</field>
+		</record>
+
+		<record id="unit_measures_FL" model="product.unit_measures_fe">
+			<field name="code">FL</field>
+			<field name="name">Tonelada En Escamas</field>
+		</record>
+
+		<record id="unit_measures_FM" model="product.unit_measures_fe">
+			<field name="code">FM</field>
+			<field name="name">Millones De Pies Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_FOT" model="product.unit_measures_fe">
+			<field name="code">FOT</field>
+			<field name="name">Pie</field>
+		</record>
+
+		<record id="unit_measures_FP" model="product.unit_measures_fe">
+			<field name="code">FP</field>
+			<field name="name">Libra Por Pie Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_FR" model="product.unit_measures_fe">
+			<field name="code">FR</field>
+			<field name="name">Pie Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_FS" model="product.unit_measures_fe">
+			<field name="code">FS</field>
+			<field name="name">Pie Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_FTK" model="product.unit_measures_fe">
+			<field name="code">FTK</field>
+			<field name="name">Pie Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_FTQ" model="product.unit_measures_fe">
+			<field name="code">FTQ</field>
+			<field name="name">Pie Cubico</field>
+		</record>
+
+		<record id="unit_measures_G2" model="product.unit_measures_fe">
+			<field name="code">G2</field>
+			<field name="name">Us Galones Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_G3" model="product.unit_measures_fe">
+			<field name="code">G3</field>
+			<field name="name">Galon Imperial Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_G7" model="product.unit_measures_fe">
+			<field name="code">G7</field>
+			<field name="name">Hoja De Microficha</field>
+		</record>
+
+		<record id="unit_measures_GB" model="product.unit_measures_fe">
+			<field name="code">GB</field>
+			<field name="name">Galón (Us) Por Día</field>
+		</record>
+
+		<record id="unit_measures_GBQ" model="product.unit_measures_fe">
+			<field name="code">GBQ</field>
+			<field name="name">Gigabecquerel</field>
+		</record>
+
+		<record id="unit_measures_GC" model="product.unit_measures_fe">
+			<field name="code">GC</field>
+			<field name="name">Gramo Por 100 Gramo</field>
+		</record>
+
+		<record id="unit_measures_GD" model="product.unit_measures_fe">
+			<field name="code">GD</field>
+			<field name="name">Barril Bruto</field>
+		</record>
+
+		<record id="unit_measures_GE" model="product.unit_measures_fe">
+			<field name="code">GE</field>
+			<field name="name">Libra Por Galón (Us)</field>
+		</record>
+
+		<record id="unit_measures_GF" model="product.unit_measures_fe">
+			<field name="code">GF</field>
+			<field name="name">Gramo Por Metro (Gramo Por 100 Centímetros)</field>
+		</record>
+
+		<record id="unit_measures_GFI" model="product.unit_measures_fe">
+			<field name="code">GFI</field>
+			<field name="name">Gramo De Isótopo Fisionable</field>
+		</record>
+
+		<record id="unit_measures_GGR" model="product.unit_measures_fe">
+			<field name="code">GGR</field>
+			<field name="name">Gramo</field>
+		</record>
+
+		<record id="unit_measures_GH" model="product.unit_measures_fe">
+			<field name="code">GH</field>
+			<field name="name">Medio Galón (Ee. Uu.)</field>
+		</record>
+
+		<record id="unit_measures_GIA" model="product.unit_measures_fe">
+			<field name="code">GIA</field>
+			<field name="name">Branquias</field>
+		</record>
+
+		<record id="unit_measures_GII" model="product.unit_measures_fe">
+			<field name="code">GII</field>
+			<field name="name">Gill (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_GJ" model="product.unit_measures_fe">
+			<field name="code">GJ</field>
+			<field name="name">Gramo Por Mililitro</field>
+		</record>
+
+		<record id="unit_measures_G_K" model="product.unit_measures_fe">
+			<field name="code">G K</field>
+			<field name="name">Gramo Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_GL" model="product.unit_measures_fe">
+			<field name="code">GL</field>
+			<field name="name">Gramo Por Litro</field>
+		</record>
+
+		<record id="unit_measures_GLD" model="product.unit_measures_fe">
+			<field name="code">GLD</field>
+			<field name="name">Galón Seco (Ee. Uu.)</field>
+		</record>
+
+		<record id="unit_measures_GLI" model="product.unit_measures_fe">
+			<field name="code">GLI</field>
+			<field name="name">Galón (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_GLL" model="product.unit_measures_fe">
+			<field name="code">GLL</field>
+			<field name="name">Galón</field>
+		</record>
+
+		<record id="unit_measures_GM" model="product.unit_measures_fe">
+			<field name="code">GM</field>
+			<field name="name">Gramo Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_GN" model="product.unit_measures_fe">
+			<field name="code">GN</field>
+			<field name="name">Galón Bruto</field>
+		</record>
+
+		<record id="unit_measures_GO" model="product.unit_measures_fe">
+			<field name="code">GO</field>
+			<field name="name">Miligramos Por Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_GP" model="product.unit_measures_fe">
+			<field name="code">GP</field>
+			<field name="name">Miligramo Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_GQ" model="product.unit_measures_fe">
+			<field name="code">GQ</field>
+			<field name="name">Microgramos Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_GRM" model="product.unit_measures_fe">
+			<field name="code">GRM</field>
+			<field name="name">Gramo</field>
+		</record>
+
+		<record id="unit_measures_GRN" model="product.unit_measures_fe">
+			<field name="code">GRN</field>
+			<field name="name">Grano</field>
+		</record>
+
+		<record id="unit_measures_GRO" model="product.unit_measures_fe">
+			<field name="code">GRO</field>
+			<field name="name">Bruto</field>
+		</record>
+
+		<record id="unit_measures_GRT" model="product.unit_measures_fe">
+			<field name="code">GRT</field>
+			<field name="name">Tonelada De Registro Bruto</field>
+		</record>
+
+		<record id="unit_measures_GT" model="product.unit_measures_fe">
+			<field name="code">GT</field>
+			<field name="name">Tonelada Bruta</field>
+		</record>
+
+		<record id="unit_measures_GV" model="product.unit_measures_fe">
+			<field name="code">GV</field>
+			<field name="name">Gigajoule</field>
+		</record>
+
+		<record id="unit_measures_GW" model="product.unit_measures_fe">
+			<field name="code">GW</field>
+			<field name="name">Galón Por Mil Pies Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_GWH" model="product.unit_measures_fe">
+			<field name="code">GWH</field>
+			<field name="name">Hora De Gigavatios</field>
+		</record>
+
+		<record id="unit_measures_GY" model="product.unit_measures_fe">
+			<field name="code">GY</field>
+			<field name="name">Patio Bruto</field>
+		</record>
+
+		<record id="unit_measures_GZ" model="product.unit_measures_fe">
+			<field name="code">GZ</field>
+			<field name="name">Sistema De Medición</field>
+		</record>
+
+		<record id="unit_measures_H1" model="product.unit_measures_fe">
+			<field name="code">H1</field>
+			<field name="name">Media Página – Electrónica</field>
+		</record>
+
+		<record id="unit_measures_H2" model="product.unit_measures_fe">
+			<field name="code">H2</field>
+			<field name="name">Medio Litro</field>
+		</record>
+
+		<record id="unit_measures_HA" model="product.unit_measures_fe">
+			<field name="code">HA</field>
+			<field name="name">Madeja</field>
+		</record>
+
+		<record id="unit_measures_HAR" model="product.unit_measures_fe">
+			<field name="code">HAR</field>
+			<field name="name">Hectárea</field>
+		</record>
+
+		<record id="unit_measures_HBA" model="product.unit_measures_fe">
+			<field name="code">HBA</field>
+			<field name="name">Hectobar</field>
+		</record>
+
+		<record id="unit_measures_HBX" model="product.unit_measures_fe">
+			<field name="code">HBX</field>
+			<field name="name">Cien Cajas</field>
+		</record>
+
+		<record id="unit_measures_HC" model="product.unit_measures_fe">
+			<field name="code">HC</field>
+			<field name="name">Cien Cuentas</field>
+		</record>
+
+		<record id="unit_measures_HD" model="product.unit_measures_fe">
+			<field name="code">HD</field>
+			<field name="name">Media Docena</field>
+		</record>
+
+		<record id="unit_measures_ÉL" model="product.unit_measures_fe">
+			<field name="code">ÉL</field>
+			<field name="name">Centésima De Quilate</field>
+		</record>
+
+		<record id="unit_measures_HF" model="product.unit_measures_fe">
+			<field name="code">HF</field>
+			<field name="name">Cien Pies</field>
+		</record>
+
+		<record id="unit_measures_HGM" model="product.unit_measures_fe">
+			<field name="code">HGM</field>
+			<field name="name">Hectogramo</field>
+		</record>
+
+		<record id="unit_measures_HH" model="product.unit_measures_fe">
+			<field name="code">HH</field>
+			<field name="name">Cien Pies Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_HI" model="product.unit_measures_fe">
+			<field name="code">HI</field>
+			<field name="name">Cien Hojas</field>
+		</record>
+
+		<record id="unit_measures_HIU" model="product.unit_measures_fe">
+			<field name="code">HIU</field>
+			<field name="name">Cien Unidades Internacionales</field>
+		</record>
+
+		<record id="unit_measures_HJ" model="product.unit_measures_fe">
+			<field name="code">HJ</field>
+			<field name="name">Caballo Métrico</field>
+		</record>
+
+		<record id="unit_measures_HK" model="product.unit_measures_fe">
+			<field name="code">HK</field>
+			<field name="name">Cien Kilogramos</field>
+		</record>
+
+		<record id="unit_measures_HL" model="product.unit_measures_fe">
+			<field name="code">HL</field>
+			<field name="name">Cien Pies (Lineales)</field>
+		</record>
+
+		<record id="unit_measures_HLT" model="product.unit_measures_fe">
+			<field name="code">HLT</field>
+			<field name="name">Hectolitro</field>
+		</record>
+
+		<record id="unit_measures_HM" model="product.unit_measures_fe">
+			<field name="code">HM</field>
+			<field name="name">Milla Por Hora</field>
+		</record>
+
+		<record id="unit_measures_HMQ" model="product.unit_measures_fe">
+			<field name="code">HMQ</field>
+			<field name="name">Millones De Metros Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_HMT" model="product.unit_measures_fe">
+			<field name="code">HMT</field>
+			<field name="name">Hectómetro</field>
+		</record>
+
+		<record id="unit_measures_HN" model="product.unit_measures_fe">
+			<field name="code">HN</field>
+			<field name="name">Milímetro Convencional De Mercurio</field>
+		</record>
+
+		<record id="unit_measures_HO" model="product.unit_measures_fe">
+			<field name="code">HO</field>
+			<field name="name">Cien Onzas Troy</field>
+		</record>
+
+		<record id="unit_measures_HP" model="product.unit_measures_fe">
+			<field name="code">HP</field>
+			<field name="name">Milímetro Convencional De Agua</field>
+		</record>
+
+		<record id="unit_measures_HPA" model="product.unit_measures_fe">
+			<field name="code">HPA</field>
+			<field name="name">Hectolitro De Alcohol Puro</field>
+		</record>
+
+		<record id="unit_measures_HS" model="product.unit_measures_fe">
+			<field name="code">HS</field>
+			<field name="name">Cien Pies Cuadrados</field>
+		</record>
+
+		<record id="unit_measures_HT" model="product.unit_measures_fe">
+			<field name="code">HT</field>
+			<field name="name">Media Hora</field>
+		</record>
+
+		<record id="unit_measures_HTZ" model="product.unit_measures_fe">
+			<field name="code">HTZ</field>
+			<field name="name">Hertz</field>
+		</record>
+
+		<record id="unit_measures_HUR" model="product.unit_measures_fe">
+			<field name="code">HUR</field>
+			<field name="name">Hora</field>
+		</record>
+
+		<record id="unit_measures_HY" model="product.unit_measures_fe">
+			<field name="code">HY</field>
+			<field name="name">Cien Yardas</field>
+		</record>
+
+		<record id="unit_measures_IA" model="product.unit_measures_fe">
+			<field name="code">IA</field>
+			<field name="name">Pulgada Libra</field>
+		</record>
+
+		<record id="unit_measures_IC" model="product.unit_measures_fe">
+			<field name="code">IC</field>
+			<field name="name">Contar Por Pulgada</field>
+		</record>
+
+		<record id="unit_measures_IE" model="product.unit_measures_fe">
+			<field name="code">IE</field>
+			<field name="name">Persona</field>
+		</record>
+
+		<record id="unit_measures_IF" model="product.unit_measures_fe">
+			<field name="code">IF</field>
+			<field name="name">Pulgadas De Agua</field>
+		</record>
+
+		<record id="unit_measures_II" model="product.unit_measures_fe">
+			<field name="code">II</field>
+			<field name="name">Columna Pulgada</field>
+		</record>
+
+		<record id="unit_measures_IL" model="product.unit_measures_fe">
+			<field name="code">IL</field>
+			<field name="name">Pulgada Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_IM" model="product.unit_measures_fe">
+			<field name="code">IM</field>
+			<field name="name">Impresión</field>
+		</record>
+
+		<record id="unit_measures_INH" model="product.unit_measures_fe">
+			<field name="code">INH</field>
+			<field name="name">Pulgada</field>
+		</record>
+
+		<record id="unit_measures_INK" model="product.unit_measures_fe">
+			<field name="code">INK</field>
+			<field name="name">Pulgada Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_INQ" model="product.unit_measures_fe">
+			<field name="code">INQ</field>
+			<field name="name">Pulgada En Cubos</field>
+		</record>
+
+		<record id="unit_measures_IP" model="product.unit_measures_fe">
+			<field name="code">IP</field>
+			<field name="name">Póliza De Seguros</field>
+		</record>
+
+		<record id="unit_measures_IT" model="product.unit_measures_fe">
+			<field name="code">IT</field>
+			<field name="name">Conteo Por Centímetro</field>
+		</record>
+
+		<record id="unit_measures_IU" model="product.unit_measures_fe">
+			<field name="code">IU</field>
+			<field name="name">Pulgada Por Segundo (Velocidad Lineal)</field>
+		</record>
+
+		<record id="unit_measures_IV" model="product.unit_measures_fe">
+			<field name="code">IV</field>
+			<field name="name">Pulgada Por Segundo Al Cuadrado (Aceleración)</field>
+		</record>
+
+		<record id="unit_measures_J2" model="product.unit_measures_fe">
+			<field name="code">J2</field>
+			<field name="name">Julios Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_JB" model="product.unit_measures_fe">
+			<field name="code">JB</field>
+			<field name="name">Jumbo</field>
+		</record>
+
+		<record id="unit_measures_JE" model="product.unit_measures_fe">
+			<field name="code">JE</field>
+			<field name="name">Joule Por Kelvin</field>
+		</record>
+
+		<record id="unit_measures_JG" model="product.unit_measures_fe">
+			<field name="code">JG</field>
+			<field name="name">Jarra</field>
+		</record>
+
+		<record id="unit_measures_JK" model="product.unit_measures_fe">
+			<field name="code">JK</field>
+			<field name="name">Megajulio Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_JM" model="product.unit_measures_fe">
+			<field name="code">JM</field>
+			<field name="name">Megajulio Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_JO" model="product.unit_measures_fe">
+			<field name="code">JO</field>
+			<field name="name">Articulación</field>
+		</record>
+
+		<record id="unit_measures_JOU" model="product.unit_measures_fe">
+			<field name="code">JOU</field>
+			<field name="name">Joule</field>
+		</record>
+
+		<record id="unit_measures_JR" model="product.unit_measures_fe">
+			<field name="code">JR</field>
+			<field name="name">Tarro</field>
+		</record>
+
+		<record id="unit_measures_K1" model="product.unit_measures_fe">
+			<field name="code">K1</field>
+			<field name="name">Demanda De Kilovatios</field>
+		</record>
+
+		<record id="unit_measures_K2" model="product.unit_measures_fe">
+			<field name="code">K2</field>
+			<field name="name">Kilovoltios Amperios Reactivos De Demanda</field>
+		</record>
+
+		<record id="unit_measures_K3" model="product.unit_measures_fe">
+			<field name="code">K3</field>
+			<field name="name">Kilovoltio Amperio Hora Reactiva</field>
+		</record>
+
+		<record id="unit_measures_K5" model="product.unit_measures_fe">
+			<field name="code">K5</field>
+			<field name="name">Amperios Kilovoltios (Reactivos)</field>
+		</record>
+
+		<record id="unit_measures_K6" model="product.unit_measures_fe">
+			<field name="code">K6</field>
+			<field name="name">Kilolitro</field>
+		</record>
+
+		<record id="unit_measures_KA" model="product.unit_measures_fe">
+			<field name="code">KA</field>
+			<field name="name">Pastel</field>
+		</record>
+
+		<record id="unit_measures_KB" model="product.unit_measures_fe">
+			<field name="code">KB</field>
+			<field name="name">Kilocharacter</field>
+		</record>
+
+		<record id="unit_measures_KBA" model="product.unit_measures_fe">
+			<field name="code">KBA</field>
+			<field name="name">Kilobar</field>
+		</record>
+
+		<record id="unit_measures_KD" model="product.unit_measures_fe">
+			<field name="code">KD</field>
+			<field name="name">Kilogramo Decimal</field>
+		</record>
+
+		<record id="unit_measures_KEL" model="product.unit_measures_fe">
+			<field name="code">KEL</field>
+			<field name="name">Kelvin</field>
+		</record>
+
+		<record id="unit_measures_KF" model="product.unit_measures_fe">
+			<field name="code">KF</field>
+			<field name="name">Kilopacket</field>
+		</record>
+
+		<record id="unit_measures_KG" model="product.unit_measures_fe">
+			<field name="code">KG</field>
+			<field name="name">Barrilete</field>
+		</record>
+
+		<record id="unit_measures_KGM" model="product.unit_measures_fe">
+			<field name="code">KGM</field>
+			<field name="name">Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_KGS" model="product.unit_measures_fe">
+			<field name="code">KGS</field>
+			<field name="name">Kilogramo Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_KHZ" model="product.unit_measures_fe">
+			<field name="code">KHZ</field>
+			<field name="name">Kilohercio</field>
+		</record>
+
+		<record id="unit_measures_KI" model="product.unit_measures_fe">
+			<field name="code">KI</field>
+			<field name="name">Kilogramo Por Milímetro De Ancho</field>
+		</record>
+
+		<record id="unit_measures_KJ" model="product.unit_measures_fe">
+			<field name="code">KJ</field>
+			<field name="name">Kilosegmento</field>
+		</record>
+
+		<record id="unit_measures_KJO" model="product.unit_measures_fe">
+			<field name="code">KJO</field>
+			<field name="name">Kilojoule</field>
+		</record>
+
+		<record id="unit_measures_KL" model="product.unit_measures_fe">
+			<field name="code">KL</field>
+			<field name="name">Kilogramo Por Metro</field>
+		</record>
+
+		<record id="unit_measures_KMH" model="product.unit_measures_fe">
+			<field name="code">KMH</field>
+			<field name="name">Kilómetro Por Hora</field>
+		</record>
+
+		<record id="unit_measures_KMK" model="product.unit_measures_fe">
+			<field name="code">KMK</field>
+			<field name="name">Kilometro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_KMQ" model="product.unit_measures_fe">
+			<field name="code">KMQ</field>
+			<field name="name">Kilogramo Por Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_KNI" model="product.unit_measures_fe">
+			<field name="code">KNI</field>
+			<field name="name">Kilogramo De Nitrógeno</field>
+		</record>
+
+		<record id="unit_measures_KNS" model="product.unit_measures_fe">
+			<field name="code">KNS</field>
+			<field name="name">Kilogramo De Sustancia Nombrada</field>
+		</record>
+
+		<record id="unit_measures_KNT" model="product.unit_measures_fe">
+			<field name="code">KNT</field>
+			<field name="name">Nudo</field>
+		</record>
+
+		<record id="unit_measures_KO" model="product.unit_measures_fe">
+			<field name="code">KO</field>
+			<field name="name">Milliequivalencia De Potasa Cáustica Por Gramo De Producto.</field>
+		</record>
+
+		<record id="unit_measures_KPA" model="product.unit_measures_fe">
+			<field name="code">KPA</field>
+			<field name="name">Kilopascal</field>
+		</record>
+
+		<record id="unit_measures_KPH" model="product.unit_measures_fe">
+			<field name="code">KPH</field>
+			<field name="name">Kilogramo De Hidróxido De Potasio (Potasa Cáustica)</field>
+		</record>
+
+		<record id="unit_measures_KPO" model="product.unit_measures_fe">
+			<field name="code">KPO</field>
+			<field name="name">Kilogramo De Óxido De Potasio</field>
+		</record>
+
+		<record id="unit_measures_KPP" model="product.unit_measures_fe">
+			<field name="code">KPP</field>
+			<field name="name">Kilogramo De Pentóxido De Fósforo (Anhídrido Fosfórico)</field>
+		</record>
+
+		<record id="unit_measures_KR" model="product.unit_measures_fe">
+			<field name="code">KR</field>
+			<field name="name">Kilorã¶Ntgen</field>
+		</record>
+
+		<record id="unit_measures_KS" model="product.unit_measures_fe">
+			<field name="code">KS</field>
+			<field name="name">Mil Libras Por Pulgada Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_KSD" model="product.unit_measures_fe">
+			<field name="code">KSD</field>
+			<field name="name">Kilogramo De Sustancia 90% Seca</field>
+		</record>
+
+		<record id="unit_measures_KSH" model="product.unit_measures_fe">
+			<field name="code">KSH</field>
+			<field name="name">Kilogramo De Hidróxido De Sodio (Soda Cáustica)</field>
+		</record>
+
+		<record id="unit_measures_KT" model="product.unit_measures_fe">
+			<field name="code">KT</field>
+			<field name="name">Equipo</field>
+		</record>
+
+		<record id="unit_measures_KTM" model="product.unit_measures_fe">
+			<field name="code">KTM</field>
+			<field name="name">Kilómetro</field>
+		</record>
+
+		<record id="unit_measures_KTN" model="product.unit_measures_fe">
+			<field name="code">KTN</field>
+			<field name="name">Kilotonne</field>
+		</record>
+
+		<record id="unit_measures_KUR" model="product.unit_measures_fe">
+			<field name="code">KUR</field>
+			<field name="name">Kilogramo De Uranio</field>
+		</record>
+
+		<record id="unit_measures_KVA" model="product.unit_measures_fe">
+			<field name="code">KVA</field>
+			<field name="name">Kilovoltio – Ampere</field>
+		</record>
+
+		<record id="unit_measures_KVR" model="product.unit_measures_fe">
+			<field name="code">KVR</field>
+			<field name="name">Kilovar</field>
+		</record>
+
+		<record id="unit_measures_KVT" model="product.unit_measures_fe">
+			<field name="code">KVT</field>
+			<field name="name">Kilovoltio</field>
+		</record>
+
+		<record id="unit_measures_KW" model="product.unit_measures_fe">
+			<field name="code">KW</field>
+			<field name="name">Kilogramos Por Milímetro</field>
+		</record>
+
+		<record id="unit_measures_KWH" model="product.unit_measures_fe">
+			<field name="code">KWH</field>
+			<field name="name">Kilovatios Hora</field>
+		</record>
+
+		<record id="unit_measures_KWT" model="product.unit_measures_fe">
+			<field name="code">KWT</field>
+			<field name="name">Kilovatio</field>
+		</record>
+
+		<record id="unit_measures_KX" model="product.unit_measures_fe">
+			<field name="code">KX</field>
+			<field name="name">Mililitro Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_L2" model="product.unit_measures_fe">
+			<field name="code">L2</field>
+			<field name="name">Litro Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_LA" model="product.unit_measures_fe">
+			<field name="code">LA</field>
+			<field name="name">Libra Por Pulgada Cúbica</field>
+		</record>
+
+		<record id="unit_measures_LBR" model="product.unit_measures_fe">
+			<field name="code">LBR</field>
+			<field name="name">Libra</field>
+		</record>
+
+		<record id="unit_measures_LBT" model="product.unit_measures_fe">
+			<field name="code">LBT</field>
+			<field name="name">Libra Troy</field>
+		</record>
+
+		<record id="unit_measures_LC" model="product.unit_measures_fe">
+			<field name="code">LC</field>
+			<field name="name">Centímetro Lineal</field>
+		</record>
+
+		<record id="unit_measures_LD" model="product.unit_measures_fe">
+			<field name="code">LD</field>
+			<field name="name">Litro Por Día</field>
+		</record>
+
+		<record id="unit_measures_LE" model="product.unit_measures_fe">
+			<field name="code">LE</field>
+			<field name="name">Lite</field>
+		</record>
+
+		<record id="unit_measures_LEF" model="product.unit_measures_fe">
+			<field name="code">LEF</field>
+			<field name="name">Hoja</field>
+		</record>
+
+		<record id="unit_measures_LF" model="product.unit_measures_fe">
+			<field name="code">LF</field>
+			<field name="name">Pie Lineal</field>
+		</record>
+
+		<record id="unit_measures_LH" model="product.unit_measures_fe">
+			<field name="code">LH</field>
+			<field name="name">Hora De Trabajo</field>
+		</record>
+
+		<record id="unit_measures_LI" model="product.unit_measures_fe">
+			<field name="code">LI</field>
+			<field name="name">Pulgada Lineal</field>
+		</record>
+
+		<record id="unit_measures_LJ" model="product.unit_measures_fe">
+			<field name="code">LJ</field>
+			<field name="name">Spray Grande</field>
+		</record>
+
+		<record id="unit_measures_LK" model="product.unit_measures_fe">
+			<field name="code">LK</field>
+			<field name="name">Enlazar</field>
+		</record>
+
+		<record id="unit_measures_LM" model="product.unit_measures_fe">
+			<field name="code">LM</field>
+			<field name="name">Metro Lineal</field>
+		</record>
+
+		<record id="unit_measures_LN" model="product.unit_measures_fe">
+			<field name="code">LN</field>
+			<field name="name">Longitud</field>
+		</record>
+
+		<record id="unit_measures_LO" model="product.unit_measures_fe">
+			<field name="code">LO</field>
+			<field name="name">Mucho</field>
+		</record>
+
+		<record id="unit_measures_LP" model="product.unit_measures_fe">
+			<field name="code">LP</field>
+			<field name="name">Libra Liquida</field>
+		</record>
+
+		<record id="unit_measures_LPA" model="product.unit_measures_fe">
+			<field name="code">LPA</field>
+			<field name="name">Litro De Alcohol Puro</field>
+		</record>
+
+		<record id="unit_measures_LR" model="product.unit_measures_fe">
+			<field name="code">LR</field>
+			<field name="name">Capa</field>
+		</record>
+
+		<record id="unit_measures_LS" model="product.unit_measures_fe">
+			<field name="code">LS</field>
+			<field name="name">Suma Global</field>
+		</record>
+
+		<record id="unit_measures_LTN" model="product.unit_measures_fe">
+			<field name="code">LTN</field>
+			<field name="name">Ton (Reino Unido) O Longton (Ee. Uu.)</field>
+		</record>
+
+		<record id="unit_measures_LTR" model="product.unit_measures_fe">
+			<field name="code">LTR</field>
+			<field name="name">Litro</field>
+		</record>
+
+		<record id="unit_measures_LUM" model="product.unit_measures_fe">
+			<field name="code">LUM</field>
+			<field name="name">Lumen</field>
+		</record>
+
+		<record id="unit_measures_LUX" model="product.unit_measures_fe">
+			<field name="code">LUX</field>
+			<field name="name">Lux</field>
+		</record>
+
+		<record id="unit_measures_LX" model="product.unit_measures_fe">
+			<field name="code">LX</field>
+			<field name="name">Yarda Lineal Por Libra</field>
+		</record>
+
+		<record id="unit_measures_LY" model="product.unit_measures_fe">
+			<field name="code">LY</field>
+			<field name="name">Yarda Lineal</field>
+		</record>
+
+		<record id="unit_measures_M0" model="product.unit_measures_fe">
+			<field name="code">M0</field>
+			<field name="name">Cinta Magnética</field>
+		</record>
+
+		<record id="unit_measures_M1" model="product.unit_measures_fe">
+			<field name="code">M1</field>
+			<field name="name">Miligramos Por Litro</field>
+		</record>
+
+		<record id="unit_measures_M4" model="product.unit_measures_fe">
+			<field name="code">M4</field>
+			<field name="name">Valor Monetario</field>
+		</record>
+
+		<record id="unit_measures_M5" model="product.unit_measures_fe">
+			<field name="code">M5</field>
+			<field name="name">Microcurie</field>
+		</record>
+
+		<record id="unit_measures_M7" model="product.unit_measures_fe">
+			<field name="code">M7</field>
+			<field name="name">Micropulgada</field>
+		</record>
+
+		<record id="unit_measures_M9" model="product.unit_measures_fe">
+			<field name="code">M9</field>
+			<field name="name">Millones De Btu Por 1000 Pies Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_MA" model="product.unit_measures_fe">
+			<field name="code">MA</field>
+			<field name="name">Máquina Por Unidad</field>
+		</record>
+
+		<record id="unit_measures_MAL" model="product.unit_measures_fe">
+			<field name="code">MAL</field>
+			<field name="name">Mega Litro</field>
+		</record>
+
+		<record id="unit_measures_MAM" model="product.unit_measures_fe">
+			<field name="code">MAM</field>
+			<field name="name">Megametro</field>
+		</record>
+
+		<record id="unit_measures_MAW" model="product.unit_measures_fe">
+			<field name="code">MAW</field>
+			<field name="name">Megavatio</field>
+		</record>
+
+		<record id="unit_measures_MBE" model="product.unit_measures_fe">
+			<field name="code">MBE</field>
+			<field name="name">Mil Equivalentes De Ladrillo Estándar</field>
+		</record>
+
+		<record id="unit_measures_MBF" model="product.unit_measures_fe">
+			<field name="code">MBF</field>
+			<field name="name">Mil Pies De Tabla</field>
+		</record>
+
+		<record id="unit_measures_MBR" model="product.unit_measures_fe">
+			<field name="code">MBR</field>
+			<field name="name">Milibar</field>
+		</record>
+
+		<record id="unit_measures_MC" model="product.unit_measures_fe">
+			<field name="code">MC</field>
+			<field name="name">Microgramo</field>
+		</record>
+
+		<record id="unit_measures_MCU" model="product.unit_measures_fe">
+			<field name="code">MCU</field>
+			<field name="name">Milicurie</field>
+		</record>
+
+		<record id="unit_measures_MD" model="product.unit_measures_fe">
+			<field name="code">MD</field>
+			<field name="name">Aire Seco Tonelada Métrica</field>
+		</record>
+
+		<record id="unit_measures_MF" model="product.unit_measures_fe">
+			<field name="code">MF</field>
+			<field name="name">Miligramo Por Pie Cuadrado Por Lado</field>
+		</record>
+
+		<record id="unit_measures_MGM" model="product.unit_measures_fe">
+			<field name="code">MGM</field>
+			<field name="name">Miligramo</field>
+		</record>
+
+		<record id="unit_measures_MGM" model="product.unit_measures_fe">
+			<field name="code">MGM</field>
+			<field name="name">Megahercio</field>
+		</record>
+
+		<record id="unit_measures_MIK" model="product.unit_measures_fe">
+			<field name="code">MIK</field>
+			<field name="name">Milla Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_MIL" model="product.unit_measures_fe">
+			<field name="code">MIL</field>
+			<field name="name">Mil</field>
+		</record>
+
+		<record id="unit_measures_MIN" model="product.unit_measures_fe">
+			<field name="code">MIN</field>
+			<field name="name">Minuto</field>
+		</record>
+
+		<record id="unit_measures_MIO" model="product.unit_measures_fe">
+			<field name="code">MIO</field>
+			<field name="name">Millón</field>
+		</record>
+
+		<record id="unit_measures_MIU" model="product.unit_measures_fe">
+			<field name="code">MIU</field>
+			<field name="name">Millones De Unidades Internacionales</field>
+		</record>
+
+		<record id="unit_measures_MK" model="product.unit_measures_fe">
+			<field name="code">MK</field>
+			<field name="name">Miligramo Por Pulgada Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_MLD" model="product.unit_measures_fe">
+			<field name="code">MLD</field>
+			<field name="name">Mil Millones</field>
+		</record>
+
+		<record id="unit_measures_MLT" model="product.unit_measures_fe">
+			<field name="code">MLT</field>
+			<field name="name">Mililitro</field>
+		</record>
+
+		<record id="unit_measures_MMK" model="product.unit_measures_fe">
+			<field name="code">MMK</field>
+			<field name="name">Milímetro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_MMQ" model="product.unit_measures_fe">
+			<field name="code">MMQ</field>
+			<field name="name">Milímetro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_MMT" model="product.unit_measures_fe">
+			<field name="code">MMT</field>
+			<field name="name">Milímetro</field>
+		</record>
+
+		<record id="unit_measures_LUN" model="product.unit_measures_fe">
+			<field name="code">LUN</field>
+			<field name="name">Mes</field>
+		</record>
+
+		<record id="unit_measures_MPA" model="product.unit_measures_fe">
+			<field name="code">MPA</field>
+			<field name="name">Megapascal</field>
+		</record>
+
+		<record id="unit_measures_MQ" model="product.unit_measures_fe">
+			<field name="code">MQ</field>
+			<field name="name">Mil Metros</field>
+		</record>
+
+		<record id="unit_measures_MQH" model="product.unit_measures_fe">
+			<field name="code">MQH</field>
+			<field name="name">Metro Cúbico Por Hora</field>
+		</record>
+
+		<record id="unit_measures_MQS" model="product.unit_measures_fe">
+			<field name="code">MQS</field>
+			<field name="name">Metro Cúbico Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_MSK" model="product.unit_measures_fe">
+			<field name="code">MSK</field>
+			<field name="name">Metro Por Segundo Al Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_MT" model="product.unit_measures_fe">
+			<field name="code">MT</field>
+			<field name="name">Estera</field>
+		</record>
+
+		<record id="unit_measures_MTK" model="product.unit_measures_fe">
+			<field name="code">MTK</field>
+			<field name="name">Metro Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_MTQ" model="product.unit_measures_fe">
+			<field name="code">MTQ</field>
+			<field name="name">Metro Cúbico</field>
+		</record>
+
+		<record id="unit_measures_MTR" model="product.unit_measures_fe">
+			<field name="code">MTR</field>
+			<field name="name">Metro</field>
+		</record>
+
+		<record id="unit_measures_MTS" model="product.unit_measures_fe">
+			<field name="code">MTS</field>
+			<field name="name">Metro Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_MV" model="product.unit_measures_fe">
+			<field name="code">MV</field>
+			<field name="name">Numero De Mults</field>
+		</record>
+
+		<record id="unit_measures_MVA" model="product.unit_measures_fe">
+			<field name="code">MVA</field>
+			<field name="name">Megavolt – Ampere</field>
+		</record>
+
+		<record id="unit_measures_MWH" model="product.unit_measures_fe">
+			<field name="code">MWH</field>
+			<field name="name">Megavatios Hora (1000 Kw.H)</field>
+		</record>
+
+		<record id="unit_measures_N1" model="product.unit_measures_fe">
+			<field name="code">N1</field>
+			<field name="name">Calorías De La Pluma</field>
+		</record>
+
+		<record id="unit_measures_N2" model="product.unit_measures_fe">
+			<field name="code">N2</field>
+			<field name="name">Número De Líneas</field>
+		</record>
+
+		<record id="unit_measures_N3" model="product.unit_measures_fe">
+			<field name="code">N3</field>
+			<field name="name">Punto De Impresión</field>
+		</record>
+
+		<record id="unit_measures_NA" model="product.unit_measures_fe">
+			<field name="code">NA</field>
+			<field name="name">Miligramo Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_NAR" model="product.unit_measures_fe">
+			<field name="code">NAR</field>
+			<field name="name">Número De Artículos</field>
+		</record>
+
+		<record id="unit_measures_NB" model="product.unit_measures_fe">
+			<field name="code">NB</field>
+			<field name="name">Barcaza</field>
+		</record>
+
+		<record id="unit_measures_NBB" model="product.unit_measures_fe">
+			<field name="code">NBB</field>
+			<field name="name">Número De Bobinas</field>
+		</record>
+
+		<record id="unit_measures_NC" model="product.unit_measures_fe">
+			<field name="code">NC</field>
+			<field name="name">Coche</field>
+		</record>
+
+		<record id="unit_measures_NCL" model="product.unit_measures_fe">
+			<field name="code">NCL</field>
+			<field name="name">Número De Celdas</field>
+		</record>
+
+		<record id="unit_measures_ND" model="product.unit_measures_fe">
+			<field name="code">ND</field>
+			<field name="name">Barril Neto</field>
+		</record>
+
+		<record id="unit_measures_NE" model="product.unit_measures_fe">
+			<field name="code">NE</field>
+			<field name="name">Litro Neto</field>
+		</record>
+
+		<record id="unit_measures_NEW" model="product.unit_measures_fe">
+			<field name="code">NEW</field>
+			<field name="name">Newton</field>
+		</record>
+
+		<record id="unit_measures_NF" model="product.unit_measures_fe">
+			<field name="code">NF</field>
+			<field name="name">Mensaje</field>
+		</record>
+
+		<record id="unit_measures_NG" model="product.unit_measures_fe">
+			<field name="code">NG</field>
+			<field name="name">Galón Neto (Nosotros)</field>
+		</record>
+
+		<record id="unit_measures_NH" model="product.unit_measures_fe">
+			<field name="code">NH</field>
+			<field name="name">Hora Del Mensaje</field>
+		</record>
+
+		<record id="unit_measures_NI" model="product.unit_measures_fe">
+			<field name="code">NI</field>
+			<field name="name">Galón Imperial Neto</field>
+		</record>
+
+		<record id="unit_measures_NIU" model="product.unit_measures_fe">
+			<field name="code">NIU</field>
+			<field name="name">Número De Unidades Internacionales</field>
+		</record>
+
+		<record id="unit_measures_NJ" model="product.unit_measures_fe">
+			<field name="code">NJ</field>
+			<field name="name">Número De Pantallas</field>
+		</record>
+
+		<record id="unit_measures_NL" model="product.unit_measures_fe">
+			<field name="code">NL</field>
+			<field name="name">Carga</field>
+		</record>
+
+		<record id="unit_measures_MNI" model="product.unit_measures_fe">
+			<field name="code">MNI</field>
+			<field name="name">Milla Nautica</field>
+		</record>
+
+		<record id="unit_measures_NMP" model="product.unit_measures_fe">
+			<field name="code">NMP</field>
+			<field name="name">Número De Paquetes</field>
+		</record>
+
+		<record id="unit_measures_NN" model="product.unit_measures_fe">
+			<field name="code">NN</field>
+			<field name="name">Entrenar</field>
+		</record>
+
+		<record id="unit_measures_NPL" model="product.unit_measures_fe">
+			<field name="code">NPL</field>
+			<field name="name">Número De Parcelas</field>
+		</record>
+
+		<record id="unit_measures_NPR" model="product.unit_measures_fe">
+			<field name="code">NPR</field>
+			<field name="name">Numero De Pares</field>
+		</record>
+
+		<record id="unit_measures_TNP" model="product.unit_measures_fe">
+			<field name="code">TNP</field>
+			<field name="name">Numero De Partes</field>
+		</record>
+
+		<record id="unit_measures_NQ" model="product.unit_measures_fe">
+			<field name="code">NQ</field>
+			<field name="name">Mho</field>
+		</record>
+
+		<record id="unit_measures_NR" model="product.unit_measures_fe">
+			<field name="code">NR</field>
+			<field name="name">Micromho</field>
+		</record>
+
+		<record id="unit_measures_NRL" model="product.unit_measures_fe">
+			<field name="code">NRL</field>
+			<field name="name">Número De Rollos</field>
+		</record>
+
+		<record id="unit_measures_NT" model="product.unit_measures_fe">
+			<field name="code">NT</field>
+			<field name="name">Tonelada Neta</field>
+		</record>
+
+		<record id="unit_measures_NTT" model="product.unit_measures_fe">
+			<field name="code">NTT</field>
+			<field name="name">Registro Neto De Toneladas</field>
+		</record>
+
+		<record id="unit_measures_NU" model="product.unit_measures_fe">
+			<field name="code">NU</field>
+			<field name="name">Medidor De Newton</field>
+		</record>
+
+		<record id="unit_measures_NV" model="product.unit_measures_fe">
+			<field name="code">NV</field>
+			<field name="name">Vehículo</field>
+		</record>
+
+		<record id="unit_measures_NX" model="product.unit_measures_fe">
+			<field name="code">NX</field>
+			<field name="name">Parte Por Mil</field>
+		</record>
+
+		<record id="unit_measures_NY" model="product.unit_measures_fe">
+			<field name="code">NY</field>
+			<field name="name">Libra Por Aire Seco Tonelada Métrica</field>
+		</record>
+
+		<record id="unit_measures_OA" model="product.unit_measures_fe">
+			<field name="code">OA</field>
+			<field name="name">Panel</field>
+		</record>
+
+		<record id="unit_measures_OHM" model="product.unit_measures_fe">
+			<field name="code">OHM</field>
+			<field name="name">Ohm</field>
+		</record>
+
+		<record id="unit_measures_EN" model="product.unit_measures_fe">
+			<field name="code">EN</field>
+			<field name="name">Onza Por Yarda Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_ONZ" model="product.unit_measures_fe">
+			<field name="code">ONZ</field>
+			<field name="name">Onza</field>
+		</record>
+
+		<record id="unit_measures_OP" model="product.unit_measures_fe">
+			<field name="code">OP</field>
+			<field name="name">Dos Paquetes</field>
+		</record>
+
+		<record id="unit_measures_OT" model="product.unit_measures_fe">
+			<field name="code">OT</field>
+			<field name="name">Hora Extra</field>
+		</record>
+
+		<record id="unit_measures_ONZ" model="product.unit_measures_fe">
+			<field name="code">ONZ</field>
+			<field name="name">Onza Av</field>
+		</record>
+
+		<record id="unit_measures_OZA" model="product.unit_measures_fe">
+			<field name="code">OZA</field>
+			<field name="name">Onza Líquida (Us)</field>
+		</record>
+
+		<record id="unit_measures_OZI" model="product.unit_measures_fe">
+			<field name="code">OZI</field>
+			<field name="name">Onza Líquida (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_P0" model="product.unit_measures_fe">
+			<field name="code">P0</field>
+			<field name="name">Pagina – Electronica</field>
+		</record>
+
+		<record id="unit_measures_P1" model="product.unit_measures_fe">
+			<field name="code">P1</field>
+			<field name="name">Por Ciento</field>
+		</record>
+
+		<record id="unit_measures_P2" model="product.unit_measures_fe">
+			<field name="code">P2</field>
+			<field name="name">Libra Por Pie</field>
+		</record>
+
+		<record id="unit_measures_P3" model="product.unit_measures_fe">
+			<field name="code">P3</field>
+			<field name="name">Paquete De Tres</field>
+		</record>
+
+		<record id="unit_measures_P4" model="product.unit_measures_fe">
+			<field name="code">P4</field>
+			<field name="name">Paquete De Cuatro</field>
+		</record>
+
+		<record id="unit_measures_P5" model="product.unit_measures_fe">
+			<field name="code">P5</field>
+			<field name="name">Paquete De Cinco</field>
+		</record>
+
+		<record id="unit_measures_P6" model="product.unit_measures_fe">
+			<field name="code">P6</field>
+			<field name="name">Paquete De Seis</field>
+		</record>
+
+		<record id="unit_measures_P7" model="product.unit_measures_fe">
+			<field name="code">P7</field>
+			<field name="name">Paquete De Siete</field>
+		</record>
+
+		<record id="unit_measures_P8" model="product.unit_measures_fe">
+			<field name="code">P8</field>
+			<field name="name">Paquete De Ocho</field>
+		</record>
+
+		<record id="unit_measures_P9" model="product.unit_measures_fe">
+			<field name="code">P9</field>
+			<field name="name">Paquete De Nueve</field>
+		</record>
+
+		<record id="unit_measures_PA" model="product.unit_measures_fe">
+			<field name="code">PA</field>
+			<field name="name">Paquete</field>
+		</record>
+
+		<record id="unit_measures_PAL" model="product.unit_measures_fe">
+			<field name="code">PAL</field>
+			<field name="name">Pascal</field>
+		</record>
+
+		<record id="unit_measures_PB" model="product.unit_measures_fe">
+			<field name="code">PB</field>
+			<field name="name">Par De Pulgadas</field>
+		</record>
+
+		<record id="unit_measures_PD" model="product.unit_measures_fe">
+			<field name="code">PD</field>
+			<field name="name">Almohadilla</field>
+		</record>
+
+		<record id="unit_measures_PE" model="product.unit_measures_fe">
+			<field name="code">PE</field>
+			<field name="name">Equivalente En Libras</field>
+		</record>
+
+		<record id="unit_measures_PF" model="product.unit_measures_fe">
+			<field name="code">PF</field>
+			<field name="name">Palet (Ascensor)</field>
+		</record>
+
+		<record id="unit_measures_PG" model="product.unit_measures_fe">
+			<field name="code">PG</field>
+			<field name="name">Plato</field>
+		</record>
+
+		<record id="unit_measures_PGL" model="product.unit_measures_fe">
+			<field name="code">PGL</field>
+			<field name="name">Galón De Prueba</field>
+		</record>
+
+		<record id="unit_measures_Pi" model="product.unit_measures_fe">
+			<field name="code">Pi</field>
+			<field name="name">Tono</field>
+		</record>
+
+		<record id="unit_measures_PK" model="product.unit_measures_fe">
+			<field name="code">PK</field>
+			<field name="name">Paquete</field>
+		</record>
+
+		<record id="unit_measures_PL" model="product.unit_measures_fe">
+			<field name="code">PL</field>
+			<field name="name">Cubo</field>
+		</record>
+
+		<record id="unit_measures_PM" model="product.unit_measures_fe">
+			<field name="code">PM</field>
+			<field name="name">Porcentaje De Libra</field>
+		</record>
+
+		<record id="unit_measures_PN" model="product.unit_measures_fe">
+			<field name="code">PN</field>
+			<field name="name">Libra Neta</field>
+		</record>
+
+		<record id="unit_measures_PO" model="product.unit_measures_fe">
+			<field name="code">PO</field>
+			<field name="name">Libra Por Pulgada De Longitud</field>
+		</record>
+
+		<record id="unit_measures_PQ" model="product.unit_measures_fe">
+			<field name="code">PQ</field>
+			<field name="name">Página Por Pulgada</field>
+		</record>
+
+		<record id="unit_measures_PR" model="product.unit_measures_fe">
+			<field name="code">PR</field>
+			<field name="name">Par</field>
+		</record>
+
+		<record id="unit_measures_PD" model="product.unit_measures_fe">
+			<field name="code">PD</field>
+			<field name="name">Fuerza De Libra Por Pulgada Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_PT" model="product.unit_measures_fe">
+			<field name="code">PT</field>
+			<field name="name">Pinta</field>
+		</record>
+
+		<record id="unit_measures_PTD" model="product.unit_measures_fe">
+			<field name="code">PTD</field>
+			<field name="name">Pinta Seca</field>
+		</record>
+
+		<record id="unit_measures_PTI" model="product.unit_measures_fe">
+			<field name="code">PTI</field>
+			<field name="name">Pinta (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_PTL" model="product.unit_measures_fe">
+			<field name="code">PTL</field>
+			<field name="name">Pinta Liquida (Us)</field>
+		</record>
+
+		<record id="unit_measures_PU" model="product.unit_measures_fe">
+			<field name="code">PU</field>
+			<field name="name">Bandeja / Paquete De Bandeja</field>
+		</record>
+
+		<record id="unit_measures_PV" model="product.unit_measures_fe">
+			<field name="code">PV</field>
+			<field name="name">Media Pinta (Us)</field>
+		</record>
+
+		<record id="unit_measures_PW" model="product.unit_measures_fe">
+			<field name="code">PW</field>
+			<field name="name">Libra Por Pulgada De Ancho</field>
+		</record>
+
+		<record id="unit_measures_PY" model="product.unit_measures_fe">
+			<field name="code">PY</field>
+			<field name="name">Peck Dry (Us)</field>
+		</record>
+
+		<record id="unit_measures_PZ" model="product.unit_measures_fe">
+			<field name="code">PZ</field>
+			<field name="name">Peck Dry (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_Q3" model="product.unit_measures_fe">
+			<field name="code">Q3</field>
+			<field name="name">Comida</field>
+		</record>
+
+		<record id="unit_measures_QA" model="product.unit_measures_fe">
+			<field name="code">QA</field>
+			<field name="name">Página – Facsímil</field>
+		</record>
+
+		<record id="unit_measures_QAN" model="product.unit_measures_fe">
+			<field name="code">QAN</field>
+			<field name="name">Cuarto (De Un Año)</field>
+		</record>
+
+		<record id="unit_measures_QB" model="product.unit_measures_fe">
+			<field name="code">QB</field>
+			<field name="name">Página – Copia Impresa</field>
+		</record>
+
+		<record id="unit_measures_QD" model="product.unit_measures_fe">
+			<field name="code">QD</field>
+			<field name="name">Cuarto De Docena</field>
+		</record>
+
+		<record id="unit_measures_QH" model="product.unit_measures_fe">
+			<field name="code">QH</field>
+			<field name="name">Un Cuarto De Hora</field>
+		</record>
+
+		<record id="unit_measures_QK" model="product.unit_measures_fe">
+			<field name="code">QK</field>
+			<field name="name">Cuarto De Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_QR" model="product.unit_measures_fe">
+			<field name="code">QR</field>
+			<field name="name">Mano De Papel</field>
+		</record>
+
+		<record id="unit_measures_QT" model="product.unit_measures_fe">
+			<field name="code">QT</field>
+			<field name="name">Cuarto De Galón (Us)</field>
+		</record>
+
+		<record id="unit_measures_QTD" model="product.unit_measures_fe">
+			<field name="code">QTD</field>
+			<field name="name">Cuarto Seco (Ee. Uu.)</field>
+		</record>
+
+		<record id="unit_measures_QTI" model="product.unit_measures_fe">
+			<field name="code">QTI</field>
+			<field name="name">Cuarto De Galón (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_QTL" model="product.unit_measures_fe">
+			<field name="code">QTL</field>
+			<field name="name">Cuarto Líquido (Us)</field>
+		</record>
+
+		<record id="unit_measures_QTR" model="product.unit_measures_fe">
+			<field name="code">QTR</field>
+			<field name="name">Cuarto (Uk)</field>
+		</record>
+
+		<record id="unit_measures_R1" model="product.unit_measures_fe">
+			<field name="code">R1</field>
+			<field name="name">Pica</field>
+		</record>
+
+		<record id="unit_measures_R4" model="product.unit_measures_fe">
+			<field name="code">R4</field>
+			<field name="name">Caloría</field>
+		</record>
+
+		<record id="unit_measures_R9" model="product.unit_measures_fe">
+			<field name="code">R9</field>
+			<field name="name">Mil Metros Cúbicos</field>
+		</record>
+
+		<record id="unit_measures_RA" model="product.unit_measures_fe">
+			<field name="code">RA</field>
+			<field name="name">Estante</field>
+		</record>
+
+		<record id="unit_measures_RD" model="product.unit_measures_fe">
+			<field name="code">RD</field>
+			<field name="name">Barra</field>
+		</record>
+
+		<record id="unit_measures_RG" model="product.unit_measures_fe">
+			<field name="code">RG</field>
+			<field name="name">Anillo</field>
+		</record>
+
+		<record id="unit_measures_RH" model="product.unit_measures_fe">
+			<field name="code">RH</field>
+			<field name="name">Hora De Funcionamiento O De Funcionamiento</field>
+		</record>
+
+		<record id="unit_measures_RK" model="product.unit_measures_fe">
+			<field name="code">RK</field>
+			<field name="name">Medida Métrica Rollo</field>
+		</record>
+
+		<record id="unit_measures_RL" model="product.unit_measures_fe">
+			<field name="code">RL</field>
+			<field name="name">Carrete</field>
+		</record>
+
+		<record id="unit_measures_RM" model="product.unit_measures_fe">
+			<field name="code">RM</field>
+			<field name="name">Resma</field>
+		</record>
+
+		<record id="unit_measures_RN" model="product.unit_measures_fe">
+			<field name="code">RN</field>
+			<field name="name">Medida Métrica De Resma</field>
+		</record>
+
+		<record id="unit_measures_RO" model="product.unit_measures_fe">
+			<field name="code">RO</field>
+			<field name="name">Rodar</field>
+		</record>
+
+		<record id="unit_measures_RP" model="product.unit_measures_fe">
+			<field name="code">RP</field>
+			<field name="name">Libra Por Resma</field>
+		</record>
+
+		<record id="unit_measures_RPM" model="product.unit_measures_fe">
+			<field name="code">RPM</field>
+			<field name="name">Revoluciones Por Minuto</field>
+		</record>
+
+		<record id="unit_measures_RPS" model="product.unit_measures_fe">
+			<field name="code">RPS</field>
+			<field name="name">Revoluciones Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_RS" model="product.unit_measures_fe">
+			<field name="code">RS</field>
+			<field name="name">Reiniciar</field>
+		</record>
+
+		<record id="unit_measures_RT" model="product.unit_measures_fe">
+			<field name="code">RT</field>
+			<field name="name">Ingreso Tonelada Milla</field>
+		</record>
+
+		<record id="unit_measures_RU" model="product.unit_measures_fe">
+			<field name="code">RU</field>
+			<field name="name">Correr</field>
+		</record>
+
+		<record id="unit_measures_S3" model="product.unit_measures_fe">
+			<field name="code">S3</field>
+			<field name="name">Pie Cuadrado Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_S4" model="product.unit_measures_fe">
+			<field name="code">S4</field>
+			<field name="name">Metro Cuadrado Por Segundo</field>
+		</record>
+
+		<record id="unit_measures_S5" model="product.unit_measures_fe">
+			<field name="code">S5</field>
+			<field name="name">Sesenta Cuartos De Pulgada</field>
+		</record>
+
+		<record id="unit_measures_S6" model="product.unit_measures_fe">
+			<field name="code">S6</field>
+			<field name="name">Sesión</field>
+		</record>
+
+		<record id="unit_measures_S7" model="product.unit_measures_fe">
+			<field name="code">S7</field>
+			<field name="name">Unidad De Almacenamiento</field>
+		</record>
+
+		<record id="unit_measures_S8" model="product.unit_measures_fe">
+			<field name="code">S8</field>
+			<field name="name">Unidad De Publicidad Estándar</field>
+		</record>
+
+		<record id="unit_measures_SA" model="product.unit_measures_fe">
+			<field name="code">SA</field>
+			<field name="name">Saco</field>
+		</record>
+
+		<record id="unit_measures_SAN" model="product.unit_measures_fe">
+			<field name="code">SAN</field>
+			<field name="name">Medio Año (6 Meses)</field>
+		</record>
+
+		<record id="unit_measures_OCS" model="product.unit_measures_fe">
+			<field name="code">OCS</field>
+			<field name="name">Puntuación</field>
+		</record>
+
+		<record id="unit_measures_SCR" model="product.unit_measures_fe">
+			<field name="code">SCR</field>
+			<field name="name">Escrúpulo</field>
+		</record>
+
+		<record id="unit_measures_SD" model="product.unit_measures_fe">
+			<field name="code">SD</field>
+			<field name="name">Libra Solida</field>
+		</record>
+
+		<record id="unit_measures_SE" model="product.unit_measures_fe">
+			<field name="code">SE</field>
+			<field name="name">Sección</field>
+		</record>
+
+		<record id="unit_measures_SEC" model="product.unit_measures_fe">
+			<field name="code">SEC</field>
+			<field name="name">Segundo</field>
+		</record>
+
+		<record id="unit_measures_SET" model="product.unit_measures_fe">
+			<field name="code">SET</field>
+			<field name="name">Conjunto</field>
+		</record>
+
+		<record id="unit_measures_SG" model="product.unit_measures_fe">
+			<field name="code">SG</field>
+			<field name="name">Segmento</field>
+		</record>
+
+		<record id="unit_measures_SHT" model="product.unit_measures_fe">
+			<field name="code">SHT</field>
+			<field name="name">Tonelada De Envío</field>
+		</record>
+
+		<record id="unit_measures_SIE" model="product.unit_measures_fe">
+			<field name="code">SIE</field>
+			<field name="name">Siemens</field>
+		</record>
+
+		<record id="unit_measures_SK" model="product.unit_measures_fe">
+			<field name="code">SK</field>
+			<field name="name">Camión Cisterna Dividido</field>
+		</record>
+
+		<record id="unit_measures_SL" model="product.unit_measures_fe">
+			<field name="code">SL</field>
+			<field name="name">Hoja De Deslizamiento</field>
+		</record>
+
+		<record id="unit_measures_SMI" model="product.unit_measures_fe">
+			<field name="code">SMI</field>
+			<field name="name">Milla (Milla Estatutaria)</field>
+		</record>
+
+		<record id="unit_measures_SN" model="product.unit_measures_fe">
+			<field name="code">SN</field>
+			<field name="name">Varilla Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_SO" model="product.unit_measures_fe">
+			<field name="code">SO</field>
+			<field name="name">Carrete</field>
+		</record>
+
+		<record id="unit_measures_SP" model="product.unit_measures_fe">
+			<field name="code">SP</field>
+			<field name="name">Paquete De Estante</field>
+		</record>
+
+		<record id="unit_measures_SQ" model="product.unit_measures_fe">
+			<field name="code">SQ</field>
+			<field name="name">Cuadrado</field>
+		</record>
+
+		<record id="unit_measures_SR" model="product.unit_measures_fe">
+			<field name="code">SR</field>
+			<field name="name">Tira</field>
+		</record>
+
+		<record id="unit_measures_SS" model="product.unit_measures_fe">
+			<field name="code">SS</field>
+			<field name="name">Hoja Métrica Medida</field>
+		</record>
+
+		<record id="unit_measures_SST" model="product.unit_measures_fe">
+			<field name="code">SST</field>
+			<field name="name">Corto Estándar (7200 Partidos)</field>
+		</record>
+
+		<record id="unit_measures_ST" model="product.unit_measures_fe">
+			<field name="code">ST</field>
+			<field name="name">Hoja</field>
+		</record>
+
+		<record id="unit_measures_ITS" model="product.unit_measures_fe">
+			<field name="code">ITS</field>
+			<field name="name">Piedra (Reino Unido)</field>
+		</record>
+
+		<record id="unit_measures_STN" model="product.unit_measures_fe">
+			<field name="code">STN</field>
+			<field name="name">Tonelada (Us) O Tonelada Corta (Uk / Us)</field>
+		</record>
+
+		<record id="unit_measures_SV" model="product.unit_measures_fe">
+			<field name="code">SV</field>
+			<field name="name">Patinar</field>
+		</record>
+
+		<record id="unit_measures_SO" model="product.unit_measures_fe">
+			<field name="code">SO</field>
+			<field name="name">Madeja</field>
+		</record>
+
+		<record id="unit_measures_SX" model="product.unit_measures_fe">
+			<field name="code">SX</field>
+			<field name="name">Envío</field>
+		</record>
+
+		<record id="unit_measures_T0" model="product.unit_measures_fe">
+			<field name="code">T0</field>
+			<field name="name">Línea De Telecomunicaciones En Servicio.</field>
+		</record>
+
+		<record id="unit_measures_T1" model="product.unit_measures_fe">
+			<field name="code">T1</field>
+			<field name="name">Mil Libras Brutas</field>
+		</record>
+
+		<record id="unit_measures_T3" model="product.unit_measures_fe">
+			<field name="code">T3</field>
+			<field name="name">Mil Piezas</field>
+		</record>
+
+		<record id="unit_measures_T4" model="product.unit_measures_fe">
+			<field name="code">T4</field>
+			<field name="name">Bolsa De Mil</field>
+		</record>
+
+		<record id="unit_measures_T5" model="product.unit_measures_fe">
+			<field name="code">T5</field>
+			<field name="name">Caja De Mil</field>
+		</record>
+
+		<record id="unit_measures_T6" model="product.unit_measures_fe">
+			<field name="code">T6</field>
+			<field name="name">Mil Galones (Us)</field>
+		</record>
+
+		<record id="unit_measures_T7" model="product.unit_measures_fe">
+			<field name="code">T7</field>
+			<field name="name">Mil Impresiones</field>
+		</record>
+
+		<record id="unit_measures_T8" model="product.unit_measures_fe">
+			<field name="code">T8</field>
+			<field name="name">Mil Pulgadas Lineales</field>
+		</record>
+
+		<record id="unit_measures_TA" model="product.unit_measures_fe">
+			<field name="code">TA</field>
+			<field name="name">Décimo Pie Cúbico</field>
+		</record>
+
+		<record id="unit_measures_TAH" model="product.unit_measures_fe">
+			<field name="code">TAH</field>
+			<field name="name">Kiloampere Hora (Mil Amperios Hora)</field>
+		</record>
+
+		<record id="unit_measures_TC" model="product.unit_measures_fe">
+			<field name="code">TC</field>
+			<field name="name">Camion</field>
+		</record>
+
+		<record id="unit_measures_TD" model="product.unit_measures_fe">
+			<field name="code">TD</field>
+			<field name="name">Termia</field>
+		</record>
+
+		<record id="unit_measures_TE" model="product.unit_measures_fe">
+			<field name="code">TE</field>
+			<field name="name">Totalizador</field>
+		</record>
+
+		<record id="unit_measures_TF" model="product.unit_measures_fe">
+			<field name="code">TF</field>
+			<field name="name">Diez Metros Cuadrados</field>
+		</record>
+
+		<record id="unit_measures_TI" model="product.unit_measures_fe">
+			<field name="code">TI</field>
+			<field name="name">Mil Pulgadas Cuadradas</field>
+		</record>
+
+		<record id="unit_measures_TJ" model="product.unit_measures_fe">
+			<field name="code">TJ</field>
+			<field name="name">Mil Centímetros Cuadrados</field>
+		</record>
+
+		<record id="unit_measures_TK" model="product.unit_measures_fe">
+			<field name="code">TK</field>
+			<field name="name">Tanque, Rectangular</field>
+		</record>
+
+		<record id="unit_measures_TL" model="product.unit_measures_fe">
+			<field name="code">TL</field>
+			<field name="name">Mil Pies (Lineales)</field>
+		</record>
+
+		<record id="unit_measures_TN" model="product.unit_measures_fe">
+			<field name="code">TN</field>
+			<field name="name">Estaño</field>
+		</record>
+
+		<record id="unit_measures_TNE" model="product.unit_measures_fe">
+			<field name="code">TNE</field>
+			<field name="name">Tonelada (Tonelada Métrica)</field>
+		</record>
+
+		<record id="unit_measures_TP" model="product.unit_measures_fe">
+			<field name="code">TP</field>
+			<field name="name">Paquete De Diez</field>
+		</record>
+
+		<record id="unit_measures_TPR" model="product.unit_measures_fe">
+			<field name="code">TPR</field>
+			<field name="name">Diez Pares</field>
+		</record>
+
+		<record id="unit_measures_TQ" model="product.unit_measures_fe">
+			<field name="code">TQ</field>
+			<field name="name">Mil Pies</field>
+		</record>
+
+		<record id="unit_measures_TQD" model="product.unit_measures_fe">
+			<field name="code">TQD</field>
+			<field name="name">Mil Metros Cúbicos Por Día</field>
+		</record>
+
+		<record id="unit_measures_TR" model="product.unit_measures_fe">
+			<field name="code">TR</field>
+			<field name="name">Diez Pies Cuadrados</field>
+		</record>
+
+		<record id="unit_measures_TRL" model="product.unit_measures_fe">
+			<field name="code">TRL</field>
+			<field name="name">Trillón (Eur)</field>
+		</record>
+
+		<record id="unit_measures_TS" model="product.unit_measures_fe">
+			<field name="code">TS</field>
+			<field name="name">Mil Pies Cuadrados</field>
+		</record>
+
+		<record id="unit_measures_TSD" model="product.unit_measures_fe">
+			<field name="code">TSD</field>
+			<field name="name">Tonelada De Sustancia 90% Seca</field>
+		</record>
+
+		<record id="unit_measures_TSH" model="product.unit_measures_fe">
+			<field name="code">TSH</field>
+			<field name="name">Tonelada De Vapor Por Hora</field>
+		</record>
+
+		<record id="unit_measures_TT" model="product.unit_measures_fe">
+			<field name="code">TT</field>
+			<field name="name">Mil Metros Lineales</field>
+		</record>
+
+		<record id="unit_measures_TU" model="product.unit_measures_fe">
+			<field name="code">TU</field>
+			<field name="name">Tubo</field>
+		</record>
+
+		<record id="unit_measures_TV" model="product.unit_measures_fe">
+			<field name="code">TV</field>
+			<field name="name">Mil Kilogramos</field>
+		</record>
+
+		<record id="unit_measures_TW" model="product.unit_measures_fe">
+			<field name="code">TW</field>
+			<field name="name">Mil Hojas</field>
+		</record>
+
+		<record id="unit_measures_TY" model="product.unit_measures_fe">
+			<field name="code">TY</field>
+			<field name="name">Tanque, Cilíndrico</field>
+		</record>
+
+		<record id="unit_measures_U1" model="product.unit_measures_fe">
+			<field name="code">U1</field>
+			<field name="name">Tratamiento</field>
+		</record>
+
+		<record id="unit_measures_U2" model="product.unit_measures_fe">
+			<field name="code">U2</field>
+			<field name="name">Tableta</field>
+		</record>
+
+		<record id="unit_measures_UA" model="product.unit_measures_fe">
+			<field name="code">UA</field>
+			<field name="name">Torr</field>
+		</record>
+
+		<record id="unit_measures_UB" model="product.unit_measures_fe">
+			<field name="code">UB</field>
+			<field name="name">Línea De Telecomunicaciones En Servicio Promedio.</field>
+		</record>
+
+		<record id="unit_measures_UC" model="product.unit_measures_fe">
+			<field name="code">UC</field>
+			<field name="name">Puerto De Telecomunicaciones</field>
+		</record>
+
+		<record id="unit_measures_UD" model="product.unit_measures_fe">
+			<field name="code">UD</field>
+			<field name="name">Décimo Minuto</field>
+		</record>
+
+		<record id="unit_measures_UE" model="product.unit_measures_fe">
+			<field name="code">UE</field>
+			<field name="name">Décima Hora</field>
+		</record>
+
+		<record id="unit_measures_UF" model="product.unit_measures_fe">
+			<field name="code">UF</field>
+			<field name="name">Uso Por Línea De Telecomunicación Promedio</field>
+		</record>
+
+		<record id="unit_measures_UH" model="product.unit_measures_fe">
+			<field name="code">UH</field>
+			<field name="name">Diez Mil Yardas</field>
+		</record>
+
+		<record id="unit_measures_UM" model="product.unit_measures_fe">
+			<field name="code">UM</field>
+			<field name="name">Millones De Unidades</field>
+		</record>
+
+		<record id="unit_measures_VA" model="product.unit_measures_fe">
+			<field name="code">VA</field>
+			<field name="name">Voltio Amperio Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_VI" model="product.unit_measures_fe">
+			<field name="code">VI</field>
+			<field name="name">Frasco</field>
+		</record>
+
+		<record id="unit_measures_VLT" model="product.unit_measures_fe">
+			<field name="code">VLT</field>
+			<field name="name">Voltio</field>
+		</record>
+
+		<record id="unit_measures_VQ" model="product.unit_measures_fe">
+			<field name="code">VQ</field>
+			<field name="name">Abultar</field>
+		</record>
+
+		<record id="unit_measures_VS" model="product.unit_measures_fe">
+			<field name="code">VS</field>
+			<field name="name">Visitar</field>
+		</record>
+
+		<record id="unit_measures_W2" model="product.unit_measures_fe">
+			<field name="code">W2</field>
+			<field name="name">Kilo Mojado</field>
+		</record>
+
+		<record id="unit_measures_W4" model="product.unit_measures_fe">
+			<field name="code">W4</field>
+			<field name="name">Dos Semanas</field>
+		</record>
+
+		<record id="unit_measures_WA" model="product.unit_measures_fe">
+			<field name="code">WA</field>
+			<field name="name">Vatio Por Kilogramo</field>
+		</record>
+
+		<record id="unit_measures_WB" model="product.unit_measures_fe">
+			<field name="code">WB</field>
+			<field name="name">Libra Mojada</field>
+		</record>
+
+		<record id="unit_measures_WCD" model="product.unit_measures_fe">
+			<field name="code">WCD</field>
+			<field name="name">Cable</field>
+		</record>
+
+		<record id="unit_measures_WE" model="product.unit_measures_fe">
+			<field name="code">WE</field>
+			<field name="name">Tonelada Mojada</field>
+		</record>
+
+		<record id="unit_measures_WEB" model="product.unit_measures_fe">
+			<field name="code">WEB</field>
+			<field name="name">Weber</field>
+		</record>
+
+		<record id="unit_measures_WEE" model="product.unit_measures_fe">
+			<field name="code">WEE</field>
+			<field name="name">Semana</field>
+		</record>
+
+		<record id="unit_measures_WG" model="product.unit_measures_fe">
+			<field name="code">WG</field>
+			<field name="name">Galon De Vino</field>
+		</record>
+
+		<record id="unit_measures_WH" model="product.unit_measures_fe">
+			<field name="code">WH</field>
+			<field name="name">Rueda</field>
+		</record>
+
+		<record id="unit_measures_WHR" model="product.unit_measures_fe">
+			<field name="code">WHR</field>
+			<field name="name">Vatios Hora</field>
+		</record>
+
+		<record id="unit_measures_WI" model="product.unit_measures_fe">
+			<field name="code">WI</field>
+			<field name="name">Peso Por Pulgada Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_WM" model="product.unit_measures_fe">
+			<field name="code">WM</field>
+			<field name="name">Mes De Trabajo</field>
+		</record>
+
+		<record id="unit_measures_WR" model="product.unit_measures_fe">
+			<field name="code">WR</field>
+			<field name="name">Envolver</field>
+		</record>
+
+		<record id="unit_measures_WSD" model="product.unit_measures_fe">
+			<field name="code">WSD</field>
+			<field name="name">Estándar</field>
+		</record>
+
+		<record id="unit_measures_WTT" model="product.unit_measures_fe">
+			<field name="code">WTT</field>
+			<field name="name">Vatio</field>
+		</record>
+
+		<record id="unit_measures_WW" model="product.unit_measures_fe">
+			<field name="code">WW</field>
+			<field name="name">Mililitro De Agua</field>
+		</record>
+
+		<record id="unit_measures_X1" model="product.unit_measures_fe">
+			<field name="code">X1</field>
+			<field name="name">Cadena</field>
+		</record>
+
+		<record id="unit_measures_YDK" model="product.unit_measures_fe">
+			<field name="code">YDK</field>
+			<field name="name">Yarda Cuadrada</field>
+		</record>
+
+		<record id="unit_measures_YDQ" model="product.unit_measures_fe">
+			<field name="code">YDQ</field>
+			<field name="name">Yarda Cúbica</field>
+		</record>
+
+		<record id="unit_measures_YL" model="product.unit_measures_fe">
+			<field name="code">YL</field>
+			<field name="name">Cien Yardas Lineales</field>
+		</record>
+
+		<record id="unit_measures_YRD" model="product.unit_measures_fe">
+			<field name="code">YRD</field>
+			<field name="name">Yarda</field>
+		</record>
+
+		<record id="unit_measures_YT" model="product.unit_measures_fe">
+			<field name="code">YT</field>
+			<field name="name">Diez Yardas</field>
+		</record>
+
+		<record id="unit_measures_Z1" model="product.unit_measures_fe">
+			<field name="code">Z1</field>
+			<field name="name">Van De Elevación</field>
+		</record>
+
+		<record id="unit_measures_Z2" model="product.unit_measures_fe">
+			<field name="code">Z2</field>
+			<field name="name">Pecho</field>
+		</record>
+
+		<record id="unit_measures_Z3" model="product.unit_measures_fe">
+			<field name="code">Z3</field>
+			<field name="name">Barril</field>
+		</record>
+
+		<record id="unit_measures_Z4" model="product.unit_measures_fe">
+			<field name="code">Z4</field>
+			<field name="name">Pipa</field>
+		</record>
+
+		<record id="unit_measures_Z5" model="product.unit_measures_fe">
+			<field name="code">Z5</field>
+			<field name="name">Arrastrar</field>
+		</record>
+
+		<record id="unit_measures_Z6" model="product.unit_measures_fe">
+			<field name="code">Z6</field>
+			<field name="name">Punto De Conferencia</field>
+		</record>
+
+		<record id="unit_measures_Z8" model="product.unit_measures_fe">
+			<field name="code">Z8</field>
+			<field name="name">Línea De Noticias De Ágata</field>
+		</record>
+
+		<record id="unit_measures_ZP" model="product.unit_measures_fe">
+			<field name="code">ZP</field>
+			<field name="name">Página</field>
+		</record>
+
+		<record id="unit_measures_ZZ" model="product.unit_measures_fe">
+			<field name="code">ZZ</field>
+			<field name="name">Mutuamente Definido</field>
+		</record>
+
+	</data>
+</odoo>
