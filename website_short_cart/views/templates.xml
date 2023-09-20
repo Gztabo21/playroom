@@ -2,9 +2,13 @@
   <data>
     <template id="portal_save_cart_page" name="template_name" inherit_id="website_save_cart.portal_save_cart_page">
       <xpath expr="//div[@class='card-header']/div[1]/div[2]/button[1]" position="replace">
-        <input type="hidden" name="csrf_token" id="csrf_token" t-att-value="request.csrf_token()"/>
+        <a class="btn btn-info dooit-click-cart-send" t-attf-href="/shop/multicart/move?cart_id={{cart.id}}&amp;replace_cart=true" >
+          <i class="fa fa-cart-plus" aria-hidden="true"></i>
+          Enviar
+        </a>
         <button class="btn btn-success dooit-click-cart-short" t-att-data-cart_id='cart.id' >
-            Move To Cart
+          <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+            Pagar
         </button>
       </xpath>
     </template>

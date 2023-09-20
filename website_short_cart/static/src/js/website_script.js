@@ -12,21 +12,9 @@ odoo.define('website_short_cart.website_process_cart', function (require) {
     $(document).ready(function() {
         $('.dooit-click-cart-short').click( async function(){
             let cart_id = $(this).attr('data-cart_id');
-            let $csrf_token = $(this).closest('.text-right').find('#csrf_token')
             let slected_cart = 0
-            
-
-            await rpc.query({
-                model: 'save.cart',
-                method: 'search',
-                args: [[]],
-              }).then(function(result) {
-                
-                slected_cart =  result.length > 0 ? result[0] : null
-              })
-
             // URL
-            let URL = `${window.location.origin}/shop/multicart/move?csrf_token=${$csrf_token[0].value}&cart_id=${cart_id}&slected_cart=${slected_cart}&marge_cart=true`
+            let URL = `${window.location.origin}/shop/multicart/move?cart_id=${cart_id}&checkout_cart=${true}&replace_cart=${true}`
             // send data
 
             await fetch(URL).then(
