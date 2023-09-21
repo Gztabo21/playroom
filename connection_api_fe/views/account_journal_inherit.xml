@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_account_journal_form_inherit" model="ir.ui.view">
+        <field name="inherit_id" ref="account.view_account_journal_form" />
+        <field name="model">account.journal</field>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='type']" position="after">
+                <field name="show_resolution" widget="boolean_toggle"/>
+            </xpath>
+
+            <!-- <xpath expr="//field[@name='secure_sequence_id']" position="attributes">
+                <field name="readonly">0</field>
+            </xpath> -->
+
+            <xpath expr="//page[last()]" position="after">
+                <page string="Resolución DIAN" attrs="{'invisible':[('show_resolution','=',False)]}">
+                    <field name="dian_resolution_ids">
+                        <tree string="DIAN Resolutions" editable="top" default_order="id desc">
+                            <field name="resolution_number" />
+                            <field name="number_from" />
+                            <field name="number_to" />
+                            <field name="number_next" attrs="{'readonly': False}" />
+                            <field name="date_from" />
+                            <field name="date_to" />
+                            <field name="active_resolution" />
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>

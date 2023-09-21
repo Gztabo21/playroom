@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="add_birthdate_partner_latest_extended" inherit_id="point_of_sale.template" xml:space="preserve">
+
+    <t t-name="ClientLine" t-inherit="point_of_sale.ClientLine" t-inherit-mode="extension" owl="1">
+        <xpath expr="//tr" position="inside">
+            <td>
+                <t t-esc="props.partner.birthdate or ''" />
+                <span t-if="highlight"><br/></span>
+            </td>
+        </xpath>
+    </t>
+     <t t-name="ClientListScreen" t-inherit="point_of_sale.ClientListScreen" t-inherit-mode="extension" owl="1">
+         <xpath expr="//table[hasclass('client-list')]//thead//tr" position="inside">
+             <th>birthdate</th>
+         </xpath>
+     </t>
+</templates>

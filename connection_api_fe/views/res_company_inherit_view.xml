@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<record id="view_company_form_dian_extended" model="ir.ui.view">
+		<field name="name">res.company.inherit</field>
+		<field name="model">res.company</field>
+		<field name="inherit_id" ref="base.view_company_form"></field>
+		<field name="arch" type="xml">
+			<xpath expr="//notebook" position="inside">
+				<page name="api_dian" string="Configuración API DIAN">
+
+					<notebook>
+						<page name="login" string="Login">
+							<group>
+								<field name="url_login_api" widget="url" placeholder="Url del SETT de Pruebas o Url del Ambiente Productivo Ejemplo: https://pruebas.pagopass.co/pruebas/public/api/"/>
+							</group>
+
+							<group>
+								<group>
+									<field name="ambient_api" widget="radio"/>
+								</group>
+								<group>
+									<field name="email_api" widget="email" placeholder="entidad@empresa.com"/>
+									<field name="password_api" password="True" placeholder="xxxxx"/>
+								</group>
+							</group>
+
+							<group>
+								<field name="document_repository" />
+							</group>
+							
+							<group>
+								<field name="html_response_api" widget="html"/>
+							</group>
+
+							<group>
+								<field name="token_operation_api" />
+							</group>
+							
+
+
+							<newline />
+
+							<group>
+								<button name="action_connect_api" string="Conectar" type="object"  class="btn-primary"/>
+							</group>
+
+						</page>
+						<page name="invoice" string="Importe Facturas">
+							<group>
+								<field name="url_import_invoice" widget="url" placeholder="https://pruebas.pagopass.co/pruebas/api/importar/facturas"/>
+							</group>
+						</page>
+						<page name="import_note" string="Importe Notas">
+							<group>
+								<field name="url_import_note" widget="url" placeholder="https://pruebas.pagopass.co/api/importar/notas"/>
+							</group>
+						</page>
+						<page name="xml" string="Consumo XML">
+							<group>
+								<field name="url_xml" widget="url" placeholder="https://pruebas.pagopass.cot/api/servicio/downloadxml"/>
+							</group>
+						</page>
+						<page name="pdf" string="Consumo PDF">
+							<group>
+								<field name="url_pdf" widget="url" placeholder="https://prueba.pagopass.co/api/servicio/downloadpdf"/>
+							</group>
+						</page>
+
+					</notebook>
+
+				</page>
+			</xpath>
+		</field>
+	</record>
+
+</odoo>

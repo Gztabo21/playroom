@@ -11,4 +11,14 @@
             </xpath>
         </field>
     </record>
+    <data >
+
+    <record id="main_menu" model="website.menu">
+        <field name="name">Quick Quotation</field>
+         <field name="url">/quotation/quick</field>
+        <field name="parent_id" ref="website.main_menu"/>
+    </record>
+    
+    </data>
+    
 </odoo>

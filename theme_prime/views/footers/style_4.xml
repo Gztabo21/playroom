@@ -157,6 +157,9 @@
                                     <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
                                         <i class="fa fa-twitter rounded-circle shadow-sm"/>
                                     </a>
+                                    <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                                        <i class="fa fa-instagram rounded-circle shadow-sm"/>
+                                    </a>
                                     <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
                                         <i class="fa fa-linkedin rounded-circle shadow-sm"/>
                                     </a>

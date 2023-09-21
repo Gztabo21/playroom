@@ -3,9 +3,9 @@
 
     <template id="quick_quotation_inherit" inherit_id="website_quick_quotation.quick_quotation">
 
-        <xpath expr="//div[@id='wrap']" position="attributes">
+        <!-- <xpath expr="//div[@id='wrap']" position="attributes">
             <attribute name="t-if">request.env.user.is_seller</attribute>
-        </xpath>
+        </xpath> -->
 
         <xpath expr="//div[@id='wrap']/section[2]/div/div/div//section[1]" position="replace">
 
@@ -14,13 +14,14 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div t-attf-class="form-group">
-
+                                
                                 <label class="col-md-8 col-sm-8" for="partner_website" style="font-size: 18px;">Tercero</label>
+                            
                                 <select type="text" class="form-control product" name="partner_website" id="partner_website">
                                     <option></option>
-                                    <t t-foreach="request.env['res.partner'].sudo().search([])" t-as="partner">
-                                        <option t-att-value="partner.id" data-id="partner.id" name="partner_id" class="col-md-8 col-sm-8" selected="selected">
-                                            <t t-esc="partner.name" />
+                                    <t t-foreach="clients" t-as="partner">
+                                        <option t-att-value="partner['id']" data-id="partner['id']" name="partner_id" class="col-md-8 col-sm-8" selected="selected">
+                                            <t t-esc="partner['name']" />
                                         </option>
                                     </t>
 
@@ -65,6 +66,8 @@
                                 </td>
                                 <td class="text-right">
                                     <span name="information_total" id="information_total" class="information_total" />
+                                    <span id="amount_total" class="amount_total"></span>
+                                    
                                     <!-- <span data-id="total_amount" t-field="sale_order.amount_total" t-options='{"widget": "monetary", "display_currency": sale_order.pricelist_id.currency_id}'/> -->
                                 </td>
                             </tr>
@@ -124,5 +127,15 @@
 
 
     </template>
+      <data noupdate="0" >
+
+        <record id="main_menu" model="website.menu">
+            <field name="name">Quick Quotation</field>
+            <field name="url">/quotation/quick</field>
+            <field name="parent_id" ref="website.main_menu"/>
+        </record>
+
+    
+    </data>
 
 </odoo>

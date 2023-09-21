@@ -1,20 +1,14 @@
-odoo.define(
-  "website_quick_quotation_inherit.quick_quotation",
-  function (require) {
+odoo.define("website_quick_quotation_inherit.quick_quotation",function (require) {
     "use strict";
 
     var core = require("web.core");
     var publicWidget = require("web.public.widget");
     var rpc = require("web.rpc");
     var _t = core._t;
-    console.log("entrando por aca");
     var session = require("web.session");
-
+    // var QuickQuotation = require("website_quick_quotation.website_quick_quotation")
+    var amountTotal = $('.amount_total')
     $(document).ready(function () {
-      //   const partner_wesbite = document.querySelector("#partner_wesbite");
-      //   console.log("*****");
-      //   console.log(partner_wesbite);
-
       $("#partner_section")
         .find("select")
         .each(function () {
@@ -27,7 +21,9 @@ odoo.define(
           }
         });
     });
-
+    var cache = {}
+  
+   
     publicWidget.registry.quick_quotation = publicWidget.Widget.include({
       selector: "#wrapwrap:has(.o_quick_quotation)",
       events: {
@@ -72,10 +68,10 @@ odoo.define(
         ),
 
         "change select#partner_website": _.debounce(
-          function (e) {
-            this.willStart(e);
+          async function (e) {
+            // this.willStart(e);
             //this.start(e);
-            this.load_data_product(e);
+            await this.load_data_product(e);
             this.on_search_prodcuts(e);
             //this.remove_row_onchange(e);
           },
@@ -104,38 +100,17 @@ odoo.define(
 
       willStart: function () {
         var self = this;
-        var def = this._super.apply(this, arguments);
-
-        // var def1 = this._rpc({
-        //   route: "/website_quick_quotation/get_products_data",
-        //   args: [[session.user_context], 1],
-        //   //   params: {
-        //   //     context: session.user_context,
-        //   //     user_id: this.userId,
-        //   // },
-        // }).then(function (res) {
-        //   self.products = res;
-        // });
-        var partner_website = document.querySelector("#partner_website");
-        var partner_id = 1;
-        if (partner_website) {
-          partner_id = partner_website.value;
-        }
-
-        var def1 = this._rpc({
-          route: "/website_quick_quotation/load_products_data",
-          params: {
-            partner_id: partner_id,
-          },
-        }).then(function (res) {
-          self.products = res;
-        });
-
-        return Promise.all([def, def1]);
+        return Promise.all([
+          self._super.apply(self, arguments),
+          // self.get_products(),
+          // self.get_partner()
+        ])
       },
 
       init: function (parent, options) {
         this._super.apply(this, arguments);
+        this.partner = []
+        this.initialState = {};
       },
 
       start: function () {
@@ -146,158 +121,169 @@ odoo.define(
         });
       },
 
-      //   start_table: function () {
-      //     var self = this;
-      //     return this._super.apply(this, arguments).then(function () {
-      //       $(".submit").attr("disabled", "disabled");
-      //       $(".search_prodcuts").attr("disabled", "disabled");
-      //     });
-      //   },
+        // start_table: function () {
+        //   var self = this;
+        //   return this._super.apply(this, arguments).then(function () {
+        //     $(".submit").attr("disabled", "disabled");
+        //     $(".search_prodcuts").attr("disabled", "disabled");
+        //   });
+        // },
+         get_products: async function(){
+          let self =  this
+          var partner_website = document.querySelector("#partner_website");
+          var partner_id = 1;
 
-      load_data_product: function (e) {
+          if(cache['products']){
+              self.products = cache.products
+              return $.when();
+          }
+        // debugger
+          if (partner_website) {
+              partner_id = partner_website.value;
+              cache.partner_id = partner_website.value;
+              sessionStorage.setItem('partner_id',partner_id)
+          }
+          return await this._rpc({
+            'model':'res.partner',
+            'method': "get_data_products",
+            'args': [partner_id],
+          }).then(function (res) {
+              self.products = res
+              self.initialState['products'] = res
+              cache.products = res;
+              // sessionStorage.setItem('products',res)
+          }).catch((e)=>console.log(e))
+        },
+
+      get_partner : function(){
+        var self = this;
+        if (cache.partner) {
+            self.partner = cache.partner;
+            return $.when();
+        }
+
+        return this._rpc({
+            'model': 'res.partner',
+            'method': 'get_partners_all',
+        }).then(function (res) {
+            self.partner = res
+            cache.partner = res
+        })
+      },
+
+      load_data_product: async function (e) {
         e.preventDefault();
         e.stopPropagation();
-        // var $target = $(e.currentTarget);
-        // $target.attr("disabled", "disabled");
+        let self = this
         var index = $("table tbody tr:last-child").index();
-        // this.actions =
-        //   '<a class="add" title="Add" data-toggle="tooltip">' +
-        //   '<i class="fa fa-check"></i>' +
-        //   "</a>" +
-        //   '<a class="edit" title="Edit" data-toggle="tooltip">' +
-        //   '<i class="fa fa-edit"></i>' +
-        //   "</a>" +
-        //   '<a class="delete" title="Delete" data-toggle="tooltip">' +
-        //   '<i class="fa fa-trash"></i>' +
-        //   "</a>";
+        let produtcs = await self.get_products();
 
-        this.actions = `
+
+      //   this.actions = `
           
-        <a class="add" title="Add" data-toggle="tooltip">
-          <i class="fa fa-check"></i>
-        </a>
+      //   <a class="add" title="Add" data-toggle="tooltip">
+      //     <i class="fa fa-check"></i>
+      //   </a>
 
-        <a class="edit" title="Edit" data-toggle="tooltip"> 
-          <i class="fa fa-edit"></i>
-        </a>
+      //   <a class="edit" title="Edit" data-toggle="tooltip"> 
+      //     <i class="fa fa-edit"></i>
+      //   </a>
 
-        <a class="delete" title="Delete" data-toggle="tooltip">
-          <i class="fa fa-trash"></i> 
-        </a>
+      //   <a class="delete" title="Delete" data-toggle="tooltip">
+      //     <i class="fa fa-trash"></i> 
+      //   </a>
         
-        `;
+      //   `;
 
-        var row = "";
-        row += "<tr>";
-        row += "<td></td>";
-        row += `
-        <td>
-            <select type="text" class="form-control product" name="product" id="product">
-            <option></option>
-        `;
+      //   var row = "";
+      //   row += "<tr>";
+      //   row += "<td></td>";
+      //   row += `
+      //   <td>
+      //       <select type="text" class="form-control product" name="product" id="product">
+      //       <option></option>
+      //   `;
+      //   console.log(this.products)
+      //   for (let i = 0; i < this.products.length; i++) {
+      //     const product_product_id = this.products[i]["id"];
+      //     const product_name = this.products[i]["name"];
+      //     const product_uom = this.products[i]["uom_id"];
+      //     const product_price = this.products[i]["price"];
+      //     const product_total = this.products[i]["total"];
 
-        for (let i = 0; i < this.products.length; i++) {
-          // row +=
-          //   '<option t-att-value="product_price" data-id="' +
-          //   this.products[i]["id"] +
-          //   '" data-unit="' +
-          //   this.products[i]["uom_id"] +
-          //   '" data-price="' +
-          //   this.products[i]["price"] +
-          //   '"> <span t-esc="product_price"/>' +
-          //   this.products[i]["name"] +
-          //   "</option>";
+      //     row += `
+      //     <option data-id="${product_product_id}" data-unit="${product_uom}" data-price="${product_price}" data-total="${product_total}"> 
+      //       ${product_name} 
+      //     </option>
+      //     `;
+      //   }
 
-          const product_product_id = this.products[i]["id"];
-          const product_name = this.products[i]["name"];
-          //row += `<t t-set="product_price" t-value="current_pricelist_quotation.get_product_price(product_sudo.search([("id", "=", ${product_product_id})], limit=1))" />`;
-          const product_uom = this.products[i]["uom_id"];
-          const product_price = this.products[i]["price"];
-          const product_total = this.products[i]["total"];
 
-          row += `
-          <option data-id="${product_product_id}" data-unit="${product_uom}" data-price="${product_price}" data-total="${product_total}"> 
-            ${product_name} 
-          </option>
-          `;
-        }
-        // row += "</select></td>";
-        // row += '<td><span class="unit" name="unit" id="unit"></span></td>';
-        // row += '<td><span class="price" name="price" id="price"></span></td>';
-        // row +=
-        //   '<td><input type="text" class="form-control quantity" name="quantity" id="quantity"></td>';
-        // row += "<td>" + this.actions + "</td>";
-        // row += "</tr>";
-
-        row += `
-          </select>
-        </td>
-        <td>
-          <span class="unit" name="unit" id="unit"></span>
-        </td>
-        <td>
-          <input type="text" class="form-control quantity" name="quantity" id="quantity">
-        </td>
-        <td>
-          <span class="price" name="price" id="price"></span>
-        </td>
-        <td>
-          <span class="total" name="total" id="total"></span>
-        </td>
-        <td>${this.actions}</td>
-      </tr>
+      //   row += `
+      //     </select>
+      //   </td>
+      //   <td>
+      //     <span class="unit" name="unit" id="unit"></span>
+      //   </td>
+      //   <td>
+      //     <input type="text" class="form-control quantity" name="quantity" id="quantity">
+      //   </td>
+      //   <td>
+      //     <span class="price" name="price" id="price"></span>
+      //   </td>
+      //   <td>
+      //     <span class="total" name="total" id="total"></span>
+      //   </td>
+      //   <td>${this.actions}</td>
+      // </tr>
       
-      `;
+      // `;
 
-        $(".table_quick_quotation").append(row);
-        $("table tbody tr")
-          .eq(index + 1)
-          .find(".add, .edit")
-          .toggle();
+      //   $(".table_quick_quotation").append(row);
+      //   $("table tbody tr")
+      //     .eq(index + 1)
+      //     .find(".add, .edit")
+      //     .toggle();
 
-        this.add_row_number($("#table_quick_quotation"));
+      //   this.add_row_number($("#table_quick_quotation"));
 
-        $("#table_quick_quotation")
-          .find("select")
-          .each(function () {
-            if (!$(this).data("select2")) {
-              $(this).select2({
-                width: "100%",
-                placeholder: "Seleccionar Producto",
-                allowClear: true,
-              });
-            }
-          });
+      //   $("#table_quick_quotation")
+      //     .find("select")
+      //     .each(function () {
+      //       if (!$(this).data("select2")) {
+      //         $(this).select2({
+      //           width: "100%",
+      //           placeholder: "Seleccionar Producto",
+      //           allowClear: true,
+      //         });
+      //       }
+      //     });
 
         $(".add-new-line").removeAttr("disabled");
       },
 
-      add_new_roww: function (e) {
+      add_new_roww: async function (e) {
         e.preventDefault();
         e.stopPropagation();
         var $target = $(e.currentTarget);
+        let self = this;
+        let products = await this.get_products()
         $target.attr("disabled", "disabled");
         var index = $("table tbody tr:last-child").index();
-        // this.actions =
-        //   '<a class="add" title="Add" data-toggle="tooltip">' +
-        //   '<i class="fa fa-check"></i>' +
-        //   "</a>" +
-        //   '<a class="edit" title="Edit" data-toggle="tooltip">' +
-        //   '<i class="fa fa-edit"></i>' +
-        //   "</a>" +
-        //   '<a class="delete" title="Delete" data-toggle="tooltip">' +
-        //   '<i class="fa fa-trash"></i>' +
-        //   "</a>";
+
+      //   <a class="edit" title="Edit" data-toggle="tooltip"> 
+      //   <i class="fa fa-edit"></i>
+      // </a>
 
         this.actions = `
           
-        <a class="add" title="Add" data-toggle="tooltip">
+        <a class="add" title="Add" data-toggle="tooltip" style="display:inline">
           <i class="fa fa-check"></i>
         </a>
 
-        <a class="edit" title="Edit" data-toggle="tooltip"> 
-          <i class="fa fa-edit"></i>
-        </a>
+          <a class="edit" title="Edit" data-toggle="tooltip" style="display:none;"> 
+            <i class="fa fa-edit"></i>
+          </a>
 
         <a class="delete" title="Delete" data-toggle="tooltip">
           <i class="fa fa-trash"></i> 
@@ -317,26 +303,14 @@ odoo.define(
             <option></option>
         `;
 
-        for (let i = 0; i < this.products.length; i++) {
-          //const product_product_id = this.products[i]["id"];
-
-          //row += `<t t-set="product_price" t-value="current_pricelist_quotation.get_product_price(product_sudo.search([("id", "=", ${product_product_id})], limit=1))" />`;
-          // row +=
-          //   '<option t-att-value="product_price" data-id="' +
-          //   this.products[i]["id"] +
-          //   '" data-unit="' +
-          //   this.products[i]["uom_id"] +
-          //   '" data-price="' +
-          //   this.products[i]["price"] +
-          //   '"> <span t-esc="product_price"/>' +
-          //   this.products[i]["name"] +
-          //   "</option>";
+        
+        for (let i = 0; i < self.products.length; i++) {
           const product_product_id = this.products[i]["id"];
           const product_name = this.products[i]["name"];
           //row += `<t t-set="product_price" t-value="current_pricelist_quotation.get_product_price(product_sudo.search([("id", "=", ${product_product_id})], limit=1))" />`;
           const product_uom = this.products[i]["uom_id"];
-          const product_price = this.products[i]["price"];
-          const product_total = this.products[i]["total"];
+          const product_price = this.products[i]["price"].toFixed(4);
+          const product_total = this.products[i]["total"].toFixed(4);
 
           row += `
           <option data-id="${product_product_id}" data-unit="${product_uom}" data-price="${product_price}" data-total="${product_total}"> 
@@ -344,13 +318,7 @@ odoo.define(
           </option>
           `;
         }
-        // row += "</select></td>";
-        // row += '<td><span class="unit" name="unit" id="unit"></span></td>';
-        // row += '<td><span class="price" name="price" id="price"></span></td>';
-        // row +=
-        //   '<td><input type="text" class="form-control quantity" name="quantity" id="quantity"></td>';
-        // row += "<td>" + this.actions + "</td>";
-        // row += "</tr>";
+
 
         row += `
             </select>
@@ -371,12 +339,12 @@ odoo.define(
         </tr>
     
     `;
-
+        console.log(index)
         $(".table_quick_quotation").append(row);
-        $("table tbody tr")
-          .eq(index + 1)
-          .find(".add, .edit")
-          .toggle();
+        // $("table tbody tr")
+        //   .eq(index + 1)
+        //   .find(".add")
+        //   .toggle();
 
         this.add_row_number($("#table_quick_quotation"));
 
@@ -400,7 +368,7 @@ odoo.define(
         $table.find("tbody tr").each(function (index, el) {
           $(el)
             .find("td:eq(0)")
-            .html(++count + ".");
+            .html(++index + ".");
         });
       },
 
@@ -447,7 +415,10 @@ odoo.define(
         var $target = $(e.currentTarget);
         var $select = $target.parents("tr").find("select");
         var $input = $target.parents("tr").find("input");
+        let $add = $(".add").css({"display":"none"});
+        let $edit = $(".edit").css({"display":"inline"});
 
+        console.log(e)
         $select.each(function () {
           if (!$(this).val()) {
             $(this).addClass("error");
@@ -467,8 +438,9 @@ odoo.define(
             input_empty = false;
           }
         });
-        $target.parents("tr").find(".error").first().focus();
-
+        let trParent =  $target.parents("tr")
+        trParent.find(".error").first().focus();
+       
         if (!select_empty && !input_empty) {
           $target
             .parents("tr")
@@ -496,7 +468,8 @@ odoo.define(
         e.preventDefault();
         e.stopPropagation();
         var $target = $(e.currentTarget);
-
+        let $add = $(".add").css({"display":"inline"});
+        let $edit = $(".edit").css({"display":"none"});
         $target
           .parents("tr")
           .find("select")
@@ -595,23 +568,23 @@ odoo.define(
 
         var data = [];
 
-        console.log("Calculando el total vea");
+        // console.log("Calculando el total vea");
         $table.find("tbody tr").each(function () {
           var $selected = $(this).find("select[name='product']");
           var product_id = $selected.children(":selected").data("id");
           var product_price = $selected.children(":selected").data("price");
 
-          console.log("Product");
-          console.log(product_id);
+          // console.log("Product");
+          // console.log(product_id);
 
           var $quantity = $(this).find("input[name='quantity']");
           var qty = $quantity.val();
 
-          console.log("Qty");
-          console.log(qty);
+          // console.log("Qty");
+          // console.log(qty);
 
-          console.log("Product Price");
-          console.log(product_price);
+          // console.log("Product Price");
+          // console.log(product_price);
 
           if (product_id) {
             var vals = {
@@ -638,9 +611,15 @@ odoo.define(
           data.forEach((element) => {
             sum_total += element.total;
           });
-          console.log("Total general");
-          console.log(sum_total);
+          // console.log("Total general");
+          // console.log(sum_total);
 
+          if(isNaN(sum_total) || [undefined,null].includes(sum_total) || sum_total == 0 ){
+            amountTotal.html(`<strong>${0}</strong>`)
+          }else{
+            amountTotal.html(`<strong>${sum_total}</strong>`)
+          }
+          
           // if (information_total != null) {
           //   $information_total[0].innerHTML = sum_total;
           // } else {
@@ -740,9 +719,6 @@ odoo.define(
       },
 
       submit_quotation: function (data, name, email) {
-        console.log("helloooooooooooo");
-
-        console.log("listo");
 
         var $selected = $(this).find("select[name='partner_website']");
         var partner = $selected.children(":selected").data("id");
@@ -760,8 +736,6 @@ odoo.define(
         // console.log(partner_id);
 
         const partner_website = document.querySelector("#partner_website");
-        console.log(partner_website.value);
-
         var self = this;
         return self
           ._rpc({

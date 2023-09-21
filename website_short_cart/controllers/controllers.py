@@ -9,4 +9,6 @@ class WebsiteShortCart(SaveCart):
     @http.route(['/shop/multicart/move'], type='http', auth="user", methods=['POST', 'GET'], website=True)
     def  move_multicart(self, **kw):
         res = super(WebsiteShortCart,self).move_multicart(**kw)
-        return request.redirect('/shop/checkout?express=1')
+        if kw.get('cart_id') and kw.get('checkout_cart') :
+            return request.redirect('/shop/checkout?express=1')
+        return res 
