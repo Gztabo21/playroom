@@ -12,7 +12,8 @@
     "category": "base",
     "version": "16.0.1.0",
     "depends": ["base"],
-    "licenses": "LGPL-3",
+    "application": True,
+    "license": "LGPL-3",
     "data": [
         "security/ir.model.access.csv",
         "data/console_type.xml",
