@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "Sala de play",
+    "name": "Playroom",
     "summary": """
         Sala para administrar consolas de videojuegos
         """,
@@ -10,11 +10,12 @@
     "author": "Gustavo Cacharuco",
     "website": "mailto:gustavocacharuco@gmail.com?subject=Support%20playroom",
     "category": "base",
-    "version": "16.0.1.0",
+    "version": "1.0.0",
     "depends": ["base"],
     "application": True,
     "license": "LGPL-3",
-    "data": [
+    "images":['static/description/banner.png'],
+	"data": [
         "security/ir.model.access.csv",
         "data/console_type.xml",
         "data/game.xml",
